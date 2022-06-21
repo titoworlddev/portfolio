@@ -47,6 +47,13 @@ header {
       list-style: none;
       gap: 40px;
       li {
+        .current_page {
+          cursor: default;
+          color: #fff;
+        }
+        .current_page:hover {
+          text-decoration: none;
+        }
         a {
           transition: $mainTransition;
           -webkit-transition: $mainTransition;
