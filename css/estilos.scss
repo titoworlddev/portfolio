@@ -30,8 +30,10 @@ $mainTransition: all 0.5s ease-in-out;
 
 body {
   font-family: 'Righteous', cursive;
-  background: $bgGradient no-repeat center center fixed;
+  background: url('/assets/img/fondo.svg') no-repeat center center fixed;
+  // background: $bgGradient no-repeat center center fixed;
   font-size: 16px;
+  font-weight: 100;
 }
 
 /* ==================== Header ==================== */
@@ -55,11 +57,6 @@ header {
           text-decoration: none;
         }
         a {
-          transition: $mainTransition;
-          -webkit-transition: $mainTransition;
-          -moz-transition: $mainTransition;
-          -ms-transition: $mainTransition;
-          -o-transition: $mainTransition;
           font-size: 20px;
           text-decoration: none;
           color: $textColor;
@@ -81,7 +78,7 @@ header {
 
 .main {
   height: 80vh;
-  margin: 40px 20px 0 20px;
+  padding: 40px 20px 0 20px;
   font-family: 'Monoton', cursive;
   color: $textColor;
   font-size: 24px;
@@ -106,6 +103,10 @@ header {
     -o-transition: $mainTransition;
   }
 
+  .estrellas {
+    z-index: -10;
+  }
+
   .welcome {
     position: absolute;
     top: 80px;
@@ -127,13 +128,55 @@ header {
     -ms-transition: $mainTransition;
     -o-transition: $mainTransition;
   }
+
+  .trabajos-container {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    .trabajos-programacion-container,
+    .trabajos-diseno-container {
+      .trabajo {
+        img {
+          margin-bottom: 8px;
+          cursor: pointer;
+        }
+        p {
+          color: #e1e1e1;
+          margin-bottom: 8px;
+        }
+      }
+      .trabajos-programacion-row,
+      .trabajos-diseno-row {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-size: 36px;
+        font-weight: 100;
+        margin: 40px 0 16px 0;
+      }
+    }
+  }
+}
+/* ==================== Footer ==================== */
+footer {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+  color: #e1e1e1;
+  transition: $mainTransition;
+  -webkit-transition: $mainTransition;
+  -moz-transition: $mainTransition;
+  -ms-transition: $mainTransition;
+  -o-transition: $mainTransition;
 }
 
 /* ======================================== 
-   ======================================== 
-              Media Queries
-   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 
-   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+ ======================================== 
+            Media Queries
+ ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 
+ ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
 @media screen and (max-width: 1200px) and (max-height: 1000px) {
   .main {
     .title-text {
@@ -171,6 +214,11 @@ header {
         li {
           a {
             font-size: 16px;
+            transition: $mainTransition;
+            -webkit-transition: $mainTransition;
+            -moz-transition: $mainTransition;
+            -ms-transition: $mainTransition;
+            -o-transition: $mainTransition;
           }
         }
       }
@@ -209,5 +257,9 @@ header {
     .universe {
       right: 40px;
     }
+  }
+
+  footer {
+    font-size: 10px;
   }
 }
