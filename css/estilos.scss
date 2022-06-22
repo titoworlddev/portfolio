@@ -41,8 +41,11 @@ body {
 header {
   width: 100%;
   nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     margin: 20px 40px 0 0;
-    ul {
+    .desktop-menu {
       display: flex;
       justify-content: end;
       flex-wrap: wrap;
@@ -71,6 +74,70 @@ header {
         }
       }
     }
+    .mobile-menu {
+      display: none;
+      button {
+        background: none;
+        border: none;
+        padding: 0 0 0 20px;
+        color: #fff;
+        font-size: 20px;
+      }
+      .mobile-menu-items {
+        display: none;
+        padding: 20px 20px 30px 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        // height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        list-style: none;
+        border-radius: 0 0 0 10px;
+        -webkit-border-radius: 0 0 0 10px;
+        -moz-border-radius: 0 0 0 10px;
+        -ms-border-radius: 0 0 0 10px;
+        -o-border-radius: 0 0 0 10px;
+        background: #e1e1e1;
+        //
+        .close-button {
+          color: #314546;
+          font-size: 20px;
+          text-align: end;
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+        .current_page {
+          cursor: default;
+          color: #314546;
+        }
+        .current_page:active {
+          color: #314546;
+        }
+        .current_page:hover {
+          text-decoration: none;
+        }
+        a {
+          font-size: 20px;
+          text-decoration: none;
+          color: #2d40417e;
+          &:hover {
+            text-decoration: underline;
+            color: #314546;
+          }
+          &:active {
+            color: #fff;
+            text-decoration: underline;
+          }
+        }
+        a:active {
+          color: #314546;
+        }
+      }
+    }
   }
 }
 
@@ -93,6 +160,7 @@ header {
   .title-text {
     font-size: 64px;
     font-weight: 100;
+    word-spacing: 10px;
     transition: $mainTransition;
     -webkit-transition: $mainTransition;
     -moz-transition: $mainTransition;
@@ -240,7 +308,7 @@ footer {
 @media screen and (max-height: 550px) {
   header {
     nav {
-      ul {
+      .desktop-menu {
         li {
           a {
             font-size: 16px;
@@ -269,7 +337,12 @@ footer {
   // Poner menu desplegable
   header {
     nav {
-      display: none;
+      .desktop-menu {
+        display: none;
+      }
+      .mobile-menu {
+        display: block;
+      }
     }
   }
 
@@ -290,11 +363,26 @@ footer {
   }
 
   footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 800px) {
+  header {
+    nav {
+      margin-right: 20px;
+      .desktop-menu {
+        display: none;
+      }
+      .mobile-menu {
+        display: block;
+        .mobile-menu-items {
+          display: none;
+        }
+      }
+    }
+  }
+
   // Poner menu desplegable
   .main {
     .trabajos-container {

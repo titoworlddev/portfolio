@@ -22,12 +22,26 @@
     <header>
       <!-- Menu -->
       <nav>
-        <ul>
+        <ul class="desktop-menu" id="desktop-menu">
           <li><a href="/index.html">Inicio</a></li>
           <li><a href="/pages/works.html">Mis trabajos</a></li>
           <li><a href="/pages/about.html">Sobre mi</a></li>
           <li><a class="current_page">Contacto</a></li>
         </ul>
+        <div class="mobile-menu" id="mobile-menu">
+          <button class="mobile-menu-button" id="mobile-menu-button">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="mobile-menu-items" id="mobile-menu-items">
+            <button class="close-button" id="close-button">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <li><a class="current_page">Inicio</a></li>
+            <li><a href="/pages/works.html">Mis trabajos</a></li>
+            <li><a href="/pages/about.html">Sobre mi</a></li>
+            <li><a href="/pages/contact.html">Contacto</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!-- Body -->
@@ -38,5 +52,6 @@
         Propiedad de Cristian Arias Mejuto. Todos los derechos reservados ©.
       </p>
     </footer>
+    <script src="/js/titoworld.js"></script>
   </body>
 </html>
