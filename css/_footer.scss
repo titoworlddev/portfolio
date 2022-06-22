@@ -1,0 +1,15 @@
+@import 'variables';
+
+/* ==================== Footer ==================== */
+footer {
+  color: #e1e1e1;
+  transition: $mainTransition;
+  -webkit-transition: $mainTransition;
+  -moz-transition: $mainTransition;
+  -ms-transition: $mainTransition;
+  -o-transition: $mainTransition;
+  p {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+}

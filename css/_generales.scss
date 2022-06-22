@@ -1,0 +1,29 @@
+@import 'variables';
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: $scrollGradient;
+  // background: $scrollGradient;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: 'Righteous', cursive;
+  background: url('/assets/img/fondo.svg') no-repeat center center fixed;
+  // background: $bgGradient no-repeat center center fixed;
+  font-size: 16px;
+  font-weight: 100;
+}

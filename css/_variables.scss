@@ -1,0 +1,9 @@
+$textColor: #b4b4b4;
+$bgGradient: linear-gradient(
+  to bottom left,
+  #314546 0%,
+  #3f5e60 50%,
+  rgba(#314546, 0.25) 100%
+);
+$scrollGradient: linear-gradient(to bottom, #314546 0%, #3f5e60 100%);
+$mainTransition: all 0.5s ease-in-out;

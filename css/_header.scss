@@ -1,0 +1,106 @@
+@import 'variables';
+
+/* ==================== Header ==================== */
+
+header {
+  width: 100%;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 20px 40px 0 0;
+    .desktop-menu {
+      display: flex;
+      justify-content: end;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 40px;
+      li {
+        .current_page {
+          cursor: default;
+          color: #fff;
+        }
+        .current_page:hover {
+          text-decoration: none;
+        }
+        a {
+          font-size: 20px;
+          text-decoration: none;
+          color: $textColor;
+          &:hover {
+            text-decoration: underline;
+            color: #fff;
+          }
+          &:active {
+            color: #fff;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .mobile-menu {
+      display: none;
+      button {
+        background: none;
+        border: none;
+        padding: 0 0 0 20px;
+        color: #fff;
+        font-size: 20px;
+      }
+      .mobile-menu-items {
+        display: none;
+        padding: 20px 20px 30px 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        // height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        list-style: none;
+        border-radius: 0 0 0 10px;
+        -webkit-border-radius: 0 0 0 10px;
+        -moz-border-radius: 0 0 0 10px;
+        -ms-border-radius: 0 0 0 10px;
+        -o-border-radius: 0 0 0 10px;
+        background: #e1e1e1;
+        //
+        .close-button {
+          color: #314546;
+          font-size: 20px;
+          text-align: end;
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+        .current_page {
+          cursor: default;
+          color: #314546;
+        }
+        .current_page:active {
+          color: #314546;
+        }
+        .current_page:hover {
+          text-decoration: none;
+        }
+        a {
+          font-size: 20px;
+          text-decoration: none;
+          color: #2d40417e;
+          &:hover {
+            text-decoration: underline;
+            color: #314546;
+          }
+          &:active {
+            color: #fff;
+            text-decoration: underline;
+          }
+        }
+        a:active {
+          color: #314546;
+        }
+      }
+    }
+  }
+}

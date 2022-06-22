@@ -1,0 +1,84 @@
+@import 'variables';
+
+/* ==================== Main ==================== */
+
+.main {
+  margin: 20px 20px;
+  font-family: 'Monoton', cursive;
+  color: $textColor;
+  font-size: 24px;
+  letter-spacing: 1px;
+  .galaxy-title-container {
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-text {
+    font-size: 64px;
+    font-weight: 100;
+    word-spacing: 10px;
+    transition: $mainTransition;
+    -webkit-transition: $mainTransition;
+    -moz-transition: $mainTransition;
+    -ms-transition: $mainTransition;
+    -o-transition: $mainTransition;
+  }
+
+  .welcome {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+  }
+  .universe {
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+  }
+
+  .galaxy {
+    width: 50%;
+    transition: $mainTransition;
+    -webkit-transition: $mainTransition;
+    -moz-transition: $mainTransition;
+    -ms-transition: $mainTransition;
+    -o-transition: $mainTransition;
+  }
+
+  .trabajos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    .trabajos-programacion-container,
+    .trabajos-diseno-container {
+      .trabajo {
+        img {
+          width: 22.5vw;
+          cursor: pointer;
+        }
+        p {
+          color: #e1e1e1;
+          margin: 8px 0;
+        }
+      }
+      .trabajos-programacion-row,
+      .trabajos-diseno-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-size: 36px;
+        font-weight: 100;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
