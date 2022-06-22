@@ -41,7 +41,7 @@ body {
 header {
   width: 100%;
   nav {
-    margin: 20px 40px;
+    margin: 20px 40px 0 0;
     ul {
       display: flex;
       justify-content: end;
@@ -77,34 +77,27 @@ header {
 /* ==================== Main ==================== */
 
 .main {
-  height: 80vh;
-  padding: 40px 20px 0 20px;
+  margin: 20px 20px;
   font-family: 'Monoton', cursive;
   color: $textColor;
   font-size: 24px;
   letter-spacing: 1px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  .title-text {
-    font-size: 64px;
-    font-weight: 100;
+  .galaxy-title-container {
+    height: 87vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 0;
+  }
+
+  .title-text {
+    font-size: 64px;
+    font-weight: 100;
     transition: $mainTransition;
     -webkit-transition: $mainTransition;
     -moz-transition: $mainTransition;
     -ms-transition: $mainTransition;
     -o-transition: $mainTransition;
-  }
-
-  .estrellas {
-    z-index: -10;
   }
 
   .welcome {
@@ -119,8 +112,6 @@ header {
   }
 
   .galaxy {
-    position: absolute;
-    z-index: 100;
     width: 50%;
     transition: $mainTransition;
     -webkit-transition: $mainTransition;
@@ -130,46 +121,49 @@ header {
   }
 
   .trabajos-container {
+    margin-bottom: 40px;
     font-family: 'Righteous', cursive;
     color: #fff;
     .trabajos-programacion-container,
     .trabajos-diseno-container {
       .trabajo {
         img {
-          margin-bottom: 8px;
+          width: 22.5vw;
           cursor: pointer;
         }
         p {
           color: #e1e1e1;
-          margin-bottom: 8px;
+          margin: 8px 0;
         }
       }
       .trabajos-programacion-row,
       .trabajos-diseno-row {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 40px;
         margin-bottom: 32px;
       }
       h2 {
         font-size: 36px;
         font-weight: 100;
-        margin: 40px 0 16px 0;
+        margin-bottom: 20px;
       }
     }
   }
 }
+
 /* ==================== Footer ==================== */
 footer {
-  position: absolute;
-  bottom: 16px;
-  left: 24px;
   color: #e1e1e1;
   transition: $mainTransition;
   -webkit-transition: $mainTransition;
   -moz-transition: $mainTransition;
   -ms-transition: $mainTransition;
   -o-transition: $mainTransition;
+  p {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
 }
 
 /* ======================================== 
@@ -177,7 +171,43 @@ footer {
             Media Queries
  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 
  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
-@media screen and (max-width: 1200px) and (max-height: 1000px) {
+@media screen and (max-width: 1200px) {
+  .main {
+    .title-text {
+      font-size: 44px;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .main {
+    .trabajos-container {
+      .trabajos-programacion-container,
+      .trabajos-diseno-container {
+        .trabajos-programacion-row,
+        .trabajos-diseno-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 20px;
+          .trabajo {
+            img {
+              width: 45vw;
+              margin-bottom: 0;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+        h2 {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 1000px) {
   .main {
     .title-text {
       font-size: 44px;
@@ -261,5 +291,28 @@ footer {
 
   footer {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  // Poner menu desplegable
+  .main {
+    .trabajos-container {
+      .trabajos-programacion-container,
+      .trabajos-diseno-container {
+        .trabajos-programacion-row,
+        .trabajos-diseno-row {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 20px;
+          .trabajo {
+            img {
+              width: 85vw;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
   }
 }
