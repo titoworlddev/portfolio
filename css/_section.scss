@@ -3,11 +3,12 @@
 /* ==================== Main ==================== */
 
 .main {
-  margin: 20px 20px;
+  margin: 20px 20px 0 20px;
   font-family: 'Monoton', cursive;
   color: $textColor;
   font-size: 24px;
   letter-spacing: 1px;
+  /* ==================== Inicio ==================== */
   .galaxy-title-container {
     height: 87vh;
     display: flex;
@@ -26,7 +27,6 @@
     -ms-transition: $mainTransition;
     -o-transition: $mainTransition;
   }
-
   .welcome {
     position: absolute;
     top: 80px;
@@ -47,6 +47,7 @@
     -o-transition: $mainTransition;
   }
 
+  /* ==================== Mis trabajos ==================== */
   .trabajos-container {
     display: flex;
     flex-direction: column;
@@ -58,9 +59,9 @@
     .trabajos-programacion-container,
     .trabajos-diseno-container {
       .trabajo {
+        cursor: pointer;
         img {
           width: 22.5vw;
-          cursor: pointer;
         }
         p {
           color: #e1e1e1;
@@ -72,13 +73,48 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 40px;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
       }
       h2 {
         font-size: 36px;
         font-weight: 100;
         margin-bottom: 20px;
       }
+    }
+  }
+
+  .tarjeta {
+    display: none;
+    position: fixed;
+    top: 7.5vh;
+    left: 20vw;
+    padding: 24px;
+    height: 85vh;
+    width: 60vw;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: $bgGradient;
+    color: $textColor;
+    font-size: 16px;
+    h3 {
+      color: #e1e1e1;
+      margin-bottom: 16px;
+    }
+  }
+
+  .tarjeta-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    .tarjeta-close-btn {
+      color: #e1e1e1;
+      background: transparent;
+      border: none;
+      font-size: 20px;
     }
   }
 }
