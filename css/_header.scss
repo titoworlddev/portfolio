@@ -43,12 +43,14 @@ header {
     /* ==================== Mobile ==================== */
     .mobile-menu {
       display: none;
+      z-index: 20;
       button {
         background: none;
         border: none;
         padding: 0 0 0 20px;
         color: #fff;
         font-size: 20px;
+        cursor: pointer;
       }
       .mobile-menu-items {
         display: none;

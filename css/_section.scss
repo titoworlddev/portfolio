@@ -84,37 +84,66 @@
   }
 
   .tarjeta {
+    overflow: auto;
     display: none;
     position: fixed;
-    top: 7.5vh;
-    left: 20vw;
+    top: auto;
+    left: auto;
+    height: 87vh;
+    width: 45vw;
     padding: 24px;
-    height: 85vh;
-    width: 60vw;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     background: $bgGradient;
-    color: $textColor;
+    color: #cfcfcf;
     font-size: 16px;
     h3 {
       color: #e1e1e1;
-      margin-bottom: 16px;
+      margin-bottom: 32px;
     }
-  }
 
-  .tarjeta-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    .tarjeta-close-btn {
-      color: #e1e1e1;
-      background: transparent;
-      border: none;
-      font-size: 20px;
+    .tarjeta-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      .tarjeta-close-btn {
+        color: #e1e1e1;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+
+    .tarjeta-contenido {
+      display: flex;
+      flex-direction: column;
+      gap: 7vh;
+
+      .fotos-tarjeta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 80%;
+        }
+      }
+
+      .logos-tiendas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+        img {
+          height: 50px;
+        }
+      }
     }
   }
+  //end
 }
