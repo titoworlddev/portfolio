@@ -51,50 +51,77 @@
   })
 
   const tarjetaAssets = {
-    'Random X': {
-      title: 'Random X',
-      text: 'Random X es tu ayudante a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te brindan opciones para elegir de forma aleatoria quien paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.',
-      img: '../assets/img/trabajos/random_x/randomx_presentation.png'
+    Programacion: {
+      'Random X': {
+        title: 'Random X',
+        text: 'Random X es tu ayudante a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te brindan opciones para elegir de forma aleatoria quien paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.',
+        img: '../assets/img/trabajos/random_x/randomx_presentation.png',
+        coverImg: '../assets/img/trabajos/random_x.png'
+      },
+      Operit: {
+        title: 'Operit',
+        text: 'Calculadora con diseño simple pero muy completa en sus funciones.Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes usar la calculadora científica.También hay varios ajustes para personalizar la app a tu gusto y una página de ayuda por si no comprendes alguna de las funciones.¡Sin duda una calculadora que será fácil y divertida de usar, disfrútala!',
+        img: '../assets/img/trabajos/random_x/randomx_presentation.png',
+        coverImg: '../assets/img/trabajos/operit.png'
+      }
     },
-    Operit: {
-      title: 'Operit',
-      text: 'Calculadora con diseño simple pero muy completa en sus funciones.Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes usar la calculadora científica.También hay varios ajustes para personalizar la app a tu gusto y una página de ayuda por si no comprendes alguna de las funciones.¡Sin duda una calculadora que será fácil y divertida de usar, disfrútala!',
-      img: '../assets/img/trabajos/random_x/randomx_presentation.png'
-    },
-    'Game Zone': {
-      title: 'Game Zone',
-      text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
-      img: '../assets/img/trabajos/random_x/randomx_presentation.png'
-    },
-    'El Chingón': {
-      title: 'El Chingón',
-      text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
-      img: '../assets/img/trabajos/random_x/randomx_presentation.png'
-    },
-    "L'evasion": {
-      title: "L'evasion",
-      text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
-      img: '../assets/img/trabajos/random_x/randomx_presentation.png'
-    },
-    Trabajo: {
-      title: 'Trabajo',
-      text: 'Esta es una tarjeta por defecto.',
-      img: '../assets/img/trabajos/trabajo.png'
+    Diseno: {
+      'Game Zone': {
+        title: 'Game Zone',
+        text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
+        img: '../assets/img/trabajos/random_x/randomx_presentation.png',
+        coverImg: '../assets/img/trabajos/game_store.png'
+      },
+      'El Chingón': {
+        title: 'El Chingón',
+        text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
+        img: '../assets/img/trabajos/random_x/randomx_presentation.png',
+        coverImg: '../assets/img/trabajos/el_chingon.png'
+      },
+      "L'evasion": {
+        title: "L'evasion",
+        text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
+        img: '../assets/img/trabajos/random_x/randomx_presentation.png',
+        coverImg: '../assets/img/trabajos/levasion.png'
+      }
     }
   }
 
   function getTarjetaInfo (item) {
-    tarjeta.querySelector('#titulo-tarjeta').innerHTML =
-        tarjetaAssets[item.querySelector('p').innerText].title
-    tarjeta.querySelector('#texto-tarjeta').innerHTML =
-        tarjetaAssets[item.querySelector('p').innerText].text
-    tarjeta.querySelector('.fotos-tarjeta img').src =
-        tarjetaAssets[item.querySelector('p').innerText].img
+    if (Object.keys(tarjetaAssets.Programacion).includes(item.querySelector('p').innerText)) {
+      tarjeta.querySelector('#titulo-tarjeta').innerHTML =
+      tarjetaAssets.Programacion[item.querySelector('p').innerText].title
+      tarjeta.querySelector('#texto-tarjeta').innerHTML =
+      tarjetaAssets.Programacion[item.querySelector('p').innerText].text
+      tarjeta.querySelector('.fotos-tarjeta img').src =
+      tarjetaAssets.Programacion[item.querySelector('p').innerText].img
+    } else {
+      tarjeta.querySelector('#titulo-tarjeta').innerHTML =
+      tarjetaAssets.Diseno[item.querySelector('p').innerText].title
+      tarjeta.querySelector('#texto-tarjeta').innerHTML =
+      tarjetaAssets.Diseno[item.querySelector('p').innerText].text
+      tarjeta.querySelector('.fotos-tarjeta img').src =
+      tarjetaAssets.Diseno[item.querySelector('p').innerText].img
+    }
   }
 
   /* ==================== Trabajos ==================== */
 
   /* Programacion */
+  Object.keys(tarjetaAssets.Programacion).forEach(title => {
+    const programacionRow = document.querySelector('.trabajos-programacion-row')
+    const trabajo = document.createElement('div')
+    trabajo.classList.add('trabajo')
+    const img = document.createElement('img')
+    img.src = tarjetaAssets.Programacion[title].coverImg
+    img.alt = title + ' Image'
+    const p = document.createElement('p')
+    p.innerHTML = title
+    trabajo.appendChild(img)
+    trabajo.appendChild(p)
+    programacionRow.appendChild(trabajo)
+  })
+
   const trabajosProgramacion = document.querySelectorAll(
     '.trabajos-programacion-row .trabajo'
   )
@@ -109,7 +136,22 @@
       getTarjetaInfo(item)
     })
   })
+
   /* Diseno */
+  Object.keys(tarjetaAssets.Diseno).forEach(title => {
+    const programacionRow = document.querySelector('.trabajos-diseno-row')
+    const trabajo = document.createElement('div')
+    trabajo.classList.add('trabajo')
+    const img = document.createElement('img')
+    img.src = tarjetaAssets.Diseno[title].coverImg
+    img.alt = title + ' Image'
+    const p = document.createElement('p')
+    p.innerHTML = title
+    trabajo.appendChild(img)
+    trabajo.appendChild(p)
+    programacionRow.appendChild(trabajo)
+  })
+
   const trabajosDiseno = document.querySelectorAll(
     '.trabajos-diseno-row .trabajo'
   )
