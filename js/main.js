@@ -53,13 +53,13 @@
   const tarjetaAssets = {
     Programacion: {
       'Random X': {
-        title: 'Random X',
+        title: 'Random X App',
         text: 'Random X es tu ayudante a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te brindan opciones para elegir de forma aleatoria quien paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.',
         img: '../assets/img/trabajos/random_x/randomx_presentation.png',
         coverImg: '../assets/img/trabajos/random_x.png'
       },
       Operit: {
-        title: 'Operit',
+        title: 'Operit App',
         text: 'Calculadora con diseño simple pero muy completa en sus funciones.Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes usar la calculadora científica.También hay varios ajustes para personalizar la app a tu gusto y una página de ayuda por si no comprendes alguna de las funciones.¡Sin duda una calculadora que será fácil y divertida de usar, disfrútala!',
         img: '../assets/img/trabajos/random_x/randomx_presentation.png',
         coverImg: '../assets/img/trabajos/operit.png'
@@ -67,19 +67,19 @@
     },
     Diseno: {
       'Game Zone': {
-        title: 'Game Zone',
+        title: 'Game Zone Store - Design',
         text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
         img: '../assets/img/trabajos/random_x/randomx_presentation.png',
         coverImg: '../assets/img/trabajos/game_store.png'
       },
       'El Chingón': {
-        title: 'El Chingón',
+        title: 'El Chingón Restaurant - Design',
         text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
         img: '../assets/img/trabajos/random_x/randomx_presentation.png',
         coverImg: '../assets/img/trabajos/el_chingon.png'
       },
       "L'evasion": {
-        title: "L'evasion",
+        title: "L'evasion Hotel - Design",
         text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste.',
         img: '../assets/img/trabajos/random_x/randomx_presentation.png',
         coverImg: '../assets/img/trabajos/levasion.png'
