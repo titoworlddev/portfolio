@@ -58,6 +58,20 @@
     color: #fff;
     .trabajos-programacion-container,
     .trabajos-diseno-container {
+      h2 {
+        font-size: 36px;
+        font-weight: 100;
+        margin-bottom: 20px;
+      }
+
+      .trabajos-programacion-row,
+      .trabajos-diseno-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 32px;
+      }
+
       .trabajo {
         cursor: pointer;
         img {
@@ -67,18 +81,6 @@
           color: #e1e1e1;
           margin: 8px 0;
         }
-      }
-      .trabajos-programacion-row,
-      .trabajos-diseno-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 40px;
-        margin-bottom: 24px;
-      }
-      h2 {
-        font-size: 36px;
-        font-weight: 100;
-        margin-bottom: 20px;
       }
     }
   }
