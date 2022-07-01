@@ -155,13 +155,16 @@
 @media screen and (max-width: 400px) {
   .header {
     nav {
-      ul {
-        li {
-          font-size: 18px;
+      .mobile-menu {
+        .mobile-menu-items {
+          a {
+            font-size: 18px;
+          }
         }
       }
     }
   }
+
   .main {
     .title-text {
       font-size: 32px;
