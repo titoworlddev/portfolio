@@ -5,10 +5,9 @@
 header {
   width: 100%;
   position: fixed;
+  z-index: 20;
   top: 0;
   background: $headerGradient;
-  // filter: blur(10px);
-  // -webkit-filter: blur(10px);
   nav {
     display: flex;
     flex-direction: row;
