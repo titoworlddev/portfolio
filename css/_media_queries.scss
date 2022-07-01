@@ -10,6 +10,10 @@
 
 @media screen and (max-width: 1400px) {
   .main {
+    .galaxy {
+      width: 60%;
+    }
+
     .trabajos-container {
       .trabajos-programacion-container,
       .trabajos-diseno-container {
@@ -43,6 +47,9 @@
     .title-text {
       font-size: 44px;
     }
+    .galaxy {
+      width: 70%;
+    }
 
     .tarjeta {
       width: 50vw;
@@ -55,6 +62,9 @@
 
 @media screen and (max-width: 1100px) {
   .main {
+    .galaxy {
+      width: 60%;
+    }
     .tarjeta {
       width: 60vw;
       height: 82vh;
@@ -62,9 +72,9 @@
   }
 }
 
-/* ==================== 800px width ==================== */
+/* ==================== 850px width ==================== */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   header {
     nav {
       margin-right: 20px;
@@ -85,11 +95,11 @@
 
   .main {
     .galaxy {
-      width: 70%;
+      width: 80%;
     }
 
     .title-text {
-      font-size: 24px;
+      font-size: 40px;
     }
     .welcome {
       left: 40px;
@@ -150,10 +160,19 @@
   }
 }
 
-/* ==================== 400px width ==================== */
+/* ==================== 650px width ==================== */
+@media screen and (max-width: 650px) {
+  .main {
+    .title-text {
+      font-size: 32px;
+    }
+  }
+}
 
-@media screen and (max-width: 400px) {
-  .header {
+/* ==================== 450px width ==================== */
+
+@media screen and (max-width: 450px) {
+  header {
     nav {
       .mobile-menu {
         .mobile-menu-items {
@@ -166,82 +185,17 @@
   }
 
   .main {
-    .title-text {
-      font-size: 32px;
-    }
     .galaxy {
-      width: 80%;
+      width: 90%;
     }
-    footer {
-      p {
-        font-size: 10px;
-      }
-    }
-  }
-}
-
-/* ==================== 1000px height ==================== */
-
-@media screen and (max-height: 1000px) {
-  .main {
     .title-text {
-      font-size: 44px;
-    }
-  }
-}
-
-/* ==================== 850px height ==================== */
-
-@media screen and (max-height: 850px) {
-  .main {
-    .title-text {
-      font-size: 54px;
-    }
-    .galaxy {
-      width: 40%;
-    }
-  }
-}
-
-/* ==================== 650px height ==================== */
-
-@media screen and (max-height: 650px) {
-  .main {
-    .title-text {
-      font-size: 44px;
-    }
-    .galaxy {
-      width: 30%;
-    }
-  }
-}
-
-/* ==================== 550px height ==================== */
-
-@media screen and (max-height: 550px) {
-  header {
-    nav {
-      .desktop-menu {
-        li {
-          a {
-            font-size: 16px;
-            transition: $mainTransition;
-            -webkit-transition: $mainTransition;
-            -moz-transition: $mainTransition;
-            -ms-transition: $mainTransition;
-            -o-transition: $mainTransition;
-          }
-        }
-      }
+      font-size: 24px;
     }
   }
 
-  .main {
-    .title-text {
-      font-size: 34px;
-    }
-    .galaxy {
-      width: 25%;
+  footer {
+    p {
+      font-size: 10px;
     }
   }
 }
