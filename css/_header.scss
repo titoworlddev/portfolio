@@ -4,12 +4,18 @@
 
 header {
   width: 100%;
+  position: fixed;
+  top: 0;
+  background: $headerGradient;
+  // filter: blur(10px);
+  // -webkit-filter: blur(10px);
   nav {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    margin: 20px 40px 0 0;
-    /* ==================== Desktop ==================== */
+    align-items: center;
+    margin: 10px 40px 10px 0;
+    /*====================Desktop====================*/
     .desktop-menu {
       display: flex;
       justify-content: end;
@@ -43,7 +49,7 @@ header {
     /* ==================== Mobile ==================== */
     .mobile-menu {
       display: none;
-      z-index: 20;
+      z-index: 200;
       button {
         background: none;
         border: none;

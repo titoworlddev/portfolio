@@ -7,5 +7,11 @@ $bgGradient: linear-gradient(
   #3f5e60 50%,
   #8cb3b6 100%
 );
-$scrollGradient: linear-gradient(to bottom, #314546 0%, #3f5e60 100%);
+$headerGradient: linear-gradient(
+  to left,
+  #314647 0%,
+  #3a5356 50%,
+  #426264 100%
+);
+$scrollGradient: linear-gradient(to bottom, #314546 0%, #3f5e6081 100%);
 $mainTransition: all 0.5s ease-in-out;
