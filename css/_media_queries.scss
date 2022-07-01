@@ -144,7 +144,36 @@
   }
 
   footer {
-    font-size: 12px;
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+/* ==================== 400px width ==================== */
+
+@media screen and (max-width: 400px) {
+  .header {
+    nav {
+      ul {
+        li {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .main {
+    .title-text {
+      font-size: 32px;
+    }
+    .galaxy {
+      width: 80%;
+    }
+    footer {
+      p {
+        font-size: 10px;
+      }
+    }
   }
 }
 
