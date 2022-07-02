@@ -174,14 +174,15 @@
   /* ==================== Sobre mi ==================== */
   .foto-central {
     width: 100%;
-    margin: 56px 0;
-    // height: 85vh;
+    margin: 64px 0 32px 0;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
     .foto {
+      margin-top: 32px;
       width: 40vw;
     }
   }
-  //end
+  // end
 }
