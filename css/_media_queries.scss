@@ -166,12 +166,29 @@
     .title-text {
       font-size: 32px;
     }
+    .tarjeta {
+      .tarjeta-contenido {
+        .fotos-tarjeta {
+          img {
+            width: 110%;
+          }
+        }
+      }
+    }
   }
 }
 
 /* ==================== 450px width ==================== */
 
 @media screen and (max-width: 450px) {
+  ::-webkit-scrollbar {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
   header {
     nav {
       .mobile-menu {
