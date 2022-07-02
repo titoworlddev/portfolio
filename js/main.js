@@ -54,7 +54,7 @@
     Programacion: {
       'Random X': {
         title: 'Random X App',
-        text: 'Random X es tu ayudante a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te brindan opciones para elegir de forma aleatoria quien paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.',
+        text: 'Random X es tu ayudante a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te brindan opciones para elegir de forma aleatoria quien paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión. ',
         img: '../assets/img/trabajos/random_x/randomx-presentation.png',
         coverImg: '../assets/img/trabajos/random-x.png',
         linkImg: '../assets/img/trabajos/store-badges/google-play-badge.svg',
