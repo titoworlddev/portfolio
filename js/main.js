@@ -1,4 +1,4 @@
-;(function () {
+(function () {
   /* ==================== General ==================== */
   document.addEventListener('mouseup', function (e) {
     if (!tarjeta.contains(e.target)) {
@@ -7,6 +7,13 @@
       }
     } else {
       tarjeta.style.display = 'block'
+    }
+    if (!mobileMenu.contains(e.target)) {
+      if (mobileMenu.style.display !== 'none') {
+        mobileMenu.style.display = 'none'
+      }
+    } else {
+      mobileMenu.style.display = 'flex'
     }
   })
 

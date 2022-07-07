@@ -6,9 +6,9 @@
  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 
  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
 
-/* ==================== 1400px width ==================== */
+/* ==================== 1450px width ==================== */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .main {
     .galaxy {
       width: 60%;
@@ -37,12 +37,21 @@
         }
       }
     }
+
+    .contenido-central {
+      .skills-container {
+        .skills {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    }
   }
 }
 
 /* ==================== 1200px width ==================== */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .main {
     .title-text {
       font-size: 44px;
@@ -54,6 +63,22 @@
     .tarjeta {
       width: 50vw;
       height: 85vh;
+    }
+
+    .contenido-central {
+      .bio {
+        font-size: 16px;
+      }
+      .skills-container {
+        .skills {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
     }
   }
 }
@@ -68,6 +93,22 @@
     .tarjeta {
       width: 60vw;
       height: 82vh;
+    }
+
+    .contenido-central {
+      .bio {
+        font-size: 14px;
+      }
+      .skills-container {
+        .skills {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
     }
   }
 }
@@ -151,6 +192,33 @@
         }
       }
     }
+
+    .contenido-central {
+      display: flex;
+      flex-direction: column;
+      .bio {
+        width: 90%;
+        font-size: 14px;
+        margin-bottom: 40px;
+      }
+      .skills-container {
+        gap: 20px;
+        .skills {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
+      .foto-start {
+        display: block;
+      }
+      .foto-middle {
+        display: none;
+      }
+    }
   }
 
   footer {
@@ -172,6 +240,14 @@
           img {
             width: 110%;
           }
+        }
+      }
+    }
+
+    .contenido-central {
+      .skills-container {
+        .skills {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
         }
       }
     }
@@ -207,6 +283,14 @@
     }
     .title-text {
       font-size: 24px;
+    }
+
+    .contenido-central {
+      .skills-container {
+        .skills {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
     }
   }
 
