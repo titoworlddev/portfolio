@@ -1,4 +1,29 @@
 (function () {
+  /* ==================== Imagenes ==================== */
+
+  const images = [
+    '../assets/img/trabajos/random_x/randomx-presentation.png',
+    '../assets/img/trabajos/random-x.png',
+    '../assets/img/trabajos/store-badges/google-play-badge.svg',
+    '../assets/img/trabajos/operit/operit-presentation.png',
+    '../assets/img/trabajos/operit.png',
+    '../assets/img/trabajos/store-badges/google-play-badge.svg',
+    '../assets/img/trabajos/game_zone/game-zone-presentation.png',
+    '../assets/img/trabajos/game-zone-store.png',
+    '../assets/img/trabajos/store-badges/instagram-logo.svg',
+    '../assets/img/trabajos/el_chingon/el-chingon-presentation.png',
+    '../assets/img/trabajos/el-chingon.png',
+    '../assets/img/trabajos/store-badges/instagram-logo.svg',
+    '../assets/img/trabajos/levasion/levasion-presentation.png',
+    '../assets/img/trabajos/levasion.png',
+    '../assets/img/trabajos/store-badges/instagram-logo.svg'
+  ]
+  const cachedImages = []
+  for (let i = 0; i < images.length; i++) {
+    cachedImages[i] = document.createElement('img')
+    cachedImages[i].src = images[i]
+  }
+
   /* ==================== General ==================== */
   document.addEventListener('mouseup', function (e) {
     if (!tarjeta.contains(e.target)) {
