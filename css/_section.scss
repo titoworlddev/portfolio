@@ -10,47 +10,47 @@
   letter-spacing: 1px;
   /* ==================== Inicio ==================== */
   .galaxy-title-container {
-    height: 89vh;
+    height: 84vh;
+    position: relative;
+    width: 100%;
+    margin-bottom: 48px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-  }
 
-  .title-text {
-    font-size: 64px;
-    font-weight: 100;
-    word-spacing: 10px;
-    transition: $mainTransition;
-    -webkit-transition: $mainTransition;
-    -moz-transition: $mainTransition;
-    -ms-transition: $mainTransition;
-    -o-transition: $mainTransition;
-  }
-  .welcome {
-    position: absolute;
-    top: 80px;
-    left: 80px;
-    z-index: -10;
-  }
-  .universe {
-    position: absolute;
-    right: 80px;
-    bottom: 40px;
-    z-index: -10;
-  }
+    .title-text {
+      position: absolute;
+      font-size: 56px;
+      font-weight: 100;
+      word-spacing: 10px;
+      transition: $mainTransition;
+      -webkit-transition: $mainTransition;
+      -moz-transition: $mainTransition;
+      -ms-transition: $mainTransition;
+      -o-transition: $mainTransition;
+    }
+    .welcome {
+      left: 0;
+    }
+    .universe {
+      bottom: 0;
+      right: 0;
+    }
 
-  .galaxy {
-    width: 50%;
-    transition: $mainTransition;
-    -webkit-transition: $mainTransition;
-    -moz-transition: $mainTransition;
-    -ms-transition: $mainTransition;
-    -o-transition: $mainTransition;
+    // Imagen
+    .galaxy {
+      width: 50%;
+      transition: $mainTransition;
+      -webkit-transition: $mainTransition;
+      -moz-transition: $mainTransition;
+      -ms-transition: $mainTransition;
+      -o-transition: $mainTransition;
+    }
   }
 
   /* ==================== Mis trabajos ==================== */
   .trabajos-container {
+    height: 84vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -174,19 +174,21 @@
 
   /* ==================== Sobre mi ==================== */
   .contenido-central {
+    height: 80vh;
     width: 100%;
-    margin: 64px 0 32px 0;
-    height: 85vh;
+    margin: 0 0 64px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     .bio {
+      display: inline-block;
       width: 30%;
       font-family: 'Righteous', cursive;
       font-size: 18px;
     }
     .skills-container {
+      width: 30%;
       display: flex;
       flex-direction: column;
       gap: 40px;
@@ -203,11 +205,11 @@
     .foto-start {
       display: none;
       margin-top: 32px;
-      width: 40vw;
+      width: 70vw;
     }
     .foto-middle {
       margin-top: 32px;
-      width: 40vw;
+      width: 40%;
     }
   }
   // end

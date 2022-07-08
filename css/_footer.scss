@@ -2,6 +2,8 @@
 
 /* ==================== Footer ==================== */
 footer {
+  position: relative;
+  bottom: 0;
   color: #e1e1e1;
   transition: $mainTransition;
   -webkit-transition: $mainTransition;
