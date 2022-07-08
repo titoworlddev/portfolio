@@ -181,12 +181,14 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+
     .bio {
       display: inline-block;
       width: 30%;
       font-family: 'Righteous', cursive;
       font-size: 18px;
     }
+
     .skills-container {
       width: 30%;
       display: flex;
@@ -202,13 +204,14 @@
         }
       }
     }
+
     .foto-start {
       display: none;
       margin-top: 32px;
       width: 70vw;
     }
     .foto-middle {
-      margin-top: 32px;
+      margin-top: 64px;
       width: 40%;
     }
   }
