@@ -23,19 +23,11 @@
 
   /* ==================== General ==================== */
   document.addEventListener('mouseup', function (e) {
-    if (!tarjeta.contains(e.target)) {
-      if (tarjeta.style.display !== 'none') {
-        tarjeta.style.display = 'none'
-      }
-    } else {
-      tarjeta.style.display = 'block'
+    if (!mobileMenu.contains(e.target) && mobileMenu.style.display !== 'none') {
+      mobileMenu.style.display = 'none'
     }
-    if (!mobileMenu.contains(e.target)) {
-      if (mobileMenu.style.display !== 'none') {
-        mobileMenu.style.display = 'none'
-      }
-    } else {
-      mobileMenu.style.display = 'flex'
+    if (!tarjeta.contains(e.target) && tarjeta.style.display !== 'none') {
+      tarjeta.style.display = 'none'
     }
   })
 
