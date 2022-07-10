@@ -16,10 +16,10 @@
     '../assets/img/trabajos/levasion.png'
   ]
   const cachedImages = []
-  for (let i = 0; i < images.length; i++) {
-    cachedImages[i] = document.createElement('img')
-    cachedImages[i].src = images[i]
-  }
+  images.forEach((elem) => {
+    cachedImages.push(document.createElement('img'))
+    cachedImages.at(-1).src = elem
+  })
 
   /* ==================== General ==================== */
   document.addEventListener('mouseup', function (e) {
