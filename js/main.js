@@ -67,7 +67,7 @@
 
   /* ========================================
   ========================================
-              Mis trabajos
+              Projects
   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
 
@@ -83,7 +83,7 @@
     Programacion: {
       'Random X': {
         title: 'Random X App',
-        text: 'Random X es tu ayudante a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te brindan opciones para elegir de forma aleatoria quien paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión. ',
+        text: 'Random X is your assistant when it comes to playing and/or having fun with friends, its random generators give you options to randomly choose who pays for dinner, make the invisible friend with friends or family, make a bingo, play on your own Scattergories or whatever comes to mind. Undoubtedly the perfect companion in these cases, do not wait any longer and let the fun begin.',
         img: '../assets/img/trabajos/random_x/randomx-presentation.png',
         coverImg: '../assets/img/trabajos/random-x.png',
         linkImg: '../assets/img/trabajos/store-badges/google-play-badge.svg',
@@ -91,7 +91,7 @@
       },
       Operit: {
         title: 'Operit App',
-        text: 'Calculadora con diseño simple pero muy completa en sus funciones.Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes usar la calculadora científica.También hay varios ajustes para personalizar la app a tu gusto y una página de ayuda por si no comprendes alguna de las funciones.¡Sin duda una calculadora que será fácil y divertida de usar, disfrútala!',
+        text: 'Calculator with a simple design but very complete in its functions. If you are looking to do quick operations you have its basic part, if on the contrary you are a more advanced user you can use the scientific calculator. There are also several settings to customize the app to your liking and a page help if you don\'t understand any of the functions. Definitely a calculator that will be easy and fun to use, enjoy!',
         img: '../assets/img/trabajos/operit/operit-presentation.png',
         coverImg: '../assets/img/trabajos/operit.png',
         linkImg: '../assets/img/trabajos/store-badges/google-play-badge.svg',
@@ -101,7 +101,7 @@
     Diseno: {
       'Game Zone': {
         title: 'Game Zone Store - Design',
-        text: 'Continuando con los diseños aqui dejo uno nuevo, en este caso de una aplicacion de movil sobre una tienda de videojuegos, que tambien podria servir como base para una tienda en general. Espero que os guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
+        text: 'Continuing with the designs here I leave a new one, in this case of a mobile application on a video game store, which could also serve as the basis for a store in general. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
         img: '../assets/img/trabajos/game_zone/game-zone-presentation.png',
         coverImg: '../assets/img/trabajos/game-zone-store.png',
         linkImg: '../assets/img/trabajos/store-badges/instagram-logo.svg',
@@ -109,7 +109,7 @@
       },
       'El Chingón': {
         title: 'El Chingón Restaurant - Design',
-        text: 'Diseño sobre un restaurante de comida mexicana, que se puede tomar como ejemplo de diseños para restaruantes. Un diseño es muy simple, pero muy atractivo. Espero que os guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
+        text: 'Design about a Mexican food restaurant, which can be taken as an example of designs for restaurants. A design is very simple, but very attractive. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
         img: '../assets/img/trabajos/el_chingon/el-chingon-presentation.png',
         coverImg: '../assets/img/trabajos/el-chingon.png',
         linkImg: '../assets/img/trabajos/store-badges/instagram-logo.svg',
@@ -117,7 +117,7 @@
       },
       "L'evasion": {
         title: "L'evasion Hotel - Design",
-        text: 'Diseño sobre una página web de hostelería. Un diseño suave y relajado, que te permita encontrar una experiencia de alojamiento muy agradable. Espero que os guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
+        text: 'Design on a hotel web page. A soft and relaxed design, which allows you to find a very pleasant hosting experience. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
         img: '../assets/img/trabajos/levasion/levasion-presentation.png',
         coverImg: '../assets/img/trabajos/levasion.png',
         linkImg: '../assets/img/trabajos/store-badges/instagram-logo.svg',
