@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -58,7 +58,38 @@
       </nav>
     </header>
     <!-- Body -->
-    <section class="main"></section>
+    <section class="main">
+      <div class="contact-container">
+        <h2 class="contact-title">Contact me</h2>
+        <form class="contact-form" id="contact-form">
+          <div class="input-name">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+          </div>
+          <div class="input-email">
+            <label for="email">Email *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+            />
+          </div>
+          <div class="input-message">
+            <label for="message">Message *</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+          <input class="btn-submit" type="submit" value="Submit" />
+          <label>Nothing works yet, only the design</label>
+        </form>
+      </div>
+    </section>
     <!-- Footer -->
     <footer>
       <p>Property of Cristian Arias, all rights reserved ©.</p>

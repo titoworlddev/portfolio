@@ -127,6 +127,43 @@
   }
 }
 
+/* ==================== 950px width ==================== */
+
+@media screen and (max-width: 950px) {
+  .main {
+    .contact-container {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .contact-form {
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+
+        .input-name,
+        .input-email {
+          width: auto;
+          grid-column: span 2;
+        }
+        .input-message {
+          width: auto;
+          grid-column: span 2;
+          textarea {
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 256px;
+            max-height: 256px;
+          }
+        }
+      }
+    }
+  }
+}
+
 /* ==================== 850px width ==================== */
 
 @media screen and (max-width: 850px) {
@@ -261,6 +298,12 @@
         }
       }
     }
+
+    .contact-container {
+      .contact-title {
+        font-size: 32px;
+      }
+    }
   }
 }
 
@@ -299,6 +342,18 @@
       .skills-container {
         .skills {
           grid-template-columns: 1fr 1fr;
+        }
+      }
+    }
+
+    .contact-container {
+      .contact-form {
+        label {
+          font-size: px;
+        }
+        input,
+        textarea {
+          font-size: 16px;
         }
       }
     }
