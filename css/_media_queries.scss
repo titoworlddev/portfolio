@@ -307,6 +307,33 @@
   }
 }
 
+/* ==================== 550px width ==================== */
+
+@media screen and (max-width: 550px) {
+  .main {
+    .links-container {
+      .title {
+        text-align: center;
+        font-size: 40px;
+      }
+      .links {
+        padding: 50px;
+        width: 364px;
+        font-size: 16px;
+        .link {
+          i {
+            font-size: 20px;
+            color: #fff;
+          }
+          .fa-instagram {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
 /* ==================== 450px width ==================== */
 
 @media screen and (max-width: 450px) {

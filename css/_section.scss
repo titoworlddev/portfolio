@@ -344,5 +344,58 @@
     }
   }
 
+  /* ==================== Link Tree ==================== */
+  .links-container {
+    .title {
+      margin-left: 24px;
+      font-size: 56px;
+      font-weight: 100;
+      transition: $mainTransition;
+      -webkit-transition: $mainTransition;
+      -moz-transition: $mainTransition;
+      -ms-transition: $mainTransition;
+      -o-transition: $mainTransition;
+    }
+    .links {
+      transition: $mainTransition;
+      -webkit-transition: $mainTransition;
+      -moz-transition: $mainTransition;
+      -ms-transition: $mainTransition;
+      -o-transition: $mainTransition;
+      width: 512px;
+      height: 75vh;
+      margin: 0 auto;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Righteous', cursive;
+      font-size: 24px;
+      gap: 32px;
+
+      .link {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        a {
+          color: #fff;
+          text-decoration: none;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        i {
+          font-size: 32px;
+          color: #fff;
+        }
+        .fa-instagram {
+          font-size: 36px;
+        }
+      }
+    }
+  }
   // end
 }
