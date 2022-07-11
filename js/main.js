@@ -1,4 +1,14 @@
 (function () {
+  /* ==================== General ==================== */
+  document.addEventListener('mouseup', function (e) {
+    if (!mobileMenu.contains(e.target) && mobileMenu.style.display !== 'none') {
+      mobileMenu.style.display = 'none'
+    }
+    if (!tarjeta.contains(e.target) && tarjeta.style.display !== 'none') {
+      tarjeta.style.display = 'none'
+    }
+  })
+
   /* ==================== Imagenes ==================== */
   // Creo que si funciona
   const images = [
@@ -19,16 +29,6 @@
   images.forEach((elem) => {
     cachedImages.push(document.createElement('img'))
     cachedImages.at(-1).src = elem
-  })
-
-  /* ==================== General ==================== */
-  document.addEventListener('mouseup', function (e) {
-    if (!mobileMenu.contains(e.target) && mobileMenu.style.display !== 'none') {
-      mobileMenu.style.display = 'none'
-    }
-    if (!tarjeta.contains(e.target) && tarjeta.style.display !== 'none') {
-      tarjeta.style.display = 'none'
-    }
   })
 
   /* ==================== Menu movil ==================== */
