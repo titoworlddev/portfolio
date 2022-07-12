@@ -280,8 +280,31 @@
   }
 }
 
+/* ==================== 750px width ==================== */
+@media screen and (max-width: 750px) {
+  header {
+    nav {
+      .mobile-menu {
+        .mobile-menu-items {
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+
 /* ==================== 650px width ==================== */
 @media screen and (max-width: 650px) {
+  header {
+    nav {
+      .mobile-menu {
+        .mobile-menu-items {
+          width: 24%;
+        }
+      }
+    }
+  }
+
   .main {
     .title-text {
       font-size: 32px;
@@ -315,6 +338,16 @@
 /* ==================== 550px width ==================== */
 
 @media screen and (max-width: 550px) {
+  header {
+    nav {
+      .mobile-menu {
+        .mobile-menu-items {
+          width: 28%;
+        }
+      }
+    }
+  }
+
   .main {
     .links-container {
       .title {
@@ -356,6 +389,7 @@
     nav {
       .mobile-menu {
         .mobile-menu-items {
+          width: 32%;
           a {
             font-size: 18px;
           }
