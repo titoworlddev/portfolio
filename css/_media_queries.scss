@@ -10,10 +10,12 @@
 
 @media screen and (max-width: 1450px) {
   .main {
+    // Home
     .galaxy {
       width: 60%;
     }
 
+    // Projects
     .trabajos-container {
       height: auto;
       .trabajos-programacion-container,
@@ -39,6 +41,7 @@
       }
     }
 
+    // About
     .contenido-central {
       .skills-container {
         .skills {
@@ -54,6 +57,7 @@
 
 @media screen and (max-width: 1250px) {
   .main {
+    // Home
     .title-text {
       font-size: 44px;
     }
@@ -61,11 +65,13 @@
       width: 70%;
     }
 
+    // Projects
     .tarjeta {
       width: 50vw;
       height: 85vh;
     }
 
+    // About
     .contenido-central {
       .bio {
         font-size: 16px;
@@ -88,6 +94,7 @@
 
 @media screen and (max-width: 1100px) {
   .main {
+    // Home
     .galaxy {
       width: 60%;
     }
@@ -96,6 +103,7 @@
       height: 82vh;
     }
 
+    // About
     .contenido-central {
       height: auto;
       display: flex;
@@ -131,6 +139,7 @@
 
 @media screen and (max-width: 950px) {
   .main {
+    // Contact
     .contact-container {
       height: auto;
       width: 100%;
@@ -187,6 +196,7 @@
   }
 
   .main {
+    // Home
     .galaxy-title-container {
       .galaxy {
         width: 80%;
@@ -197,6 +207,7 @@
       }
     }
 
+    // Projects
     .trabajos-container {
       .trabajos-programacion-container,
       .trabajos-diseno-container {
@@ -241,6 +252,7 @@
       }
     }
 
+    // About
     .contenido-central {
       display: flex;
       flex-direction: column;
@@ -306,9 +318,12 @@
   }
 
   .main {
+    // Home
     .title-text {
       font-size: 32px;
     }
+
+    // Projects
     .tarjeta {
       .tarjeta-contenido {
         .fotos-tarjeta {
@@ -319,6 +334,7 @@
       }
     }
 
+    // About
     .contenido-central {
       .skills-container {
         .skills {
@@ -330,6 +346,22 @@
     .contact-container {
       .contact-title {
         font-size: 32px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+      .contact-form {
+        label {
+          font-size: 16px;
+        }
+        input::placeholder,
+        textarea::placeholder {
+          font-size: 16px;
+        }
+        .btn-submit {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -349,6 +381,7 @@
   }
 
   .main {
+    // Link tree
     .links-container {
       .title {
         margin-left: 0;
@@ -399,6 +432,7 @@
   }
 
   .main {
+    // Home
     .galaxy {
       width: 90%;
     }
@@ -406,6 +440,7 @@
       font-size: 24px;
     }
 
+    // About
     .contenido-central {
       .skills-container {
         .skills {
@@ -414,7 +449,12 @@
       }
     }
 
+    // Contact
     .contact-container {
+      p {
+        font-size: 12px;
+      }
+
       .contact-form {
         label {
           font-size: px;

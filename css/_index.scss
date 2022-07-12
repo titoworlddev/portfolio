@@ -1,0 +1,41 @@
+.main {
+  /* ==================== Home ==================== */
+  .galaxy-title-container {
+    height: 84vh;
+    position: relative;
+    width: 100%;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .title-text {
+      position: absolute;
+      font-size: 56px;
+      font-weight: 100;
+      word-spacing: 10px;
+      transition: $mainTransition;
+      -webkit-transition: $mainTransition;
+      -moz-transition: $mainTransition;
+      -ms-transition: $mainTransition;
+      -o-transition: $mainTransition;
+    }
+    .welcome {
+      left: 0;
+    }
+    .universe {
+      bottom: 0;
+      right: 0;
+    }
+
+    // Imagen
+    .galaxy {
+      width: 50%;
+      transition: $mainTransition;
+      -webkit-transition: $mainTransition;
+      -moz-transition: $mainTransition;
+      -ms-transition: $mainTransition;
+      -o-transition: $mainTransition;
+    }
+  }
+}
