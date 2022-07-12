@@ -1,0 +1,2 @@
+- Crear funciones para validar formulario
+- Poner servidor smtp o similar para enviarme los emails

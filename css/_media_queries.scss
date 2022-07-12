@@ -169,12 +169,13 @@
 @media screen and (max-width: 850px) {
   header {
     nav {
-      margin-right: 20px;
       .desktop-menu {
         display: none;
       }
       .mobile-menu {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         .mobile-menu-button {
           display: block;
         }
@@ -272,6 +273,10 @@
     p {
       font-size: 12px;
     }
+
+    .my-logo {
+      display: none;
+    }
   }
 }
 
@@ -319,6 +324,8 @@
       }
       .links {
         width: 100%;
+        padding: 24px;
+        gap: 48px;
         font-size: 16px;
         .link {
           i {

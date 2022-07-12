@@ -2,6 +2,10 @@
 
 /* ==================== Footer ==================== */
 footer {
+  margin: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   position: relative;
   bottom: 0;
   color: #e1e1e1;
@@ -10,8 +14,8 @@ footer {
   -moz-transition: $mainTransition;
   -ms-transition: $mainTransition;
   -o-transition: $mainTransition;
-  p {
-    margin-left: 20px;
-    margin-bottom: 16px;
+
+  .my-logo {
+    height: 20px;
   }
 }
