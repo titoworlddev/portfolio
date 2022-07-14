@@ -24,10 +24,12 @@ mobileCloseBtn.addEventListener('click', function () {
 mobileMenuBtn.addEventListener('click', () => {
   const tarjeta = document.getElementById('tarjeta')
   mobileMenu.style.display = 'flex'
-  if (tarjeta.style.display !== 'block') {
-    tarjeta.style.display = 'none'
-  } else {
-    tarjeta.style.display = 'block'
+  if (document.contains(tarjeta)) {
+    if (tarjeta.style.display !== 'block') {
+      tarjeta.style.display = 'none'
+    } else {
+      tarjeta.style.display = 'block'
+    }
   }
 })
 
@@ -40,7 +42,7 @@ mobileMenuItems.forEach(item => {
 
 /* Imagenes */
 // Creo que si funciona
-export const images = [
+const images = [
   '../assets/img/trabajos/random_x/randomx-presentation.png',
   '../assets/img/trabajos/random-x.png',
   '../assets/img/trabajos/store-badges/google-play-badge.svg',
@@ -54,7 +56,7 @@ export const images = [
   '../assets/img/trabajos/levasion/levasion-presentation.png',
   '../assets/img/trabajos/levasion.png'
 ]
-export const cachedImages = []
+const cachedImages = []
 
 images.forEach((elem) => {
   cachedImages.push(document.createElement('img'))
