@@ -1,3 +1,5 @@
+@import 'variables';
+
 .main {
   /* ==================== Contact ==================== */
   .contact-container {
@@ -124,7 +126,34 @@
         font-size: 20px;
       }
       .btn-submit:hover {
-        background: #b8a358;
+        background: $accentColor;
+      }
+    }
+
+    .contact-popup {
+      position: absolute;
+      top: auto;
+      left: auto;
+      width: 30%;
+      height: 25%;
+      padding: 32px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      background: #d9d9d9;
+      box-shadow: 0 4px 20px rgba($color: #000, $alpha: 0.2);
+      p {
+        color: $primaryColor;
+        font-size: 24px;
+      }
+      i {
+        position: absolute;
+        bottom: 24px;
+        left: calc(50% - 24px);
+        color: #298a29;
+        font-size: 48px;
       }
     }
   }

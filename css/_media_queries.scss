@@ -53,7 +53,7 @@
   }
 }
 
-/* ==================== 1200px width ==================== */
+/* ==================== 1250px width ==================== */
 
 @media screen and (max-width: 1250px) {
   .main {
@@ -90,7 +90,19 @@
   }
 }
 
-/* ==================== 1000px width ==================== */
+/* ==================== 1150px width ==================== */
+
+@media screen and (max-width: 1150px) {
+  .main {
+    .contact-container {
+      .contact-popup {
+        width: 40%;
+      }
+    }
+  }
+}
+
+/* ==================== 1100px width ==================== */
 
 @media screen and (max-width: 1100px) {
   .main {
@@ -135,6 +147,17 @@
   }
 }
 
+/* ==================== 900px width ==================== */
+
+@media screen and (max-width: 900px) {
+  .main {
+    .contact-container {
+      .contact-popup {
+        width: 50%;
+      }
+    }
+  }
+}
 /* ==================== 950px width ==================== */
 
 @media screen and (max-width: 950px) {
@@ -305,6 +328,17 @@
   }
 }
 
+/* ==================== 700px width ==================== */
+@media screen and (max-width: 700px) {
+  .main {
+    .contact-container {
+      .contact-popup {
+        width: 60%;
+      }
+    }
+  }
+}
+
 /* ==================== 650px width ==================== */
 @media screen and (max-width: 650px) {
   header {
@@ -361,6 +395,12 @@
         }
         .btn-submit {
           font-size: 16px;
+        }
+      }
+
+      .contact-popup {
+        p {
+          font-size: 20px;
         }
       }
     }
@@ -462,6 +502,17 @@
         input,
         textarea {
           font-size: 16px;
+        }
+      }
+
+      .contact-popup {
+        height: 20%;
+        p {
+          font-size: 16px;
+        }
+        i {
+          left: calc(50% - 16px);
+          font-size: 32px;
         }
       }
     }

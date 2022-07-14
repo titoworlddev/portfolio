@@ -74,7 +74,7 @@
           method="POST"
         >
           <div class="input-name">
-            <label for="name">Name</label>
+            <label for="name">Name *</label>
             <input type="text" id="name" name="name" placeholder="Your name" />
           </div>
           <div class="input-email">
@@ -97,14 +97,21 @@
             ></textarea>
           </div>
           <input class="btn-submit" type="submit" value="Submit" />
-          <label>Don't works yet, you can't send the message.</label>
+          <label class="btn-test"
+            >Don't works yet, you can't send the message.</label
+          >
 
           <!-- Special features -->
           <input
             type="hidden"
             name="_next"
-            value="https://titoworld.dev/pages/contact.html"
+            value="http://127.0.0.1:5500/pages/contact.html"
           />
+          <!-- <input
+            type="hidden"
+            name="_next"
+            value="https://titoworld.dev/pages/contact.html"
+          /> -->
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box" />
           <input type="text" name="_honey" style="display: none" />
