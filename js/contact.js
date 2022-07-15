@@ -76,7 +76,7 @@
 
         setTimeout(function () {
           contactForm.submit()
-        }, 100)
+        }, 200)
       }
     }
   })
