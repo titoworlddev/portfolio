@@ -22,7 +22,7 @@
       -o-transition: $mainTransition;
     }
 
-    p {
+    .send-message {
       font-size: 18px;
       margin-bottom: 32px;
     }
@@ -35,8 +35,9 @@
       -o-transition: $mainTransition;
       width: 896px;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
       gap: 24px;
+
       label {
         font-size: 20px;
         color: #fff;
@@ -106,8 +107,8 @@
         flex-direction: column;
         gap: 16px;
       }
-
       .input-message {
+        grid-column: span 2;
         textarea {
           min-width: 896px;
           max-width: 896px;
@@ -116,7 +117,23 @@
         }
       }
 
+      .error-name,
+      .error-email {
+        display: none;
+        font-size: 18px;
+        margin: 0;
+      }
+      .error-message {
+        display: none;
+        grid-column: span 2;
+        font-size: 18px;
+        margin: 0;
+      }
+
       .btn-submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 16px auto;
         width: 232px;
         height: 48px;
@@ -124,6 +141,18 @@
         background: #c8b160;
         color: #424242;
         font-size: 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
       }
       .btn-submit:hover {
         background: $accentColor;

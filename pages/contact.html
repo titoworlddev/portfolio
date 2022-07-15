@@ -66,17 +66,24 @@
     <section class="main">
       <div class="contact-container">
         <h2 class="contact-title">Contact me</h2>
-        <p>Send me a message if you want to job with me.</p>
+        <p class="send-message">
+          Send me a message if you want to job with me.
+        </p>
         <form
           class="contact-form"
           id="contact-form"
           action="https://formsubmit.co/f1d15b6a10aab7ed304d64bd63842648"
           method="POST"
         >
+          <!-- Name -->
           <div class="input-name">
             <label for="name">Name *</label>
             <input type="text" id="name" name="name" placeholder="Your name" />
+            <p class="error-name">
+              You must put the name so that I can address you in my answer.
+            </p>
           </div>
+          <!-- Email -->
           <div class="input-email">
             <label for="email">Email *</label>
             <input
@@ -85,7 +92,11 @@
               name="email"
               placeholder="Your email"
             />
+            <p class="error-email">
+              You must put the email so that I can answer you.
+            </p>
           </div>
+          <!-- Message -->
           <div class="input-message">
             <label for="message">Message *</label>
             <textarea
@@ -96,17 +107,14 @@
               placeholder="Your message"
             ></textarea>
           </div>
-          <input class="btn-submit" type="submit" value="Submit" />
-          <label class="btn-test"
-            >Don't works yet, you can't send the message.</label
-          >
+          <p class="error-message">
+            You must put a message to know the reason for your contact.
+          </p>
+          <div class="btn-submit"/>
+            <p>Submit</p>
+          </div>
 
           <!-- Special features -->
-          <!-- <input
-            type="hidden"
-            name="_next"
-            value="http://127.0.0.1:5500/pages/contact.html"
-          /> -->
           <input
             type="hidden"
             name="_next"
