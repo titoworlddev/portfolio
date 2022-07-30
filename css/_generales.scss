@@ -35,6 +35,10 @@
   -webkit-box-sizing: border-box;
 }
 
+html {
+  background: $secondaryColor;
+}
+
 body {
   height: 100vh;
   display: flex;
