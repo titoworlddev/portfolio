@@ -40,16 +40,6 @@
         }
       }
     }
-
-    // About
-    .contenido-central {
-      .skills-container {
-        .skills {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-    }
   }
 }
 
@@ -75,16 +65,6 @@
     .contenido-central {
       .bio {
         font-size: 16px;
-      }
-      .skills-container {
-        .skills {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          img {
-            width: 50px;
-            height: 50px;
-          }
-        }
       }
     }
   }
