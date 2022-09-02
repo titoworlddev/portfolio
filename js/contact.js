@@ -44,9 +44,15 @@
     if (inputName.value === '' || inputEmail.value === '' || inputMessage.value === '') {
       if (inputName.value === '') {
         showNameError('You must put the name so that I can address you in my answer.')
+      } else if (inputName.value.length < 3) {
+        showNameError('The name is not valid, it must contain a minimum of 3 letters.')
       }
       if (inputEmail.value === '') {
         showEmailError('You must put the email so that I can answer you.')
+      } else if (!emailExpr.test(inputEmail.value)) {
+        showEmailError('The email is not valid, you must enter a correct email to continue.')
+      } else if (inputEmail.value.includes('reply')) {
+        showEmailError('Please, do not use the contact form to send advertising, its use is exclusive for hiring.')
       }
       if (inputMessage.value === '') {
         errorMessage.style.display = 'block'
