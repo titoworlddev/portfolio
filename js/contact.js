@@ -1,4 +1,3 @@
-(function () {
   const btnSubmit = document.querySelector('.btn-submit')
   const inputName = document.getElementById('name')
   const inputEmail = document.getElementById('email')
@@ -84,4 +83,3 @@
       }
     }
   })
-})()
