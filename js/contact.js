@@ -29,17 +29,24 @@
     })
   })
 
+  showEmailError = (text) => {
+    errorEmail.innerHTML = text
+    errorEmail.style.display = 'block'
+    inputEmail.style.border = '0.6mm solid #e23838'
+  }
+  showNameError = (text) => {
+    errorName.innerHTML = text
+    errorName.style.display = 'block'
+    inputName.style.border = '0.6mm solid #e23838'
+  }
+
   btnSubmit.addEventListener('mouseup', () => {
     if (inputName.value === '' || inputEmail.value === '' || inputMessage.value === '') {
       if (inputName.value === '') {
-        errorName.innerHTML = 'You must put the name so that I can address you in my answer.'
-        errorName.style.display = 'block'
-        inputName.style.border = '0.6mm solid #e23838'
+        showNameError('You must put the name so that I can address you in my answer.')
       }
       if (inputEmail.value === '') {
-        errorEmail.innerHTML = 'You must put the email so that I can answer you.'
-        errorEmail.style.display = 'block'
-        inputEmail.style.border = '0.6mm solid #e23838'
+        showEmailError('You must put the email so that I can answer you.')
       }
       if (inputMessage.value === '') {
         errorMessage.style.display = 'block'
@@ -48,19 +55,13 @@
     } else {
       if (!emailExpr.test(inputEmail.value) || inputEmail.value.includes('reply') || inputName.value.length < 3) {
         if (!emailExpr.test(inputEmail.value)) {
-          errorEmail.innerHTML = 'The email is not valid, you must enter a correct email to continue.'
-          errorEmail.style.display = 'block'
-          inputEmail.style.border = '0.6mm solid #e23838'
+          showEmailError('The email is not valid, you must enter a correct email to continue.')
         }
         if (inputEmail.value.includes('reply')) {
-          errorEmail.innerHTML = 'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
-          errorEmail.style.display = 'block'
-          inputEmail.style.border = '0.6mm solid #e23838'
+          showEmailError('Please, do not use the contact form to send advertising, its use is exclusive for hiring.')
         }
         if (inputName.value.length < 3) {
-          errorName.innerHTML = 'The name is not valid, it must contain a minimum of 3 letters.'
-          errorName.style.display = 'block'
-          inputName.style.border = '0.6mm solid #e23838'
+          showNameError('The name is not valid, it must contain a minimum of 3 letters.')
         }
       } else {
           const contactContainer = document.querySelector('.contact-container')
