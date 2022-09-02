@@ -35,17 +35,9 @@
         errorName.innerHTML = 'You must put the name so that I can address you in my answer.'
         errorName.style.display = 'block'
         inputName.style.border = '0.6mm solid #e23838'
-      } else if (inputName.value.length < 3) {
-        errorName.innerHTML = 'The name is not valid, it must contain a minimum of 3 letters.'
-        errorName.style.display = 'block'
-        inputName.style.border = '0.6mm solid #e23838'
       }
       if (inputEmail.value === '') {
         errorEmail.innerHTML = 'You must put the email so that I can answer you.'
-        errorEmail.style.display = 'block'
-        inputEmail.style.border = '0.6mm solid #e23838'
-      } else if (!emailExpr.test(inputEmail.value)) {
-        errorEmail.innerHTML = 'The email is not valid, you must enter a correct email to continue.'
         errorEmail.style.display = 'block'
         inputEmail.style.border = '0.6mm solid #e23838'
       }
@@ -54,9 +46,14 @@
         inputMessage.style.border = '0.6mm solid #e23838'
       }
     } else {
-      if (!emailExpr.test(inputEmail.value) || inputName.value.length < 3) {
+      if (!emailExpr.test(inputEmail.value) || inputEmail.value.includes('reply') || inputName.value.length < 3) {
         if (!emailExpr.test(inputEmail.value)) {
           errorEmail.innerHTML = 'The email is not valid, you must enter a correct email to continue.'
+          errorEmail.style.display = 'block'
+          inputEmail.style.border = '0.6mm solid #e23838'
+        }
+        if (inputEmail.value.includes('reply')) {
+          errorEmail.innerHTML = 'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
           errorEmail.style.display = 'block'
           inputEmail.style.border = '0.6mm solid #e23838'
         }
@@ -66,17 +63,17 @@
           inputName.style.border = '0.6mm solid #e23838'
         }
       } else {
-        const contactContainer = document.querySelector('.contact-container')
-        const contactForm = document.getElementById('contact-form')
-
-        const popup = document.createElement('div')
-        popup.classList.add('contact-popup')
-        popup.innerHTML = '<p>Your message has been sent successfully</p><i class="fa-solid fa-check"></i>'
-        contactContainer.appendChild(popup)
-
-        setTimeout(function () {
-          contactForm.submit()
-        }, 200)
+          const contactContainer = document.querySelector('.contact-container')
+          const contactForm = document.getElementById('contact-form')
+          
+          const popup = document.createElement('div')
+          popup.classList.add('contact-popup')
+          popup.innerHTML = '<p>Your message has been sent successfully</p><i class="fa-solid fa-check"></i>'
+          contactContainer.appendChild(popup)
+          
+          setTimeout(function () {
+            contactForm.submit()
+          }, 200)
       }
     }
   })
