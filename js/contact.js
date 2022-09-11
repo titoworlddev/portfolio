@@ -12,12 +12,10 @@
   inputs.forEach(input => {
     input.addEventListener('keyup', () => {
       if (input === inputName && errorName.style.display === 'block') {
-        errorName.innerHTML = 'Debes poner el nombre para que pueda dirigirme a ti en mi respuesta.'
         errorName.style.display = 'none'
         inputName.style.border = 'none'
       }
       if (input === inputEmail && errorEmail.style.display === 'block') {
-        errorEmail.innerHTML = 'Debes poner el email para que pueda responderte.'
         errorEmail.style.display = 'none'
         inputEmail.style.border = 'none'
       }
