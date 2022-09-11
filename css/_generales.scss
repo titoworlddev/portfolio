@@ -25,15 +25,12 @@
   -webkit-box-sizing: border-box;
 }
 
-html {
-  background: $bgGradient no-repeat fixed;
-}
-
 body {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: $bgGradient no-repeat fixed;
   font-family: 'Righteous', cursive;
   font-size: 16px;
   font-weight: 100;
