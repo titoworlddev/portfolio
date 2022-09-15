@@ -1,8 +1,3 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/pages/projects", "destination": "/projects" },
-    { "source": "/pages/about", "destination": "/about" },
-    { "source": "/pages/contact", "destination": "/contact" }
-  ]
+  "cleanUrls": true
 }
