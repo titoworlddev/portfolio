@@ -72,6 +72,9 @@
       if (
         !emailExpr.test(inputEmail.value) ||
         inputEmail.value.includes('reply') ||
+        inputMessage.value.includes('titoworld.dev') ||
+        inputMessage.value.includes('http://') ||
+        inputMessage.value.includes('https://') ||
         inputName.value.length < 3
       ) {
         if (!emailExpr.test(inputEmail.value)) {
@@ -83,6 +86,22 @@
           showEmailError(
             'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
           );
+        }
+        if (
+          inputMessage.value.includes('titoworld.dev') ||
+          inputMessage.value.includes('http://') ||
+          inputMessage.value.includes('https://')
+        ) {
+          const contactContainer = document.querySelector('.contact-container');
+          const popup = document.createElement('div');
+          popup.classList.add('contact-popup-error');
+          popup.innerHTML =
+            '<p>Advertising is not allowed, the form is only for hiring</p><i class="fa-solid fa-xmark"></i>';
+          contactContainer.appendChild(popup);
+
+          setTimeout(function () {
+            contactContainer.removeChild(popup);
+          }, 5000);
         }
         if (inputName.value.length < 3) {
           showNameError(
@@ -100,6 +119,7 @@
         contactContainer.appendChild(popup);
 
         setTimeout(function () {
+          contactContainer.removeChild(popup);
           contactForm.submit();
         }, 200);
       }

@@ -75,7 +75,8 @@
 @media screen and (max-width: 1150px) {
   .main {
     .contact-container {
-      .contact-popup {
+      .contact-popup,
+      .contact-popup-error {
         width: 40%;
       }
     }
@@ -132,7 +133,8 @@
 @media screen and (max-width: 900px) {
   .main {
     .contact-container {
-      .contact-popup {
+      .contact-popup,
+      .contact-popup-error {
         width: 50%;
       }
     }
@@ -312,7 +314,8 @@
 @media screen and (max-width: 700px) {
   .main {
     .contact-container {
-      .contact-popup {
+      .contact-popup,
+      .contact-popup-error {
         width: 60%;
       }
     }
@@ -379,7 +382,8 @@
         }
       }
 
-      .contact-popup {
+      .contact-popup,
+      .contact-popup-error {
         p {
           font-size: 20px;
         }
@@ -510,7 +514,8 @@
         }
       }
 
-      .contact-popup {
+      .contact-popup,
+      .contact-popup-error {
         height: 20%;
         p {
           font-size: 16px;
