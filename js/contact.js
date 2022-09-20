@@ -6,8 +6,37 @@
   const errorName = document.querySelector('.error-name');
   const errorEmail = document.querySelector('.error-email');
   const errorMessage = document.querySelector('.error-message');
+  const API_KEY = process.env.API_KEY;
+  const API_HOST = process.env.API_HOST;
+  const API_URL = process.env.API_URL;
 
-  const emailExpr = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+  const OPTIONS = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': `${API_KEY}`,
+      'X-RapidAPI-Host': `${API_HOST}`
+    }
+  };
+
+  const generatePopup = (error = false, text = '', time = 200) => {
+    const contactContainer = document.querySelector('.contact-container');
+    const contactForm = document.getElementById('contact-form');
+    const popup = document.createElement('div');
+
+    if (error === false) {
+      popup.classList.add('contact-popup');
+    } else {
+      popup.classList.add('contact-popup-error');
+    }
+    const icon = error ? 'fa-xmark' : 'fa-check';
+    popup.innerHTML = `<p>${text}</p><i class="fa-solid ${icon}"></i>`;
+    contactContainer.appendChild(popup);
+
+    setTimeout(function () {
+      contactContainer.removeChild(popup);
+      if (error === false) contactForm.submit();
+    }, time);
+  };
 
   const inputs = [inputName, inputEmail, inputMessage];
   inputs.forEach((input) => {
@@ -38,70 +67,71 @@
     inputName.style.border = '0.6mm solid #e23838';
   };
 
-  btnSubmit.addEventListener('mouseup', () => {
+  validateEmail = async (email) => {
+    return await fetch(`${API_URL}${email}`, OPTIONS)
+      .then((response) => response.json())
+      .catch((err) => console.error(err));
+  };
+
+  btnSubmit.addEventListener('mouseup', async () => {
+    const emailInfo = await validateEmail(inputEmail.value);
+
     if (
       inputName.value === '' ||
       inputEmail.value === '' ||
       inputMessage.value === ''
     ) {
+      // Si alguno de los campos esta vacio
+      // Name
       if (inputName.value === '') {
         showNameError(
           'You must put the name so that I can address you in my answer.'
         );
+        // Pongo que si el nombre es menor a 3 porque en el caso de que por ejemplo
+        // el email este vacio, el nombre no se valida y se muestra el error de que
+        // el nombre debe tener mas de 3 caracteres
       } else if (inputName.value.length < 3) {
         showNameError(
           'The name is not valid, it must contain a minimum of 3 letters.'
         );
       }
+      // Email
       if (inputEmail.value === '') {
         showEmailError('You must put the email so that I can answer you.');
-      } else if (!emailExpr.test(inputEmail.value)) {
+        // Aqui pasa lo mismo que con el comentario de arriba, aunque el email no este vacio
+        // como se ha entrado a este bloque porque hay otro campo vacio, el email no se valida
+        // y se muestra el error de que el email no es valido
+      } else if (!emailInfo.valid) {
         showEmailError(
           'The email is not valid, you must enter a correct email to continue.'
         );
-      } else if (inputEmail.value.includes('reply')) {
+      } else if (emailInfo.block) {
         showEmailError(
           'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
         );
       }
+      // Message
       if (inputMessage.value === '') {
         errorMessage.style.display = 'block';
         inputMessage.style.border = '0.6mm solid #e23838';
       }
     } else {
-      if (
-        !emailExpr.test(inputEmail.value) ||
-        inputEmail.value.includes('reply') ||
-        inputMessage.value.includes('titoworld.dev') ||
-        inputMessage.value.includes('http://') ||
-        inputMessage.value.includes('https://') ||
-        inputName.value.length < 3
-      ) {
-        if (!emailExpr.test(inputEmail.value)) {
+      // Si todos los campos estan llenos
+      if (!emailInfo.valid || emailInfo.block || inputName.value.length < 3) {
+        if (!emailInfo.valid) {
           showEmailError(
             'The email is not valid, you must enter a correct email to continue.'
           );
         }
-        if (inputEmail.value.includes('reply')) {
+        if (emailInfo.block) {
           showEmailError(
             'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
           );
-        }
-        if (
-          inputMessage.value.includes('titoworld.dev') ||
-          inputMessage.value.includes('http://') ||
-          inputMessage.value.includes('https://')
-        ) {
-          const contactContainer = document.querySelector('.contact-container');
-          const popup = document.createElement('div');
-          popup.classList.add('contact-popup-error');
-          popup.innerHTML =
-            '<p>Advertising is not allowed, the form is only for hiring</p><i class="fa-solid fa-xmark"></i>';
-          contactContainer.appendChild(popup);
-
-          setTimeout(function () {
-            contactContainer.removeChild(popup);
-          }, 5000);
+          generatePopup(
+            true,
+            'Advertising is not allowed, the form is only for hiring',
+            5000
+          );
         }
         if (inputName.value.length < 3) {
           showNameError(
@@ -109,19 +139,7 @@
           );
         }
       } else {
-        const contactContainer = document.querySelector('.contact-container');
-        const contactForm = document.getElementById('contact-form');
-
-        const popup = document.createElement('div');
-        popup.classList.add('contact-popup');
-        popup.innerHTML =
-          '<p>Your message has been sent successfully</p><i class="fa-solid fa-check"></i>';
-        contactContainer.appendChild(popup);
-
-        setTimeout(function () {
-          contactContainer.removeChild(popup);
-          contactForm.submit();
-        }, 200);
+        generatePopup(false, 'Your message has been sent successfully', 3000);
       }
     }
   });
