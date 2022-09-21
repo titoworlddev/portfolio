@@ -1,4 +1,6 @@
-const process = require('dotenv').config();
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 const btnSubmit = document.querySelector('.btn-submit');
 const inputName = document.getElementById('name');
 const inputEmail = document.getElementById('email');
