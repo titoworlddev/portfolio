@@ -1,11 +1,13 @@
 (function () {
-  const btnSubmit = document.querySelector('.btn-submit');
-  const inputName = document.getElementById('name');
-  const inputEmail = document.getElementById('email');
-  const inputMessage = document.getElementById('message');
-  const errorName = document.querySelector('.error-name');
-  const errorEmail = document.querySelector('.error-email');
-  const errorMessage = document.querySelector('.error-message');
+  const $ = selector => document.querySelector(selector);
+
+  const btnSubmit = $('.btn-submit');
+  const inputName = $('#name');
+  const inputEmail = $('#email');
+  const inputMessage = $('#message');
+  const errorName = $('.error-name');
+  const errorEmail = $('.error-email');
+  const errorMessage = $('.error-message');
 
   const emailExpr = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
 
@@ -109,8 +111,8 @@
           );
         }
       } else {
-        const contactContainer = document.querySelector('.contact-container');
-        const contactForm = document.getElementById('contact-form');
+        const contactContainer = $('.contact-container');
+        const contactForm = $('#contact-form');
 
         const popup = document.createElement('div');
         popup.classList.add('contact-popup');
