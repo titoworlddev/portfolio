@@ -1,4 +1,4 @@
-const process = require('dotenv').config();
+require('dotenv').config();
 
 const $ = (selector) => document.querySelector(selector);
 
