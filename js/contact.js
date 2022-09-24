@@ -1,5 +1,6 @@
 (function () {
-  const $ = selector => document.querySelector(selector);
+  console.log(process.env.API_KEY);
+  const $ = (selector) => document.querySelector(selector);
 
   const btnSubmit = $('.btn-submit');
   const inputName = $('#name');
