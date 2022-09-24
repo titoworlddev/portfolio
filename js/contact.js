@@ -1,4 +1,4 @@
-console.log(process.env.API_KEY);
+console.log(String(process.env.API_KEY));
 const $ = (selector) => document.querySelector(selector);
 
 const btnSubmit = $('.btn-submit');
