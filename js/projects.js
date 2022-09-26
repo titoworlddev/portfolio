@@ -18,7 +18,7 @@ const tarjetaAssets = {
     },
     Operit: {
       title: 'Operit App',
-      text: 'Calculator with a simple design but very complete in its functions. If you are looking to do quick operations you have its basic part, if on the contrary you are a more advanced user you can use the scientific calculator. There are also several settings to customize the app to your liking and a page help if you don\'t understand any of the functions. Definitely a calculator that will be easy and fun to use, enjoy!',
+      text: "Calculator with a simple design but very complete in its functions. If you are looking to do quick operations you have its basic part, if on the contrary you are a more advanced user you can use the scientific calculator. There are also several settings to customize the app to your liking and a page help if you don't understand any of the functions. Definitely a calculator that will be easy and fun to use, enjoy!",
       img: '../assets/img/trabajos/operit/operit-presentation.png',
       coverImg: '../assets/img/trabajos/operit.png',
       linkImg: '../assets/img/trabajos/store-badges/google-play-badge.svg',
@@ -42,8 +42,8 @@ const tarjetaAssets = {
       linkImg: '../assets/img/trabajos/store-badges/instagram-logo.svg',
       url: 'https://www.instagram.com/cristian_am91/'
     },
-    'L\'evasion': {
-      title: 'L\'evasion Hotel - Design',
+    "L'evasion": {
+      title: "L'evasion Hotel - Design",
       text: 'Design on a hotel web page. A soft and relaxed design, which allows you to find a very pleasant hosting experience. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
       img: '../assets/img/trabajos/levasion/levasion-presentation.png',
       coverImg: '../assets/img/trabajos/levasion.png',
