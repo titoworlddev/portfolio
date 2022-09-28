@@ -10,7 +10,7 @@
   const errorMessage = $('.error-message');
 
   const emailExpr = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-  const validMessage = /titoworld.dev | https?:\/\//gim;
+  const validMessage = /((titoworld.dev)|(https?:\/\/))/;
 
   const inputs = [inputName, inputEmail, inputMessage];
   inputs.forEach((input) => {
