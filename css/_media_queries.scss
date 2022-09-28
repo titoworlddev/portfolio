@@ -77,7 +77,7 @@
     .contact-container {
       .contact-popup,
       .contact-popup-error {
-        width: 40%;
+        width: 50%;
       }
     }
   }
@@ -136,6 +136,7 @@
       .contact-popup,
       .contact-popup-error {
         width: 50%;
+        font-size: 40px;
       }
     }
   }
@@ -516,14 +517,10 @@
 
       .contact-popup,
       .contact-popup-error {
-        height: 20%;
         p {
           font-size: 16px;
         }
-        i {
-          left: calc(50% - 16px);
-          font-size: 32px;
-        }
+        font-size: 32px;
       }
     }
   }
