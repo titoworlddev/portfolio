@@ -2,12 +2,10 @@
 
 /* ==================== Footer ==================== */
 footer {
-  margin: 0 16px 16px 16px;
+  margin: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: relative;
-  bottom: 0;
   color: #e1e1e1;
   transition: $mainTransition;
   -webkit-transition: $mainTransition;

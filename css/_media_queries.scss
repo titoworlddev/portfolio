@@ -184,6 +184,10 @@
 @media screen and (max-width: 850px) {
   header {
     nav {
+      .my-logo {
+        height: 20px;
+      }
+
       .desktop-menu {
         display: none;
       }

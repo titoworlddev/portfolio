@@ -1,16 +1,14 @@
-.main {
+.welcome {
   /* ==================== Home ==================== */
   .galaxy-title-container {
-    height: 84vh;
-    position: relative;
     width: 100%;
     margin-bottom: 48px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 
     .title-text {
-      position: absolute;
+      margin: 0 32px;
       font-size: 56px;
       font-weight: 100;
       word-spacing: 10px;
@@ -20,17 +18,14 @@
       -ms-transition: $mainTransition;
       -o-transition: $mainTransition;
     }
-    .welcome {
-      left: 0;
-    }
     .universe {
-      bottom: 0;
-      right: 0;
+      text-align: end;
     }
 
     // Imagen
     .galaxy {
-      width: 50%;
+      margin: auto;
+      width: 40%;
       transition: $mainTransition;
       -webkit-transition: $mainTransition;
       -moz-transition: $mainTransition;

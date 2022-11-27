@@ -4,24 +4,29 @@
 
 header {
   width: 100%;
-  z-index: 20;
+  z-index: 1;
   background: $headerGradient;
   position: fixed;
-  top: 0;
-  right: 0;
+
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     margin: 8px 16px;
+
+    .my-logo {
+      height: 40px;
+    }
+
     /*====================Desktop====================*/
     .desktop-menu {
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       flex-wrap: wrap;
       list-style: none;
       gap: 40px;
+
       li {
         .current_page {
           cursor: default;
@@ -49,12 +54,8 @@ header {
     /* ==================== Mobile ==================== */
     .mobile-menu {
       display: none;
-      z-index: 200;
-      width: 100%;
+      z-index: 3;
 
-      .my-logo {
-        height: 20px;
-      }
       button {
         background: none;
         border: none;

@@ -1,9 +1,8 @@
-@import 'variables';
+@import '../variables';
 
 .main {
   /* ==================== Contact ==================== */
   .contact-container {
-    height: 84vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

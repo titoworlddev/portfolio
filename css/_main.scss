@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'sections/welcome';
+@import 'sections/projects';
+@import 'sections/about';
+@import 'sections/contact';
+@import 'link-tree';
+
+.main {
+  margin: 96px 20px 0 20px;
+  font-family: 'Monoton', cursive;
+  color: $textColor;
+  font-size: 24px;
+  letter-spacing: 1px;
+
+  .section-title {
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    font-weight: 100;
+    margin-bottom: 48px;
+    text-align: center;
+    transition: $mainTransition;
+    -webkit-transition: $mainTransition;
+    -moz-transition: $mainTransition;
+    -ms-transition: $mainTransition;
+    -o-transition: $mainTransition;
+  }
+
+  section {
+    margin-bottom: 96px;
+  }
+}
