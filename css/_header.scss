@@ -7,6 +7,8 @@ header {
   z-index: 1;
   background: $headerGradient;
   position: fixed;
+  top: 0;
+  left: 0;
 
   nav {
     display: flex;
