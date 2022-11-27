@@ -1,4 +1,6 @@
 (function () {
+  const $ = (selector) => document.querySelector(selector);
+
   /* ==================== General ==================== */
   document.addEventListener('mouseup', function (e) {
     const tarjeta = document.getElementById('tarjeta');
@@ -63,4 +65,10 @@
     cachedImages.push(document.createElement('img'));
     cachedImages.at(-1).src = elem;
   });
+
+  let currentDate = new Date();
+  let myBirthdate = new Date(1991, 10, 20);
+  let myCurrentAge = $('#my-current-age');
+  myCurrentAge.innerHTML =
+    currentDate.getFullYear() - myBirthdate.getFullYear();
 })();
