@@ -156,16 +156,11 @@
           }
         }
         if (validMessage.test(inputMessage.value)) {
-          const contactContainer = document.querySelector('.contact-container');
-          const popup = document.createElement('div');
-          popup.classList.add('contact-popup-error');
-          popup.innerHTML =
-            '<p>Advertising is not allowed, the form is only for hiring</p><i class="fa-solid fa-xmark"></i>';
-          contactContainer.appendChild(popup);
-
-          setTimeout(function () {
-            contactContainer.removeChild(popup);
-          }, 4000);
+          generatePopup({
+            isError: true,
+            text: 'Advertising is not allowed, the form is only for hiring',
+            time: 5000
+          });
         }
         if (inputName.value.length < 3) {
           showNameError(
