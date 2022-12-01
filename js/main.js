@@ -39,7 +39,11 @@
   menuButtons.forEach((item) => {
     item.addEventListener('click', () => {
       mobileMenu.style.display = 'none';
-      window.scrollTo(0, $(`.${item.innerHTML.toLowerCase()}`).offsetTop - 96);
+      window.scroll({
+        left: 0,
+        top: $(`.${item.innerHTML.toLowerCase()}`).offsetTop - 96,
+        behavior: 'smooth'
+      });
     });
   });
 
