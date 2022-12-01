@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "dotenv": "^16.0.2",
-    "eslint": "^8.23.1"
-  }
-}

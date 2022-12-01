@@ -8,9 +8,40 @@
   const errorName = $('.error-name');
   const errorEmail = $('.error-email');
   const errorMessage = $('.error-message');
+  const API_KEY = '1d216a8a9emsh60e95ffc5b9ef52p11cdc8jsn9594ac986edd';
+  const API_HOST = 'mailcheck.p.rapidapi.com';
+  const API_URL = 'https://mailcheck.p.rapidapi.com/?domain=';
 
   const emailExpr = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
   const validMessage = /(titoworld.dev)|(https?:\/\/)/;
+
+  const OPTIONS = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': API_KEY,
+      'X-RapidAPI-Host': API_HOST
+    }
+  };
+
+  const generatePopup = ({ isError = false, text, time }) => {
+    const contactContainer = $('.contact-container');
+    const contactForm = $('#contact-form');
+    const popup = document.createElement('div');
+
+    if (isError === false) {
+      popup.classList.add('contact-popup');
+    } else {
+      popup.classList.add('contact-popup-error');
+    }
+    const icon = isError ? 'fa-xmark' : 'fa-check';
+    popup.innerHTML = `<p>${text}</p><i class="fa-solid ${icon}"></i>`;
+    contactContainer.appendChild(popup);
+
+    setTimeout(function () {
+      contactContainer.removeChild(popup);
+      if (isError === false) contactForm.submit();
+    }, time);
+  };
 
   const inputs = [inputName, inputEmail, inputMessage];
   inputs.forEach((input) => {
@@ -41,57 +72,88 @@
     inputName.style.border = '0.6mm solid #e23838';
   };
 
-  btnSubmit.addEventListener('click', (e) => {
-    e.preventDefault();
+  const validateEmail = async (email) => {
+    return await fetch(`${API_URL}${email}`, OPTIONS)
+      .then((response) => response.json())
+      .catch((err) => console.error(err));
+  };
+
+  btnSubmit.addEventListener('mouseup', async () => {
+    const emailInfo = await validateEmail(inputEmail.value);
+
     if (
       inputName.value === '' ||
       inputEmail.value === '' ||
       inputMessage.value === ''
     ) {
+      // Si alguno de los campos esta vacio
+      // Name
       if (inputName.value === '') {
         showNameError(
           'You must put the name so that I can address you in my answer.'
         );
+        // Pongo que si el nombre es menor a 3 porque en el caso de que por ejemplo
+        // el email este vacio, el nombre no se valida y se muestra el error de que
+        // el nombre debe tener mas de 3 caracteres
       } else if (inputName.value.length < 3) {
         showNameError(
           'The name is not valid, it must contain a minimum of 3 letters.'
         );
       }
+      // Email
       if (inputEmail.value === '') {
         showEmailError('You must put the email so that I can answer you.');
-      } else if (!emailExpr.test(inputEmail.value)) {
+        // Aqui pasa lo mismo que con el comentario de arriba, aunque el email no este vacio
+        // como se ha entrado a este bloque porque hay otro campo vacio, el email no se valida
+        // y se muestra el error de que el email no es valido
+      } else if (!emailInfo.valid) {
         showEmailError(
           'The email is not valid, you must enter a correct email to continue.'
         );
-      } else if (inputEmail.value.includes('reply')) {
+      } else if (emailInfo.block) {
         showEmailError(
           'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
         );
       }
+      // Message
       if (inputMessage.value === '') {
         errorMessage.style.display = 'block';
         inputMessage.style.border = '0.6mm solid #e23838';
       }
     } else {
+      // Si todos los campos estan llenos
       if (
-        !emailExpr.test(inputEmail.value) ||
+        !emailInfo.valid ||
+        emailInfo.block ||
         inputEmail.value.includes('reply') ||
         inputEmail.value.includes('business') ||
         validMessage.test(inputMessage.value) ||
         inputName.value.length < 3
       ) {
-        if (!emailExpr.test(inputEmail.value)) {
+        if (!emailInfo.valid) {
           showEmailError(
             'The email is not valid, you must enter a correct email to continue.'
           );
         }
         if (
+          emailInfo.block ||
           inputEmail.value.includes('reply') ||
           inputEmail.value.includes('business')
         ) {
-          showEmailError(
-            'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
-          );
+          if (!emailInfo.valid) {
+            showEmailError(
+              'The email is not valid, you must enter a correct email to continue.'
+            );
+          } else {
+            showEmailError(
+              'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
+            );
+            generatePopup({
+              isError: true,
+              text: 'Advertising is not allowed, the form is only for hiring',
+              time: 5000
+            });
+          }
         }
         if (validMessage.test(inputMessage.value)) {
           const contactContainer = document.querySelector('.contact-container');
@@ -111,18 +173,10 @@
           );
         }
       } else {
-        const contactContainer = $('.contact-container');
-        const contactForm = $('#contact-form');
-
-        const popup = document.createElement('div');
-        popup.classList.add('contact-popup');
-        popup.innerHTML =
-          '<p>Your message has been sent successfully</p><i class="fa-solid fa-check"></i>';
-        contactContainer.appendChild(popup);
-
-        setTimeout(function () {
-          contactForm.submit();
-        }, 3000);
+        generatePopup({
+          text: 'Your message has been sent successfully',
+          time: 3000
+        });
       }
     }
   });
