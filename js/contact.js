@@ -23,7 +23,7 @@
     }
   };
 
-  const generatePopup = ({ isError = false, text, time }) => {
+  const generatePopup = ({ isError = true, text, time }) => {
     const contactContainer = $('.contact-container');
     const contactForm = $('#contact-form');
     const popup = document.createElement('div');
@@ -149,7 +149,6 @@
               'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
             );
             generatePopup({
-              isError: true,
               text: 'Advertising is not allowed, the form is only for hiring',
               time: 5000
             });
@@ -157,7 +156,6 @@
         }
         if (validMessage.test(inputMessage.value)) {
           generatePopup({
-            isError: true,
             text: 'Advertising is not allowed, the form is only for hiring',
             time: 5000
           });
@@ -169,6 +167,7 @@
         }
       } else {
         generatePopup({
+          isError: false,
           text: 'Your message has been sent successfully',
           time: 3000
         });
