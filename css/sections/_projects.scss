@@ -60,10 +60,11 @@
     overflow: auto;
     display: none;
     position: fixed;
-    top: 10vh;
+    top: 9vh;
     left: auto;
     z-index: 2;
     width: 45vw;
+    height: 50vh;
     padding: 24px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -74,6 +75,7 @@
     color: #cfcfcf;
     box-shadow: 0 4px 40px rgba(255, 255, 255, 0.05);
     font-size: 16px;
+
     h3 {
       color: #e1e1e1;
       font-weight: 500;
@@ -85,6 +87,7 @@
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
+
       .tarjeta-close-btn {
         color: #e1e1e1;
         background: transparent;
