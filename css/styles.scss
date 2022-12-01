@@ -21,6 +21,9 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+::-webkit-scrollbar-button {
+  background: #3f5e60;
+}
 ::-webkit-scrollbar-track {
   background: $scrollGradient;
   border-radius: 20px;

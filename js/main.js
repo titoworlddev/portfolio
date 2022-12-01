@@ -14,8 +14,8 @@
     }
   });
 
-  /* Menu movil */
-  const mobileMenuItems = document.querySelectorAll('#mobile-menu-items li');
+  /* Menu */
+  const menuButtons = document.querySelectorAll('.btn-menu');
   const mobileMenu = document.getElementById('mobile-menu-items');
   const mobileMenuBtn = document.getElementById('mobile-menu-button');
   const mobileCloseBtn = document.getElementById('close-button');
@@ -36,10 +36,10 @@
     }
   });
 
-  mobileMenuItems.forEach((item) => {
+  menuButtons.forEach((item) => {
     item.addEventListener('click', () => {
       mobileMenu.style.display = 'none';
-      console.log('Funciona');
+      window.scrollTo(0, $(`.${item.innerHTML.toLowerCase()}`).offsetTop - 96);
     });
   });
 
