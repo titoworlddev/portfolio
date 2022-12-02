@@ -23,6 +23,9 @@ footer {
     flex-direction: row;
     gap: 16px;
 
+    .portfolio {
+      cursor: pointer;
+    }
     .social {
       img,
       svg {
