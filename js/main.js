@@ -7,8 +7,8 @@ import { contact } from '/js/contact.js';
   /* General/Menu */
   closeMenuCard();
   menuFn();
-  /* Projects */
   precacheImgs();
+  /* Projects */
   projects();
   /* About Me */
   aboutMe();
