@@ -1,12 +1,14 @@
-import { closeMenuCard, aboutMe } from '/js/general.js';
-import { menuFn } from '/js/menu.js';
+import { closeMenuCard, btnUpPage } from '/js/general.js';
+import { menuControl } from '/js/menu.js';
 import { precacheImgs, projects } from '/js/projects.js';
 import { contact } from '/js/contact.js';
+import { aboutMe } from '/js/about.js';
 
 (function () {
   /* General/Menu */
   closeMenuCard();
-  menuFn();
+  menuControl();
+  btnUpPage();
   precacheImgs();
   /* Projects */
   projects();

@@ -1,6 +1,6 @@
 import { $ } from '/js/general.js';
 
-export const menuFn = () => {
+export const menuControl = () => {
   (function () {
     const menuButtons = document.querySelectorAll('.btn-menu');
     const mobileMenu = $('#mobile-menu-items');

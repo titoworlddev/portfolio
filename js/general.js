@@ -20,10 +20,12 @@ export function closeMenuCard() {
   })();
 }
 
-export const aboutMe = () => {
-  let currentDate = new Date();
-  let myBirthdate = new Date(1991, 10, 20);
-  let myCurrentAge = $('#my-current-age');
-  myCurrentAge.innerHTML =
-    currentDate.getFullYear() - myBirthdate.getFullYear();
+export const btnUpPage = () => {
+  $('.portfolio').addEventListener('click', () => {
+    window.scroll({
+      left: 0,
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
 };
