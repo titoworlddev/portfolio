@@ -14,6 +14,25 @@ footer {
   -o-transition: $mainTransition;
 
   .my-logo {
-    height: 20px;
+    height: 30px;
+  }
+
+  .socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    .social {
+      img,
+      svg {
+        fill: #e1e1e1;
+        height: 30px;
+
+        g {
+          fill: #e1e1e1;
+        }
+      }
+    }
   }
 }
