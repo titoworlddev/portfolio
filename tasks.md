@@ -6,6 +6,8 @@ arreglar tamanos todos los titulos y textos en general con mediaqueries (mirar b
 arreglar tamanos skills en movil
 repasar el popup del formulario a ver si esta bien
 ajustar que todos los links de mi pagina, vayan a rutas y no url
+quizas poner las skills en cuadrados que las contengan
+imagen wordpres
 
 # Secundario
 
