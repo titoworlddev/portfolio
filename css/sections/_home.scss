@@ -11,6 +11,15 @@
     .title-text {
       margin: 0 32px;
       font-size: 56px;
+      @media screen and (max-width: 768px) {
+        font-size: 48px;
+      }
+      @media screen and (max-width: 560px) {
+        font-size: 40px;
+      }
+      @media screen and (max-width: 432px) {
+        font-size: 32px;
+      }
       font-weight: 100;
       word-spacing: 10px;
       transition: $mainTransition;
@@ -27,6 +36,12 @@
     .galaxy {
       margin: auto;
       width: 40%;
+      @media screen and (max-width: 768px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 432px) {
+        width: 70%;
+      }
       transition: $mainTransition;
       -webkit-transition: $mainTransition;
       -moz-transition: $mainTransition;

@@ -13,7 +13,7 @@ export const contact = () => {
     const API_HOST = 'mailcheck.p.rapidapi.com';
     const API_URL = 'https://mailcheck.p.rapidapi.com/?domain=';
 
-    const emailExpr = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+    // const emailExpr = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
     const validMessage = /(titoworld.dev)|(https?:\/\/)/;
 
     const OPTIONS = {
@@ -29,11 +29,10 @@ export const contact = () => {
       const contactForm = $('#contact-form');
       const popup = document.createElement('div');
 
-      if (isError === false) {
-        popup.classList.add('contact-popup');
-      } else {
-        popup.classList.add('contact-popup-error');
-      }
+      isError === false
+        ? popup.classList.add('contact-popup')
+        : popup.classList.add('contact-popup-error');
+
       const icon = isError ? 'fa-xmark' : 'fa-check';
       popup.innerHTML = `<p>${text}</p><i class="fa-solid ${icon}"></i>`;
       contactContainer.appendChild(popup);

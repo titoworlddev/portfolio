@@ -3,7 +3,7 @@ import { $ } from '/js/general.js';
 export const menuControl = () => {
   (function () {
     const menuButtons = document.querySelectorAll('.btn-menu');
-    const mobileMenu = $('#mobile-menu-items');
+    const mobileMenu = $('.mobile-menu-content');
     const mobileMenuBtn = $('#mobile-menu-button');
     const mobileCloseBtn = $('#close-button');
     mobileCloseBtn.addEventListener('click', function () {
@@ -13,12 +13,11 @@ export const menuControl = () => {
     mobileMenuBtn.addEventListener('click', () => {
       const tarjeta = $('#tarjeta');
       mobileMenu.style.display = 'flex';
+
       if (document.contains(tarjeta)) {
-        if (tarjeta.style.display !== 'block') {
-          tarjeta.style.display = 'none';
-        } else {
-          tarjeta.style.display = 'block';
-        }
+        tarjeta.style.display !== 'block'
+          ? (tarjeta.style.display = 'none')
+          : (tarjeta.style.display = 'block');
       }
     });
 

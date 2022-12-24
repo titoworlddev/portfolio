@@ -9,121 +9,166 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  padding: 16px;
 
   nav {
+    max-width: 1200px;
+    margin: auto;
+    padding-inline: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 8px 16px;
 
-    .my-logo {
-      height: 40px;
-    }
-
-    /*====================Desktop====================*/
-    .desktop-menu {
-      display: flex;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-      list-style: none;
-      gap: 40px;
-
-      li {
-        .current_page {
-          cursor: default;
-          color: #fff;
-        }
-        .current_page:hover {
-          text-decoration: none;
-        }
-        a {
-          font-size: 20px;
-          text-decoration: none;
-          color: $textColor;
-          &:hover {
-            text-decoration: underline;
-            color: #fff;
-          }
-          &:active {
-            color: #fff;
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-
-    /* ==================== Mobile ==================== */
-    .mobile-menu {
-      display: none;
-      z-index: 3;
-
-      button {
-        background: none;
-        border: none;
-        color: #fff;
-        font-size: 20px;
-        cursor: pointer;
-      }
-      .mobile-menu-items {
-        width: 18%;
-        padding: 8px 16px 24px 24px;
-        display: none;
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 24px;
-        list-style: none;
-        border-radius: 0 0 0 10px;
-        -webkit-border-radius: 0 0 0 10px;
-        -moz-border-radius: 0 0 0 10px;
-        -ms-border-radius: 0 0 0 10px;
-        -o-border-radius: 0 0 0 10px;
-        background: #e1e1e1;
+    .portfolio {
+      img {
         transition: $mainTransition;
         -webkit-transition: $mainTransition;
         -moz-transition: $mainTransition;
         -ms-transition: $mainTransition;
         -o-transition: $mainTransition;
+      }
+    }
 
-        .close-button {
-          color: #314546;
-          font-size: 20px;
-          text-align: end;
-          display: inline-block;
-          margin: 0;
-          margin-bottom: -16px;
-          padding: 0;
-        }
-        .current_page {
-          cursor: default;
-          color: #314546;
-        }
-        .current_page:active {
-          color: #314546;
-        }
-        .current_page:hover {
-          text-decoration: none;
-        }
-        a {
-          font-size: 20px;
-          text-decoration: none;
-          color: #2d40417e;
-          &:hover {
-            text-decoration: underline;
-            color: #314546;
-          }
-          &:active {
+    .menus {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 32px;
+
+      /*====================Desktop====================*/
+      .desktop-menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 40px;
+
+        li {
+          .current_page {
+            cursor: default;
             color: #fff;
-            text-decoration: underline;
+          }
+          .current_page:hover {
+            text-decoration: none;
+          }
+          a {
+            font-size: 20px;
+            text-decoration: none;
+            color: $textColor;
+            &:hover {
+              text-decoration: underline;
+              color: #fff;
+            }
+            &:active {
+              color: #fff;
+              text-decoration: underline;
+            }
           }
         }
-        a:active {
-          color: #314546;
+      }
+
+      /* ==================== Mobile ==================== */
+      .mobile-menu {
+        display: none;
+        z-index: 3;
+
+        button {
+          background: none;
+          border: none;
+          color: #fff;
+          font-size: 20px;
+          cursor: pointer;
         }
+
+        .mobile-menu-content {
+          align-items: end;
+          background: #e1e1e1;
+          display: none;
+          flex-direction: column;
+          position: fixed;
+          right: 0;
+          top: 0;
+
+          border-radius: 0 0 0 10px;
+          -webkit-border-radius: 0 0 0 10px;
+          -moz-border-radius: 0 0 0 10px;
+          -ms-border-radius: 0 0 0 10px;
+          -o-border-radius: 0 0 0 10px;
+
+          transition: $mainTransition;
+          -webkit-transition: $mainTransition;
+          -moz-transition: $mainTransition;
+          -ms-transition: $mainTransition;
+          -o-transition: $mainTransition;
+
+          .close-button {
+            margin: 20px 32px;
+            color: #314546;
+            font-size: 24px;
+          }
+
+          .mobile-menu-items {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            justify-content: space-between;
+            list-style: none;
+            padding-bottom: 32px;
+            padding-inline: 40px;
+
+            .current_page {
+              cursor: default;
+              color: #314546;
+            }
+            .current_page:active {
+              color: #314546;
+            }
+            .current_page:hover {
+              text-decoration: none;
+            }
+
+            a {
+              font-size: 22px;
+              text-decoration: none;
+              color: #2d40417e;
+              &:hover {
+                text-decoration: underline;
+                color: #314546;
+              }
+              &:active {
+                color: #fff;
+                text-decoration: underline;
+              }
+            }
+            a:active {
+              color: #314546;
+            }
+          }
+        }
+      }
+
+      .socials-desktop,
+      .socials-mobile {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+
+        .social {
+          img,
+          svg {
+            fill: #e1e1e1;
+            height: 20px;
+
+            g {
+              fill: #e1e1e1;
+            }
+          }
+        }
+      }
+      .socials-mobile {
+        display: none;
       }
     }
   }
