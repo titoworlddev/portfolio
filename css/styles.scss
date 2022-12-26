@@ -12,30 +12,39 @@
   -webkit-box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  background: #3f5e60;
-}
-::-webkit-scrollbar-track {
-  background: $scrollGradient;
-}
-::-webkit-scrollbar-thumb {
-  border: #3f5e60 1px solid;
-  background: #cfcfcf;
+html {
+  font-family: 'Righteous', cursive;
+  font-size: 16px;
+  font-weight: 100;
+  @media screen and (max-width: 1081px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 721px) {
+    font-size: 12px;
+  }
 
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: #3f5e60;
+  }
+  ::-webkit-scrollbar-track {
+    background: $scrollGradient;
+  }
+  ::-webkit-scrollbar-thumb {
+    border: #3f5e60 1px solid;
+    background: #cfcfcf;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
 }
 
 body {
   max-width: 1200px;
   margin: auto;
-  font-family: 'Righteous', cursive;
-  font-size: 16px;
-  font-weight: 100;
   background: $bgGradient no-repeat fixed;
 
   .stars-bg {
@@ -48,7 +57,7 @@ body {
   }
 
   .my-logo {
-    height: 40px;
+    height: 2.5rem;
   }
 }
 

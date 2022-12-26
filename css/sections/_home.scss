@@ -10,16 +10,7 @@
 
     .title-text {
       margin: 0 32px;
-      font-size: 56px;
-      @media screen and (max-width: 768px) {
-        font-size: 48px;
-      }
-      @media screen and (max-width: 560px) {
-        font-size: 40px;
-      }
-      @media screen and (max-width: 432px) {
-        font-size: 32px;
-      }
+      font-size: 3.5rem;
       font-weight: 100;
       word-spacing: 10px;
       transition: $mainTransition;

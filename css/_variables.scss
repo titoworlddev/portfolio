@@ -3,13 +3,14 @@ $primaryColor: #314546;
 $secondaryColor: #3f5e60;
 $accentColor: #b8a358;
 $bgGradient: linear-gradient(
-  to bottom left,
+  to bottom right,
   #314546 0%,
   #3f5e60 50%,
-  #8cb3b6 100%
+  #547d81 75%,
+  #75a0a3 100%
 );
 $headerGradient: linear-gradient(
-  to left,
+  to right,
   #314647 0%,
   #3a5356 50%,
   #3d585b 75%,

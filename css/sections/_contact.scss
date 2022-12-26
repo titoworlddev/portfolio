@@ -9,7 +9,7 @@
 
   .contact-title {
     font-family: 'Monoton', cursive;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 100;
     margin-bottom: 64px;
 
@@ -21,7 +21,7 @@
   }
 
   .send-message {
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 32px;
   }
 
@@ -59,7 +59,7 @@
         .error-name,
         .error-email {
           display: none;
-          font-size: 18px;
+          font-size: 1.125rem;
           margin: 0;
         }
       }
@@ -124,13 +124,13 @@
         .error-message {
           display: none;
           grid-column: span 2;
-          font-size: 18px;
+          font-size: 1.125rem;
           margin: 0;
         }
       }
 
       label {
-        font-size: 20px;
+        font-size: 1.25rem;
         color: #fff;
       }
       input,
@@ -138,7 +138,7 @@
         background: #d9d9d9;
         border: none;
         font-family: 'Righteous', cursive;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 100;
         outline: none;
 
@@ -163,7 +163,7 @@
         grid-column: span 2;
         background: #c8b160;
         color: #424242;
-        font-size: 20px;
+        font-size: 1.25rem;
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -202,9 +202,9 @@
       gap: 24px;
       p {
         color: $primaryColor;
-        font-size: 24px;
+        font-size: 1.5rem;
       }
-      font-size: 48px;
+      font-size: 3rem;
     }
     .contact-popup {
       color: #298a29;
