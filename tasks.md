@@ -2,7 +2,6 @@
 
 # Principal
 
-ajustar que todos los links de mi pagina, vayan a rutas y no url
 quizas poner las skills en cuadrados que las contengan
 imagen wordpres
 

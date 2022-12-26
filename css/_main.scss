@@ -31,4 +31,14 @@
   section {
     margin-bottom: 96px;
   }
+
+  .title-links-404 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .my-logo {
+      height: 3.5rem;
+    }
+  }
 }

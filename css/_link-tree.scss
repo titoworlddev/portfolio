@@ -1,9 +1,13 @@
 .main {
   /* ==================== Link Tree ==================== */
   .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     .title {
       margin-left: 24px;
-      font-size: 56px;
+      font-size: 3.5rem;
       font-weight: 100;
       transition: $mainTransition;
       -webkit-transition: $mainTransition;
@@ -17,17 +21,19 @@
       -moz-transition: $mainTransition;
       -ms-transition: $mainTransition;
       -o-transition: $mainTransition;
-      width: 512px;
-      height: 75vh;
-      margin: 0 auto;
-      padding: 40px;
+
+      align-items: center;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 32px;
       font-family: 'Righteous', cursive;
       font-size: 1.5rem;
+      gap: 32px;
+      height: 75vh;
+      justify-content: center;
+      margin: 0 auto;
+      min-width: 384px;
+      padding: 40px;
+      width: 60%;
 
       .link {
         display: flex;
@@ -45,9 +51,6 @@
         i {
           font-size: 2rem;
           color: #fff;
-        }
-        .fa-instagram {
-          font-size: 2.25rem;
         }
       }
     }
