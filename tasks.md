@@ -2,9 +2,8 @@
 
 # Principal
 
-arreglar tamanos todos los titulos y textos en general con mediaqueries (mirar bien lo que es rem y em y quizas pongamos todos los tamanos asi)
-arreglar tamanos skills en movil
 repasar el popup del formulario a ver si esta bien
+hacer en el js que si ya ha salido no salga otro
 ajustar que todos los links de mi pagina, vayan a rutas y no url
 quizas poner las skills en cuadrados que las contengan
 imagen wordpres

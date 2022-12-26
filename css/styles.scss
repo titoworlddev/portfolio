@@ -59,6 +59,18 @@ body {
   .my-logo {
     height: 2.5rem;
   }
+
+  .my-cv {
+    background-color: #cfcfcf;
+    color: #3f5e60;
+    padding: 8px 16px;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
 }
 
 img {
@@ -74,5 +86,10 @@ hr {
 }
 
 a {
+  text-decoration: none;
+  color: rgb(222, 222, 222);
+  &:hover {
+    text-decoration: underline;
+  }
   cursor: pointer;
 }

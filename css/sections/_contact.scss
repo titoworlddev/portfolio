@@ -184,9 +184,10 @@
 
     .contact-popup,
     .contact-popup-error {
-      position: absolute;
-      top: auto;
-      left: auto;
+      z-index: 1;
+      position: fixed;
+      top: 25%;
+      left: 25%;
       width: 30%;
       padding: 32px;
       border-radius: 10px;
