@@ -25,20 +25,24 @@ export const contact = () => {
     };
 
     const generatePopup = ({ isError = true, text, time }) => {
-      const contactContainer = $('.contact-container');
+      const contactContainer = $('.contact-popup-container');
       const contactForm = $('#contact-form');
-      const popup = document.createElement('div');
+      const popup = $('.contact-popup');
 
-      isError === false
-        ? popup.classList.add('contact-popup')
-        : popup.classList.add('contact-popup-error');
+      if (isError) {
+        popup.classList.remove('contact-popup');
+        popup.classList.add('contact-popup-error');
+      }
 
       const icon = isError ? 'fa-xmark' : 'fa-check';
       popup.innerHTML = `<p>${text}</p><i class="fa-solid ${icon}"></i>`;
-      contactContainer.appendChild(popup);
+
+      contactContainer.style.display = 'flex';
 
       setTimeout(function () {
-        contactContainer.removeChild(popup);
+        contactContainer.style.display = 'none';
+        popup.classList.add('contact-popup');
+        popup.classList.remove('contact-popup-error');
         if (isError === false) contactForm.submit();
       }, time);
     };
