@@ -67,15 +67,13 @@
       color: #cfcfcf;
       display: none;
       font-size: 1rem;
-      height: 80%;
+      height: 85%;
       overflow: auto;
       padding: 24px;
       position: fixed;
-      top: 10%;
+      top: 7.5%;
       width: 35%;
       @media screen and (max-width: 1200px) {
-        // height: 75%;
-        // top: 12.5%;
         width: 60%;
       }
       @media screen and (max-width: 768px) {
