@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,9 +39,9 @@
         <div class="menus">
           <!-- Desktop menu -->
           <ul class="desktop-menu" id="desktop-menu">
-            <li><a class="btn-menu">Projects</a></li>
-            <li><a class="btn-menu">About</a></li>
-            <li><a class="btn-menu">Contact</a></li>
+            <li><a class="btn-menu">Proyectos</a></li>
+            <li><a class="btn-menu">Sobre mí</a></li>
+            <li><a class="btn-menu">Contacto</a></li>
           </ul>
           <!-- Socials -->
           <ul class="socials-desktop">
@@ -108,10 +108,9 @@
                 <i class="fa-solid fa-xmark"></i>
               </button>
               <ul class="mobile-menu-items" id="mobile-menu-items">
-                <li><a class="btn-menu">Home</a></li>
-                <li><a class="btn-menu">Projects</a></li>
-                <li><a class="btn-menu">About</a></li>
-                <li><a class="btn-menu">Contact</a></li>
+                <li><a class="btn-menu">Proyectos</a></li>
+                <li><a class="btn-menu">Sobre mí</a></li>
+                <li><a class="btn-menu">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -123,25 +122,25 @@
     <main class="main">
       <section class="home">
         <div class="galaxy-title-container">
-          <h2 class="title-text welcome">Welcome to</h2>
+          <h2 class="title-text welcome">Bienvenido a</h2>
           <img
             class="galaxy"
             src="/assets/img/solar-system.svg"
             alt="Solar system Image" />
-          <h2 class="title-text universe">my universe</h2>
+          <h2 class="title-text universe">mi mundo</h2>
         </div>
       </section>
 
       <hr />
 
       <section class="projects">
-        <h1 class="section-title">My projects</h1>
+        <h1 class="section-title">Mis proyectos</h1>
 
         <!-- A partir de aqui los trabajos -->
         <div class="trabajos-container">
           <!-- Programacion -->
           <div class="trabajos-programacion-container">
-            <h2>Programming</h2>
+            <h2>Programación</h2>
             <div class="trabajos-programacion-row">
               <!-- Se generan mediante js -->
             </div>
@@ -149,7 +148,7 @@
 
           <!-- Diseno -->
           <div class="trabajos-diseno-container">
-            <h2>Design</h2>
+            <h2>Diseño</h2>
             <div class="trabajos-diseno-row">
               <!-- Se generan mediante js -->
             </div>
@@ -192,23 +191,30 @@
       <hr />
 
       <section class="about">
-        <h1 class="section-title">About me</h1>
+        <h1 class="section-title">Sobre mí</h1>
 
         <div class="contenido-central">
           <div class="bio-photo-container">
             <p class="bio">
-              Hello my name is Cristian Arias. <br /><br />
-              I'm from Spain, I'm <span id="my-current-age">30</span> years old
-              and I'm a mobile application developer, specifically I use Dart
-              and Flutter, I'm also a web developer, with knowledge in HTML,
-              CSS, JS. Currently I am specialized in the frontend but I am
-              learning about the backend since I would like to be a fullstack
-              developer. <br /><br />
+              Hola, mi nombre es Cristian Arias. <br /><br />
+              Tengo <span id="my-current-age">30</span> años y soy Desarrollador
+              Frontend Móvil y Web. Actualmente, me especializo en el frontend
+              pero estoy aprendiendo sobre el backend, ya que me gustaría ser un
+              desarrollador fullstack. <br /><br />
+              Me gusta mucho el diseño y la programación, por lo que me encanta
+              crear aplicaciones web y móviles. <br />
+              <br />
+              También soy una persona muy curiosa y me gusta aprender cosas
+              nuevas constantemente y me gusta mucho el mundo de la tecnología.
+              <br /><br />
+              Si quieres saber más sobre mí, te invito a descargar mi CV.
+              <br /><br />
+              <br />
               <a
                 class="my-cv"
                 target="_blank"
                 href="https://drive.google.com/file/d/12tkyoOXtZR9J2hrOZNwaw5OAn47N3vAR/view?usp=share_link"
-                >Download my CV
+                >Descarga mi CV
               </a>
             </p>
             <img
@@ -218,7 +224,7 @@
           </div>
 
           <div class="skills-container">
-            <h2>Skills</h2>
+            <h2>Habilidades</h2>
             <div class="skills">
               <div class="skill-section web">
                 <h4>Web</h4>
@@ -264,7 +270,7 @@
               </div>
 
               <div class="skill-section mobile">
-                <h4>Mobile</h4>
+                <h4>Móvil</h4>
                 <div class="skills-group">
                   <label title="Dart">
                     <img
@@ -278,7 +284,7 @@
               </div>
 
               <div class="skill-section utilities">
-                <h4>Utilities</h4>
+                <h4>Utilidades</h4>
                 <div class="skills-group">
                   <label title="Git">
                     <img
@@ -296,7 +302,7 @@
               </div>
 
               <div class="skill-section design">
-                <h4>Design</h4>
+                <h4>Diseño</h4>
                 <div class="skills-group">
                   <label title="Figma">
                     <img
@@ -324,9 +330,9 @@
       <hr />
 
       <section class="contact">
-        <h2 class="section-title">Contact me</h2>
+        <h2 class="section-title">Contáctame</h2>
         <p class="send-message">
-          Send me a message if you want to job with me.
+          Envíame un mensaje si deseas trabajar conmigo.
         </p>
 
         <div class="contact-container">
@@ -338,14 +344,15 @@
             <div class="name-email-container">
               <!-- Name -->
               <div class="input-name">
-                <label for="name">Name *</label>
+                <label for="name">Nombre *</label>
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Your name" />
+                  placeholder="Tu nombre" />
                 <p class="error-name">
-                  You must put the name so that I can address you in my answer.
+                  Debes poner el nombre para que pueda dirigirme a ti en mi
+                  respuesta.
                 </p>
               </div>
               <!-- Email -->
@@ -355,29 +362,32 @@
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="Your email" />
+                  placeholder="Tu email" />
                 <p class="error-email">
-                  You must put the email so that I can answer you.
+                  Debes poner el email para que pueda responderte.
                 </p>
               </div>
             </div>
+
             <div class="message-container">
               <!-- Message -->
               <div class="input-message">
-                <label for="message">Message *</label>
+                <label for="message">Mensaje *</label>
                 <textarea
                   name="message"
                   id="message"
                   cols="30"
                   rows="10"
-                  placeholder="Your message"></textarea>
+                  placeholder="Tu mensaje"></textarea>
               </div>
               <p class="error-message">
-                You must put a message to know the reason for your contact.
+                Debes poner el mensaje para saber la razón por la que me
+                contactas.
               </p>
             </div>
+
             <div class="btn-submit">
-              <p>Submit</p>
+              <p>Enviar</p>
             </div>
 
             <!-- Special features -->

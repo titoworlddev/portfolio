@@ -94,29 +94,29 @@ export const contact = () => {
         // Name
         if (inputName.value === '') {
           showNameError(
-            'You must put the name so that I can address you in my answer.'
+            'Debes poner el nombre para que pueda dirigirme a ti en mi respuesta.'
           );
           // Pongo que si el nombre es menor a 3 porque en el caso de que por ejemplo
           // el email este vacio, el nombre no se valida y se muestra el error de que
           // el nombre debe tener mas de 3 caracteres
         } else if (inputName.value.length < 3) {
           showNameError(
-            'The name is not valid, it must contain a minimum of 3 letters.'
+            'El nombre no es válido, debe contener un mínimo de 3 letras.'
           );
         }
         // Email
         if (inputEmail.value === '') {
-          showEmailError('You must put the email so that I can answer you.');
+          showEmailError('Debes poner el email para que pueda responderte.');
           // Aqui pasa lo mismo que con el comentario de arriba, aunque el email no este vacio
           // como se ha entrado a este bloque porque hay otro campo vacio, el email no se valida
           // y se muestra el error de que el email no es valido
         } else if (!emailInfo.valid) {
           showEmailError(
-            'The email is not valid, you must enter a correct email to continue.'
+            'El email no es válido, debes ingresar un email correcto para continuar.'
           );
         } else if (emailInfo.block) {
           showEmailError(
-            'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
+            'Por favor, no uses el formulario de contacto para enviar publicidad, su uso es exclusivo para contrataciones.'
           );
         }
         // Message
@@ -136,7 +136,7 @@ export const contact = () => {
         ) {
           if (!emailInfo.valid) {
             showEmailError(
-              'The email is not valid, you must enter a correct email to continue.'
+              'El email no es válido, debes ingresar un email correcto para continuar.'
             );
           }
           if (
@@ -146,33 +146,33 @@ export const contact = () => {
           ) {
             if (!emailInfo.valid) {
               showEmailError(
-                'The email is not valid, you must enter a correct email to continue.'
+                'El email no es válido, debes ingresar un email correcto para continuar.'
               );
             } else {
               showEmailError(
-                'Please, do not use the contact form to send advertising, its use is exclusive for hiring.'
+                'Por favor, no uses el formulario de contacto para enviar publicidad, su uso es exclusivo para contrataciones.'
               );
               generatePopup({
-                text: 'Advertising is not allowed, the form is only for hiring',
+                text: 'Los anuncios no están permitidos, el formulario es solo para contrataciones',
                 time: 5000
               });
             }
           }
           if (validMessage.test(inputMessage.value)) {
             generatePopup({
-              text: 'Advertising is not allowed, the form is only for hiring',
+              text: 'Los anuncios no están permitidos, el formulario es solo para contrataciones',
               time: 5000
             });
           }
           if (inputName.value.length < 3) {
             showNameError(
-              'The name is not valid, it must contain a minimum of 3 letters.'
+              'El nombre no es válido, debe contener un mínimo de 3 letras.'
             );
           }
         } else {
           generatePopup({
             isError: false,
-            text: 'Your message has been sent successfully',
+            text: 'Tu mensaje ha sido enviado',
             time: 3000
           });
         }

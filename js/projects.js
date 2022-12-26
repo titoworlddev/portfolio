@@ -14,7 +14,7 @@ export const projects = () => {
       Programacion: {
         'Random X': {
           title: 'Random X App',
-          text: 'Random X is your assistant when it comes to playing and/or having fun with friends, its random generators give you options to randomly choose who pays for dinner, make the invisible friend with friends or family, make a bingo, play on your own Scattergories or whatever comes to mind. Undoubtedly the perfect companion in these cases, do not wait any longer and let the fun begin.',
+          text: 'Random X es tu asistente a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.',
           img: '/assets/img/trabajos/random_x/randomx-presentation.png',
           coverImg: '/assets/img/trabajos/random-x.png',
           linkImg: '/assets/img/trabajos/store-badges/google-play-badge.svg',
@@ -22,7 +22,7 @@ export const projects = () => {
         },
         Operit: {
           title: 'Operit App',
-          text: "Calculator with a simple design but very complete in its functions. If you are looking to do quick operations you have its basic part, if on the contrary you are a more advanced user you can use the scientific calculator. There are also several settings to customize the app to your liking and a page help if you don't understand any of the functions. Definitely a calculator that will be easy and fun to use, enjoy!",
+          text: 'Calculadora con un diseño sencillo pero muy completa en sus funciones. Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. También hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. Definitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!',
           img: '/assets/img/trabajos/operit/operit-presentation.png',
           coverImg: '/assets/img/trabajos/operit.png',
           linkImg: '/assets/img/trabajos/store-badges/google-play-badge.svg',
@@ -32,24 +32,24 @@ export const projects = () => {
 
       Diseno: {
         'Game Zone': {
-          title: 'Game Zone Store - Design',
-          text: 'Continuing with the designs here I leave a new one, in this case of a mobile application on a video game store, which could also serve as the basis for a store in general. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
+          title: 'Tienda Electrónica - Game Zone',
+          text: 'Continuando con los diseños aquí les dejo uno nuevo, en este caso de una aplicación móvil sobre una tienda de videojuegos, que también podría servir como base para una tienda en general. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
           img: '/assets/img/trabajos/game_zone/game-zone-presentation.png',
           coverImg: '/assets/img/trabajos/game-zone-store.png',
           linkImg: '/assets/img/trabajos/store-badges/instagram-logo.svg',
           url: 'https://www.instagram.com/cristian_am91/'
         },
         'El Chingón': {
-          title: 'El Chingón Restaurant - Design',
-          text: 'Design about a Mexican food restaurant, which can be taken as an example of designs for restaurants. A design is very simple, but very attractive. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
+          title: 'Restaurante - El Chingón',
+          text: 'Diseño sobre un restaurante de comida mexicana, que se puede tomar como ejemplo de diseños para restaurantes. Es un diseño muy simple, pero a la vez muy atractivo. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
           img: '/assets/img/trabajos/el_chingon/el-chingon-presentation.png',
           coverImg: '/assets/img/trabajos/el-chingon.png',
           linkImg: '/assets/img/trabajos/store-badges/instagram-logo.svg',
           url: 'https://www.instagram.com/cristian_am91/'
         },
         "L'evasion": {
-          title: "L'evasion Hotel - Design",
-          text: 'Design on a hotel web page. A soft and relaxed design, which allows you to find a very pleasant hosting experience. I hope you like it. <br/><br/>Enjoy all my designs on my instagram.',
+          title: "Hotel - L'evasion",
+          text: 'Diseño en la página web de un hotel o apartamentos. Un diseño suave y relajado, que permite encontrar una experiencia de hospedaje muy placentera. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
           img: '/assets/img/trabajos/levasion/levasion-presentation.png',
           coverImg: '/assets/img/trabajos/levasion.png',
           linkImg: '/assets/img/trabajos/store-badges/instagram-logo.svg',

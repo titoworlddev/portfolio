@@ -2,6 +2,7 @@
 
 # Principal
 
+arreglar que la tarjeta se cierre solo si tocas fuera
 ajustar la tarjeta en su contenedor como he hecho con el popup del formulario
 quizas poner las skills en cuadrados que las contengan
 imagen wordpres
