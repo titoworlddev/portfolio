@@ -69,9 +69,18 @@
           }
         }
 
-        img,
-        svg {
+        img {
           height: 48px;
+        }
+        .wordpress-logo {
+          background-color: #c0c0c0;
+          padding: 2px;
+
+          border-radius: 100%;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          -ms-border-radius: 100%;
+          -o-border-radius: 100%;
         }
       }
     }
