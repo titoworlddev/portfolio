@@ -3,6 +3,7 @@ import { $ } from '/js/general.js';
 export const projects = () => {
   (function () {
     /* ==================== Tarjeta ==================== */
+    const tarjetaContainer = $('.tarjeta-container');
     const tarjeta = $('#tarjeta');
     const tarjetaCloseBtn = $('#tarjeta-close-btn');
 
@@ -116,7 +117,8 @@ export const projects = () => {
 
     document.querySelectorAll('.trabajo').forEach((item) => {
       item.addEventListener('click', () => {
-        if (tarjeta.style.display !== 'block') tarjeta.style.display = 'block';
+        if (tarjetaContainer.style.display !== 'flex')
+          tarjetaContainer.style.display = 'flex';
         getTarjetaInfo(item);
       });
     });

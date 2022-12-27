@@ -6,6 +6,7 @@ export const menuControl = () => {
     const mobileMenu = $('.mobile-menu-content');
     const mobileMenuBtn = $('#mobile-menu-button');
     const mobileCloseBtn = $('#close-button');
+
     mobileCloseBtn.addEventListener('click', function () {
       mobileMenu.style.display = 'none';
     });
