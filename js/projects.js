@@ -97,16 +97,6 @@ export const projects = () => {
     }
 
     /* ==================== Trabajos ==================== */
-    function displayMenuOrTarjet() {
-      const mobileMenu = $('#mobile-menu-items');
-      tarjeta.style.display !== 'block'
-        ? (tarjeta.style.display = 'block')
-        : (tarjeta.style.display = 'none');
-
-      mobileMenu.style.display !== 'block'
-        ? (mobileMenu.style.display = 'none')
-        : (mobileMenu.style.display = 'block');
-    }
 
     /* Programacion */
     Object.keys(tarjetaAssets.Programacion).forEach((title) => {
@@ -136,7 +126,7 @@ export const projects = () => {
 
     document.querySelectorAll('.trabajo').forEach((item) => {
       item.addEventListener('click', () => {
-        displayMenuOrTarjet();
+        if (tarjeta.style.display !== 'block') tarjeta.style.display = 'block';
         getTarjetaInfo(item);
       });
     });
