@@ -122,15 +122,6 @@ export const projects = () => {
       programacionRow.innerHTML += trabajo;
     });
 
-    document
-      .querySelectorAll('.trabajos-programacion-row .trabajo')
-      .forEach((item) => {
-        item.addEventListener('click', () => {
-          displayMenuOrTarjet();
-          getTarjetaInfo(item);
-        });
-      });
-
     /* Diseno */
     Object.keys(tarjetaAssets.Diseno).forEach((title) => {
       const disenoRow = document.querySelector('.trabajos-diseno-row');
@@ -143,14 +134,12 @@ export const projects = () => {
       disenoRow.innerHTML += trabajo;
     });
 
-    document
-      .querySelectorAll('.trabajos-diseno-row .trabajo')
-      .forEach((item) => {
-        item.addEventListener('click', () => {
-          displayMenuOrTarjet();
-          getTarjetaInfo(item);
-        });
+    document.querySelectorAll('.trabajo').forEach((item) => {
+      item.addEventListener('click', () => {
+        displayMenuOrTarjet();
+        getTarjetaInfo(item);
       });
+    });
   })();
 };
 

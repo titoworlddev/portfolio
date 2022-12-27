@@ -8,7 +8,6 @@ export const menuControl = () => {
     const mobileCloseBtn = $('#close-button');
     mobileCloseBtn.addEventListener('click', function () {
       mobileMenu.style.display = 'none';
-      console.log('Menu cerrado');
     });
 
     mobileMenuBtn.addEventListener('click', () => {
