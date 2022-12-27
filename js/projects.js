@@ -8,7 +8,7 @@ export const projects = () => {
     const tarjetaCloseBtn = $('#tarjeta-close-btn');
 
     tarjetaCloseBtn.addEventListener('click', () => {
-      tarjeta.style.display = 'none';
+      tarjetaContainer.style.display = 'none';
     });
 
     const tarjetaAssets = {
@@ -61,9 +61,9 @@ export const projects = () => {
 
     function getTarjetaInfo(item) {
       function info(key) {
-        tarjeta.querySelector('#titulo-tarjeta').innerHTML =
+        tarjeta.querySelector('.titulo-tarjeta').innerHTML =
           tarjetaAssets[`${key}`][item.querySelector('p').innerText].title;
-        tarjeta.querySelector('#texto-tarjeta').innerHTML =
+        tarjeta.querySelector('.texto-tarjeta').innerHTML =
           tarjetaAssets[`${key}`][item.querySelector('p').innerText].text;
         tarjeta.querySelector('.fotos-tarjeta img').src =
           tarjetaAssets[`${key}`][item.querySelector('p').innerText].img;

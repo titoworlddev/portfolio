@@ -3,14 +3,31 @@ export const $ = (selector) => document.querySelector(selector);
 export function closeMenuCard() {
   (function () {
     document.addEventListener('mouseup', function (e) {
+      const tarjetaClases = [
+        'tarjeta',
+        'tarjeta-header',
+        'tarjeta-contenido',
+        'fotos-tarjeta',
+        'nombre-explicacion',
+        'titulo-tarjeta',
+        'texto-tarjeta',
+        'logos-tiendas'
+      ];
+      const menuClases = ['mobile-menu-content', 'mobile-menu-items'];
+
       const mobileMenu = $('.mobile-menu-content');
       const tarjetaContainer = $('.tarjeta-container');
-      const tarjeta = $('#tarjeta');
 
-      if (e.target !== mobileMenu && mobileMenu.style.display !== 'none')
+      if (
+        !menuClases.includes(e.target.className) &&
+        mobileMenu.style.display !== 'none'
+      )
         mobileMenu.style.display = 'none';
 
-      if (e.target !== tarjeta && tarjetaContainer.style.display !== 'none')
+      if (
+        !tarjetaClases.includes(e.target.className) &&
+        tarjetaContainer.style.display !== 'none'
+      )
         tarjetaContainer.style.display = 'none';
     });
   })();

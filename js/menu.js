@@ -5,7 +5,7 @@ export const menuControl = () => {
     const menuButtons = document.querySelectorAll('.btn-menu');
     const mobileMenu = $('.mobile-menu-content');
     const mobileMenuBtn = $('#mobile-menu-button');
-    const mobileCloseBtn = $('#close-button');
+    const mobileCloseBtn = $('.close-button');
 
     mobileCloseBtn.addEventListener('click', function () {
       mobileMenu.style.display = 'none';
