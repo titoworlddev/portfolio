@@ -59,40 +59,30 @@ export const projects = () => {
     };
 
     function getTarjetaInfo(item) {
+      function info(key) {
+        tarjeta.querySelector('#titulo-tarjeta').innerHTML =
+          tarjetaAssets[`${key}`][item.querySelector('p').innerText].title;
+        tarjeta.querySelector('#texto-tarjeta').innerHTML =
+          tarjetaAssets[`${key}`][item.querySelector('p').innerText].text;
+        tarjeta.querySelector('.fotos-tarjeta img').src =
+          tarjetaAssets[`${key}`][item.querySelector('p').innerText].img;
+        tarjeta.querySelector('.logos-tiendas img').src =
+          tarjetaAssets[`${key}`][item.querySelector('p').innerText].linkImg;
+        tarjeta
+          .querySelector('.logos-tiendas a')
+          .setAttribute(
+            'href',
+            tarjetaAssets[`${key}`][item.querySelector('p').innerText].url
+          );
+      }
       if (
         Object.keys(tarjetaAssets.Programacion).includes(
           item.querySelector('p').innerText
         )
       ) {
-        tarjeta.querySelector('#titulo-tarjeta').innerHTML =
-          tarjetaAssets.Programacion[item.querySelector('p').innerText].title;
-        tarjeta.querySelector('#texto-tarjeta').innerHTML =
-          tarjetaAssets.Programacion[item.querySelector('p').innerText].text;
-        tarjeta.querySelector('.fotos-tarjeta img').src =
-          tarjetaAssets.Programacion[item.querySelector('p').innerText].img;
-        tarjeta.querySelector('.logos-tiendas img').src =
-          tarjetaAssets.Programacion[item.querySelector('p').innerText].linkImg;
-        tarjeta
-          .querySelector('.logos-tiendas a')
-          .setAttribute(
-            'href',
-            tarjetaAssets.Programacion[item.querySelector('p').innerText].url
-          );
+        info('Programacion');
       } else {
-        tarjeta.querySelector('#titulo-tarjeta').innerHTML =
-          tarjetaAssets.Diseno[item.querySelector('p').innerText].title;
-        tarjeta.querySelector('#texto-tarjeta').innerHTML =
-          tarjetaAssets.Diseno[item.querySelector('p').innerText].text;
-        tarjeta.querySelector('.fotos-tarjeta img').src =
-          tarjetaAssets.Diseno[item.querySelector('p').innerText].img;
-        tarjeta.querySelector('.logos-tiendas img').src =
-          tarjetaAssets.Diseno[item.querySelector('p').innerText].linkImg;
-        tarjeta
-          .querySelector('.logos-tiendas a')
-          .setAttribute(
-            'href',
-            tarjetaAssets.Diseno[item.querySelector('p').innerText].url
-          );
+        info('Diseno');
       }
     }
 
