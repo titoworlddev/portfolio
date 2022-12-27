@@ -8,6 +8,7 @@ export const menuControl = () => {
     const mobileCloseBtn = $('#close-button');
     mobileCloseBtn.addEventListener('click', function () {
       mobileMenu.style.display = 'none';
+      console.log('Menu cerrado');
     });
 
     mobileMenuBtn.addEventListener('click', () => {
@@ -23,10 +24,15 @@ export const menuControl = () => {
 
     menuButtons.forEach((item) => {
       item.addEventListener('click', () => {
+        const btnsMenu = {
+          Proyectos: 'projects',
+          'Sobre mí': 'about',
+          Contacto: 'contact'
+        };
         mobileMenu.style.display = 'none';
         window.scroll({
           left: 0,
-          top: $(`.${item.innerHTML.toLowerCase()}`).offsetTop - 96,
+          top: $(`.${btnsMenu[item.innerHTML]}`).offsetTop - 96,
           behavior: 'smooth'
         });
       });
