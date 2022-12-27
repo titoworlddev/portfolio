@@ -11,14 +11,7 @@ export const menuControl = () => {
     });
 
     mobileMenuBtn.addEventListener('click', () => {
-      const tarjeta = $('#tarjeta');
       mobileMenu.style.display = 'flex';
-
-      if (document.contains(tarjeta)) {
-        tarjeta.style.display !== 'block'
-          ? (tarjeta.style.display = 'none')
-          : (tarjeta.style.display = 'block');
-      }
     });
 
     menuButtons.forEach((item) => {
