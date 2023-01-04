@@ -21,6 +21,12 @@ header {
     align-items: center;
 
     .portfolio {
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      background-color: transparent;
+      border: none;
+
       img {
         transition: $mainTransition;
         -webkit-transition: $mainTransition;

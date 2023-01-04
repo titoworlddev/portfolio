@@ -9,14 +9,10 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="./assets/img/logo/logo.png" />
+      href="./assets/img/logo/logo.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      media="all"
-      defer
-      href="https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&display=swap"
-      rel="stylesheet" />
+
     <link rel="stylesheet" href="/css/styles.css" />
 
     <title>Tito World Dev</title>
@@ -31,12 +27,12 @@
     <!-- Header -->
     <header>
       <nav>
-        <a class="portfolio">
+        <button class="portfolio" aria-label="Portfolio Link">
           <img
             class="my-logo"
-            src="/assets/img/logo/logo.png"
+            src="/assets/img/logo/logo.webp"
             alt="TitoWorld Logo" />
-        </a>
+        </button>
 
         <!-- Menus -->
         <div class="menus">
@@ -236,9 +232,10 @@
                 >Descarga mi CV
               </a>
             </p>
+
             <img
               class="foto-middle"
-              src="../assets/img/mis-fotos/mi-foto.png"
+              src="../assets/img/mis-fotos/mi-foto.webp"
               alt="My Photo" />
           </div>
 
@@ -476,12 +473,11 @@
           </a>
         </li>
         <li class="social portfolio">
-          <a>
-            <img
-              class="my-logo"
-              src="/assets/img/logo/logo.png"
-              alt="TitoWorld Logo" />
-          </a>
+          <img
+            aria-label="Portfolio Link"
+            class="my-logo"
+            src="/assets/img/logo/logo.webp"
+            alt="TitoWorld Logo" />
         </li>
         <li class="social linkedin">
           <a
@@ -498,6 +494,9 @@
     </footer>
 
     <!-- Scripts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&display=swap"
+      rel="stylesheet" />
     <script type="module" src="/js/main.js"></script>
     <script
       src="https://kit.fontawesome.com/906f7e0e80.js"
