@@ -4,6 +4,15 @@
 @import 'footer';
 @import 'media_queries';
 
+@font-face {
+  font-family: 'Monoton';
+  src: url('/assets/fonts/Monoton-Regular.ttf');
+}
+@font-face {
+  font-family: 'Righteous';
+  src: url('/assets/fonts/Righteous-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
