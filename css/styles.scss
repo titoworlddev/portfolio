@@ -71,25 +71,25 @@ body {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
   }
-}
 
-img {
-  pointer-events: none;
-}
-
-hr {
-  margin: 64px 0;
-  border: 0;
-  height: 1px;
-  background: #fff;
-  opacity: 0.2;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(222, 222, 222);
-  &:hover {
-    text-decoration: underline;
+  img {
+    pointer-events: none;
   }
-  cursor: pointer;
+
+  hr {
+    margin: 64px 0;
+    border: 0;
+    height: 1px;
+    background: #fff;
+    opacity: 0.2;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+    &:hover {
+      text-decoration: underline;
+    }
+    cursor: pointer;
+  }
 }

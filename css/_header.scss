@@ -44,26 +44,20 @@ header {
         list-style: none;
         gap: 40px;
 
-        li {
-          .current_page {
-            cursor: default;
+        .btn-menu {
+          color: $textColor;
+          cursor: pointer;
+          font-size: 1.25rem;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
             color: #fff;
           }
-          .current_page:hover {
-            text-decoration: none;
-          }
-          a {
-            font-size: 1.25rem;
-            text-decoration: none;
-            color: $textColor;
-            &:hover {
-              text-decoration: underline;
-              color: #fff;
-            }
-            &:active {
-              color: #fff;
-              text-decoration: underline;
-            }
+
+          &:active {
+            color: #fff;
+            text-decoration: underline;
           }
         }
       }
@@ -128,21 +122,21 @@ header {
               text-decoration: none;
             }
 
-            a {
+            .btn-menu {
+              color: #2d40417e;
+              cursor: pointer;
               font-size: 1.375rem;
               text-decoration: none;
-              color: #2d40417e;
+
               &:hover {
                 text-decoration: underline;
                 color: #314546;
               }
+
               &:active {
-                color: #fff;
+                color: #314546;
                 text-decoration: underline;
               }
-            }
-            a:active {
-              color: #314546;
             }
           }
         }
