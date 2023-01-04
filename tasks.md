@@ -1,11 +1,12 @@
 # Principal
 
-Poner la imagen de la tarjeta en un container para que tenga un fondo por defecto?
-Quizas poner las skills en cuadrados que las contengan
+Poner la imagen de la tarjeta con un size por defecto para que no de salto
+Cambiar enlaces <a> por button si no tienen href
 
 # Secundario
 
-Quizas poner para que cambie a ingles...
+Poner las skills en cuadrados que las contengan
+Poner para que cambie a ingles...
 
 # Final
 

@@ -6,7 +6,7 @@
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, 
-        initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
     <link
       rel="shortcut icon"
       type="image/png"
@@ -14,12 +14,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      media="all"
       defer
       href="https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="/css/styles.css" />
 
     <title>Tito World Dev</title>
+    <meta
+      name="description"
+      content="Este es mi portfolio personal para poder mostrar mi experiencia y ayudar a contactar conmigo a quien la persona o empresa interesada en mi trabajo." />
   </head>
 
   <body id="body">
@@ -46,7 +50,10 @@
           <!-- Socials -->
           <ul class="socials-desktop">
             <li class="social github">
-              <a target="_blank" href="https://github.com/titoworlddev">
+              <a
+                target="_blank"
+                href="https://github.com/titoworlddev"
+                aria-label="GitHub Link">
                 <svg viewBox="0 0 128 128">
                   <g fill="#181616">
                     <path
@@ -134,7 +141,7 @@
       <hr />
 
       <section class="projects">
-        <h1 class="section-title">Mis proyectos</h1>
+        <h2 class="section-title">Mis proyectos</h2>
 
         <!-- A partir de aqui los trabajos -->
         <div class="trabajos-container">
@@ -174,13 +181,15 @@
                 <p class="texto-tarjeta"></p>
               </div>
               <div class="logos-tiendas">
-                <a target="_blank" href="#">
+                <a target="_blank" href="#" aria-label="Link al proyecto">
                   <img
                     src="/assets/img/trabajos/store-badges/google-play-badge.svg"
                     alt="GooglePlay Store Badge" />
                 </a>
-                <!-- <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hayaxelectronics.random_x_app&hl=es">
-                  <img src="/assets/img/trabajos/store-badges/apple-store-badge.svg" alt="Apple Store Badge">
+                <!-- <a target="_blank" href="#" aria-label="Link al proyecto">
+                  <img
+                    src="/assets/img/trabajos/store-badges/apple-store-badge.svg"
+                    alt="Apple Store Badge" />
                 </a> -->
               </div>
             </div>
@@ -191,7 +200,7 @@
       <hr />
 
       <section class="about">
-        <h1 class="section-title">Sobre mí</h1>
+        <h2 class="section-title">Sobre mí</h2>
 
         <div class="contenido-central">
           <div class="bio-photo-container">
@@ -227,39 +236,55 @@
             <h2>Habilidades</h2>
             <div class="skills">
               <div class="skill-section web">
-                <h4>Web</h4>
+                <h3>Web</h3>
                 <div class="skills-group">
                   <label title="HMTL5">
                     <img
+                      height="48"
+                      alt="HTML5"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                   </label>
                   <label title="CSS3">
                     <img
+                      height="48"
+                      alt="CSS3"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                   </label>
                   <label title="Javascript">
                     <img
+                      height="48"
+                      alt="Javascript"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                   </label>
                   <label title="React">
                     <img
+                      height="48"
+                      alt="React"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                   </label>
                   <label title="Sass">
                     <img
+                      height="48"
+                      alt="Sass"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
                   </label>
                   <label title="jQuery">
                     <img
+                      height="48"
+                      alt="jQuery"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" />
                   </label>
                   <label title="Bootstrap">
                     <img
+                      height="48"
+                      alt="Bootstrap"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
                   </label>
 
                   <label title="Wordpress">
                     <img
+                      height="48"
+                      alt="Wordpress"
                       class="wordpress-logo"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" />
                   </label>
@@ -267,54 +292,72 @@
               </div>
 
               <div class="skill-section mobile">
-                <h4>Móvil</h4>
+                <h3>Móvil</h3>
                 <div class="skills-group">
                   <label title="Dart">
                     <img
+                      height="48"
+                      alt="Dart"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
                   </label>
                   <label title="Flutter">
                     <img
+                      height="48"
+                      alt="Flutter"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
                   </label>
                 </div>
               </div>
 
               <div class="skill-section utilities">
-                <h4>Utilidades</h4>
+                <h3>Utilidades</h3>
                 <div class="skills-group">
                   <label title="Git">
                     <img
+                      height="48"
+                      alt="Git"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
                   </label>
                   <label title="GitHub">
                     <img
+                      height="48"
+                      alt="GitHub"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                   </label>
                   <label title="Visual Studio Code">
                     <img
+                      height="48"
+                      alt="Visual Studio Code"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
                   </label>
                 </div>
               </div>
 
               <div class="skill-section design">
-                <h4>Diseño</h4>
+                <h3>Diseño</h3>
                 <div class="skills-group">
                   <label title="Figma">
                     <img
+                      height="48"
+                      alt="Figma"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
                   </label>
                   <label title="Adobe XD">
                     <img
+                      height="48"
+                      alt="Adobe XD"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-line.svg" />
                   </label>
                   <label title="Adobe Photoshop">
                     <img
+                      height="48"
+                      alt="Adobe Photoshop"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" />
                   </label>
                   <label title="Adobe Illustrator">
                     <img
+                      height="48"
+                      alt="Adobe Illustrator"
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" />
                   </label>
                 </div>
@@ -406,7 +449,10 @@
       <!-- <p>Cristian Arias ©.</p> -->
       <ul class="socials">
         <li class="social github">
-          <a target="_blank" href="https://github.com/titoworlddev">
+          <a
+            target="_blank"
+            href="https://github.com/titoworlddev"
+            aria-label="GitHub Link">
             <svg viewBox="0 0 128 128">
               <g fill="#181616">
                 <path
