@@ -7,10 +7,12 @@
 @font-face {
   font-family: 'Monoton';
   src: url('/assets/fonts/Monoton-Regular.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Righteous';
   src: url('/assets/fonts/Righteous-Regular.ttf');
+  font-display: swap;
 }
 
 * {
