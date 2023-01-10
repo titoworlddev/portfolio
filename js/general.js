@@ -1,40 +1,38 @@
-export const $ = (selector) => document.querySelector(selector);
+export const $ = selector => document.querySelector(selector);
 
 export function closeMenuCard() {
-  (function () {
-    document.addEventListener('mouseup', function (e) {
-      const tarjetaClases = [
-        'tarjeta',
-        'tarjeta-header',
-        'tarjeta-contenido',
-        'fotos-tarjeta',
-        'nombre-explicacion',
-        'titulo-tarjeta',
-        'texto-tarjeta',
-        'logos-tiendas'
-      ];
-      const menuClases = ['mobile-menu-content', 'mobile-menu-items'];
+  document.addEventListener('mouseup', function (e) {
+    const tarjetaClases = [
+      'tarjeta',
+      'tarjeta-header',
+      'tarjeta-contenido',
+      'fotos-tarjeta',
+      'nombre-explicacion',
+      'titulo-tarjeta',
+      'texto-tarjeta',
+      'logos-tiendas'
+    ];
+    const menuClases = ['mobile-menu-content', 'mobile-menu-items'];
 
-      const mobileMenu = $('.mobile-menu-content');
-      const tarjetaContainer = $('.tarjeta-container');
+    const mobileMenu = $('.mobile-menu-content');
+    const tarjetaContainer = $('.tarjeta-container');
 
-      if (
-        !menuClases.includes(e.target.className) &&
-        mobileMenu.style.display !== 'none'
-      )
-        mobileMenu.style.display = 'none';
+    if (
+      !menuClases.includes(e.target.className) &&
+      mobileMenu.style.display !== 'none'
+    )
+      mobileMenu.style.display = 'none';
 
-      if (
-        !tarjetaClases.includes(e.target.className) &&
-        tarjetaContainer.style.display !== 'none'
-      )
-        tarjetaContainer.style.display = 'none';
-    });
-  })();
+    if (
+      !tarjetaClases.includes(e.target.className) &&
+      tarjetaContainer.style.display !== 'none'
+    )
+      tarjetaContainer.style.display = 'none';
+  });
 }
 
-export const btnUpPage = () => {
-  document.querySelectorAll('.portfolio').forEach((item) => {
+export function btnUpPage() {
+  document.querySelectorAll('.portfolio').forEach(item => {
     item.addEventListener('click', () => {
       window.scroll({
         left: 0,
@@ -43,4 +41,4 @@ export const btnUpPage = () => {
       });
     });
   });
-};
+}

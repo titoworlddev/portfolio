@@ -1,16 +1,16 @@
 import { closeMenuCard, btnUpPage } from '/js/general.js';
-import { menuControl } from '/js/menu.js';
+import { handleMenu } from '/js/menu.js';
 import { projects } from '/js/projects.js';
 import { contact } from '/js/contact.js';
 import { aboutMe } from '/js/about.js';
-// import { precacheImgs } from '/js/projects';
+import { precacheImgs } from '/js/projects.js';
 
 (function () {
-  /* General/Menu */
+  /* General / Menu */
   closeMenuCard();
-  menuControl();
+  handleMenu();
   btnUpPage();
-  // precacheImgs();
+  precacheImgs();
   /* Projects */
   projects();
   /* About Me */
