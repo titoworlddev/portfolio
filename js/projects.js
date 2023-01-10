@@ -1,43 +1,14 @@
-import { $ } from '/js/general.js';
 import { tarjetasAssets } from '/js/terjetaAssets.js';
+import { getTarjetaInfo } from '/js/projects/getTarjetaInfo.js';
 
 export function projects() {
   /* ==================== Tarjeta ==================== */
-  const tarjetaContainer = $('.tarjeta-container');
-  const tarjeta = $('#tarjeta');
-  const tarjetaCloseBtn = $('#tarjeta-close-btn');
+  const tarjetaContainer = document.querySelector('.tarjeta-container');
+  const tarjetaCloseBtn = document.querySelector('#tarjeta-close-btn');
 
   tarjetaCloseBtn.addEventListener('click', () => {
     tarjetaContainer.style.display = 'none';
   });
-
-  const getTarjetaInfo = item => {
-    function info(key) {
-      tarjeta.querySelector('.titulo-tarjeta').innerHTML =
-        tarjetasAssets[`${key}`][item.querySelector('p').innerText].title;
-      tarjeta.querySelector('.texto-tarjeta').innerHTML =
-        tarjetasAssets[`${key}`][item.querySelector('p').innerText].text;
-      tarjeta.querySelector('.fotos-tarjeta img').src =
-        tarjetasAssets[`${key}`][item.querySelector('p').innerText].img;
-      tarjeta.querySelector('.logos-tiendas img').src =
-        tarjetasAssets[`${key}`][item.querySelector('p').innerText].linkImg;
-      tarjeta
-        .querySelector('.logos-tiendas a')
-        .setAttribute(
-          'href',
-          tarjetasAssets[`${key}`][item.querySelector('p').innerText].url
-        );
-    }
-    if (
-      Object.keys(tarjetasAssets.Programacion).includes(
-        item.querySelector('p').innerText
-      )
-    ) {
-      info('Programacion');
-    } else {
-      info('Diseno');
-    }
-  };
 
   /* ==================== Trabajos ==================== */
 

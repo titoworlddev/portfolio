@@ -1,5 +1,3 @@
-export const $ = selector => document.querySelector(selector);
-
 export function closeMenuCard() {
   document.addEventListener('mouseup', function (e) {
     const tarjetaClases = [
@@ -14,8 +12,8 @@ export function closeMenuCard() {
     ];
     const menuClases = ['mobile-menu-content', 'mobile-menu-items'];
 
-    const mobileMenu = $('.mobile-menu-content');
-    const tarjetaContainer = $('.tarjeta-container');
+    const mobileMenu = document.querySelector('.mobile-menu-content');
+    const tarjetaContainer = document.querySelector('.tarjeta-container');
 
     if (
       !menuClases.includes(e.target.className) &&

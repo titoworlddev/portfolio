@@ -1,10 +1,8 @@
-import { $ } from '/js/general.js';
-
 export function handleMenu() {
   const menuButtons = document.querySelectorAll('.btn-menu');
-  const mobileMenu = $('.mobile-menu-content');
-  const mobileMenuBtn = $('#mobile-menu-button');
-  const mobileCloseBtn = $('.close-button');
+  const mobileMenu = document.querySelector('.mobile-menu-content');
+  const mobileMenuBtn = document.querySelector('#mobile-menu-button');
+  const mobileCloseBtn = document.querySelector('.close-button');
 
   mobileCloseBtn.addEventListener('click', function () {
     mobileMenu.style.display = 'none';
@@ -24,7 +22,8 @@ export function handleMenu() {
       mobileMenu.style.display = 'none';
       window.scroll({
         left: 0,
-        top: $(`.${btnsMenu[item.innerHTML]}`).offsetTop - 96,
+        top:
+          document.querySelector(`.${btnsMenu[item.innerHTML]}`).offsetTop - 96,
         behavior: 'smooth'
       });
     });

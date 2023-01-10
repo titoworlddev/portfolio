@@ -1,13 +1,11 @@
-import { $ } from '/js/general.js';
-
 export function contact() {
-  const btnSubmit = $('.btn-submit');
-  const inputName = $('#name');
-  const inputEmail = $('#email');
-  const inputMessage = $('#message');
-  const errorName = $('.error-name');
-  const errorEmail = $('.error-email');
-  const errorMessage = $('.error-message');
+  const btnSubmit = document.querySelector('.btn-submit');
+  const inputName = document.querySelector('#name');
+  const inputEmail = document.querySelector('#email');
+  const inputMessage = document.querySelector('#message');
+  const errorName = document.querySelector('.error-name');
+  const errorEmail = document.querySelector('.error-email');
+  const errorMessage = document.querySelector('.error-message');
   const API_KEY = '1d216a8a9emsh60e95ffc5b9ef52p11cdc8jsn9594ac986edd';
   const API_HOST = 'mailcheck.p.rapidapi.com';
   const API_URL = 'https://mailcheck.p.rapidapi.com/?domain=';
@@ -24,9 +22,9 @@ export function contact() {
   };
 
   const generatePopup = ({ isError = true, text, time }) => {
-    const contactContainer = $('.contact-popup-container');
-    const contactForm = $('#contact-form');
-    const popup = $('.contact-popup');
+    const contactContainer = document.querySelector('.contact-popup-container');
+    const contactForm = document.querySelector('#contact-form');
+    const popup = document.querySelector('.contact-popup');
 
     if (isError) {
       popup.classList.remove('contact-popup');
