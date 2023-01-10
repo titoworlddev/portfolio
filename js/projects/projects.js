@@ -1,4 +1,4 @@
-import { tarjetasAssets } from '/js/terjetaAssets.js';
+import { tarjetasAssets } from './tarjetaAssets.js';
 import { getTarjetaInfo } from '/js/projects/getTarjetaInfo.js';
 import { precacheImgs } from './precacheImages.js';
 
