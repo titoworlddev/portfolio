@@ -1,4 +1,4 @@
-import { closeMenuCard, btnUpPage } from '/js/general.js';
+import { closeMenuCard, btnUpPage } from '/js/generalFunctions.js';
 import { handleMenu } from '/js/menu.js';
 import { projects } from '/js/projects/projects.js';
 import { contact } from '/js/contact/contact.js';
