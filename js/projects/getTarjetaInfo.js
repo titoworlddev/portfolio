@@ -1,4 +1,4 @@
-import { tarjetasAssets } from '/js/terjetaAssets.js';
+import { tarjetasAssets } from './tarjetaAssets.js';
 
 export const getTarjetaInfo = item => {
   const tarjeta = document.querySelector('#tarjeta');
