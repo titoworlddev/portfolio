@@ -1,20 +1,20 @@
+import { tarjetasAssets } from './tarjetaAssets.js';
+
 export function precacheImgs() {
-  const images = [
-    '/assets/img/trabajos/random_x/randomx-presentation.webp',
-    '/assets/img/trabajos/random-x.webp',
-    '/assets/img/trabajos/store-badges/google-play-badge.svg',
-    '/assets/img/trabajos/operit/operit-presentation.webp',
-    '/assets/img/trabajos/operit.webp',
-    '/assets/img/trabajos/game_zone/game-zone-presentation.webp',
-    '/assets/img/trabajos/game-zone-store.webp',
-    '/assets/img/trabajos/el_chingon/el-chingon-presentation.webp',
-    '/assets/img/trabajos/el-chingon.webp',
-    '/assets/img/trabajos/store-badges/instagram-logo.svg',
-    '/assets/img/trabajos/levasion/levasion-presentation.webp',
-    '/assets/img/trabajos/levasion.webp'
-  ];
+  let imgs = [];
+  Object.entries(tarjetasAssets.Programacion).forEach(entrie => {
+    imgs.push(entrie[1].img);
+    imgs.push(entrie[1].coverImg);
+    imgs.push(entrie[1].linkImg);
+  });
+  Object.entries(tarjetasAssets.Diseno).forEach(entrie => {
+    imgs.push(entrie[1].img);
+    imgs.push(entrie[1].coverImg);
+    imgs.push(entrie[1].linkImg);
+  });
+
   const cachedImages = [];
-  images.forEach(elem => {
+  imgs.forEach(elem => {
     cachedImages.push(document.createElement('img'));
     cachedImages.at(-1).src = elem;
   });
