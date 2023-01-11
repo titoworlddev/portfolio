@@ -21,7 +21,7 @@ export function projects() {
     );
     const trabajo = `
       <div class="trabajo">
-        <img src="${tarjetasAssets.Programacion[title].coverImg}" alt="${title} Image">
+        <img style="aspect-ratio: 16/9" src="${tarjetasAssets.Programacion[title].coverImg}" alt="${title} Image">
         <p>${title}</p>
       </div>
       `;

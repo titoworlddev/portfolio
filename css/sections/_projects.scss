@@ -30,6 +30,13 @@
 
           img {
             width: 100%;
+            object-fit: cover;
+
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
           }
           p {
             color: #e1e1e1;
@@ -132,6 +139,12 @@
           align-items: center;
           img {
             width: 75%;
+
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
           }
         }
 
