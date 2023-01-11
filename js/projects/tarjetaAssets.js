@@ -18,7 +18,7 @@ export const tarjetasAssets = {
     },
     'E-Commerce UI': {
       title: 'Bootstrap E-Commerce UI',
-      text: 'Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. Aunque no tiene funcionalidad porque esta orientado a practicar solo haciendo una UI con Bootstrap, tiene todo, buscador, menu, carousel, y galeria. Espero que te guste.',
+      text: 'Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. Espero que te guste.',
       img: '/assets/img/trabajos/programacion/bootstrap-ecommerce/screenshot.webp',
       coverImg:
         '/assets/img/trabajos/programacion/bootstrap-ecommerce/screenshot.webp',
