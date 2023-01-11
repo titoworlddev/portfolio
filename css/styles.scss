@@ -72,9 +72,14 @@ body {
   }
 
   .my-cv {
-    background-color: #cfcfcf;
+    background-color: #dfdfdf;
     color: #3f5e60;
     padding: 8px 16px;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #cfcfcf;
+    }
 
     border-radius: 8px;
     -webkit-border-radius: 8px;
