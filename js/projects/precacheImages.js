@@ -10,8 +10,6 @@ export function precacheImgs() {
       !imgs.includes(entrie[1].linkImg) && imgs.push(entrie[1].linkImg);
     });
 
-  console.log(imgs);
-
   const cachedImages = [];
   imgs.forEach(elem => {
     cachedImages.push(document.createElement('img'));
