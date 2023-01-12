@@ -31,7 +31,7 @@ export const tarjetasAssets = {
     'Game Zone': {
       title: 'Tienda Electrónica - Game Zone',
       text: 'Continuando con los diseños aquí les dejo uno nuevo, en este caso de una aplicación móvil sobre una tienda de videojuegos, que también podría servir como base para una tienda en general. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
-      img: '/assets/img/trabajos/diseno/game_zone/game-zone-presentation.webp',
+      img: '/assets/img/trabajos/diseno/game_zone/game-zone-store.webp',
       coverImg: '/assets/img/trabajos/diseno/game_zone/game-zone-store.webp',
       linkImg: '/assets/img/trabajos/badges/instagram-logo.svg',
       url: 'https://www.instagram.com/cristian_am91/'
@@ -39,7 +39,7 @@ export const tarjetasAssets = {
     'El Chingón': {
       title: 'Restaurante - El Chingón',
       text: 'Diseño sobre un restaurante de comida mexicana, que se puede tomar como ejemplo de diseños para restaurantes. Es un diseño muy simple, pero a la vez muy atractivo. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
-      img: '/assets/img/trabajos/diseno/el_chingon/el-chingon-presentation.webp',
+      img: '/assets/img/trabajos/diseno/el_chingon/el-chingon.webp',
       coverImg: '/assets/img/trabajos/diseno/el_chingon/el-chingon.webp',
       linkImg: '/assets/img/trabajos/badges/instagram-logo.svg',
       url: 'https://www.instagram.com/cristian_am91/'
@@ -47,7 +47,7 @@ export const tarjetasAssets = {
     "L'evasion": {
       title: "Hotel - L'evasion",
       text: 'Diseño en la página web de un hotel o apartamentos. Un diseño suave y relajado, que permite encontrar una experiencia de hospedaje muy placentera. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.',
-      img: '/assets/img/trabajos/diseno/levasion/levasion-presentation.webp',
+      img: '/assets/img/trabajos/diseno/levasion/levasion.webp',
       coverImg: '/assets/img/trabajos/diseno/levasion/levasion.webp',
       linkImg: '/assets/img/trabajos/badges/instagram-logo.svg',
       url: 'https://www.instagram.com/cristian_am91/'
