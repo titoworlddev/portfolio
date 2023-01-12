@@ -5,10 +5,12 @@ export function precacheImgs() {
   Object.entries(tarjetasAssets.Programacion)
     .concat(Object.entries(tarjetasAssets.Diseno))
     .forEach(entrie => {
-      imgs.push(entrie[1].img);
-      imgs.push(entrie[1].coverImg);
-      imgs.push(entrie[1].linkImg);
+      !imgs.includes(entrie[1].img) && imgs.push(entrie[1].img);
+      !imgs.includes(entrie[1].coverImg) && imgs.push(entrie[1].coverImg);
+      !imgs.includes(entrie[1].linkImg) && imgs.push(entrie[1].linkImg);
     });
+
+  console.log(imgs);
 
   const cachedImages = [];
   imgs.forEach(elem => {
