@@ -1,4 +1,4 @@
-import { tarjetasAssets } from './tarjetaAssets.js';
+import { getJSONData } from './getJSONData.js';
 import { getTarjetaInfo } from '/js/projects/getTarjetaInfo.js';
 import { precacheImgs } from './precacheImages.js';
 
@@ -14,37 +14,39 @@ export function projects() {
   /* ==================== Trabajos ==================== */
   precacheImgs();
 
-  /* Programacion */
-  Object.keys(tarjetasAssets.Programacion).forEach(title => {
-    const programacionRow = document.querySelector(
-      '.trabajos-programacion-row'
-    );
-    const trabajo = `
-      <div class="trabajo">
-        <img style="aspect-ratio: 16/9" src="${tarjetasAssets.Programacion[title].coverImg}" alt="${title} Image">
+  getJSONData('/assets/json/tarjetaAssets.json').then(data => {
+    /* Programacion */
+    Object.keys(data.Programacion).forEach(title => {
+      const programacionRow = document.querySelector(
+        '.trabajos-programacion-row'
+      );
+      const trabajo = `
+        <div class="trabajo">
+        <img style="aspect-ratio: 16/9" src="${data.Programacion[title].coverImg}" alt="${title} Image">
         <p>${title}</p>
       </div>
       `;
-    programacionRow.innerHTML += trabajo;
-  });
+      programacionRow.innerHTML += trabajo;
+    });
 
-  /* Diseno */
-  Object.keys(tarjetasAssets.Diseno).forEach(title => {
-    const disenoRow = document.querySelector('.trabajos-diseno-row');
-    const trabajo = `
+    /* Diseno */
+    Object.keys(data.Diseno).forEach(title => {
+      const disenoRow = document.querySelector('.trabajos-diseno-row');
+      const trabajo = `
       <div class="trabajo">
-        <img src="${tarjetasAssets.Diseno[title].coverImg}" alt="${title} Image">
-        <p>${title}</p>
+      <img src="${data.Diseno[title].coverImg}" alt="${title} Image">
+      <p>${title}</p>
       </div>
       `;
-    disenoRow.innerHTML += trabajo;
-  });
+      disenoRow.innerHTML += trabajo;
+    });
 
-  document.querySelectorAll('.trabajo').forEach(item => {
-    item.addEventListener('click', () => {
-      if (tarjetaContainer.style.display !== 'flex')
-        tarjetaContainer.style.display = 'flex';
-      getTarjetaInfo(item);
+    document.querySelectorAll('.trabajo').forEach(item => {
+      item.addEventListener('click', () => {
+        getTarjetaInfo(item);
+        if (tarjetaContainer.style.display !== 'flex')
+          tarjetaContainer.style.display = 'flex';
+      });
     });
   });
 }

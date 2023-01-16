@@ -1,14 +1,17 @@
-import { tarjetasAssets } from './tarjetaAssets.js';
+import { getJSONData } from './getJSONData.js';
 
 export function precacheImgs() {
   let imgs = [];
-  Object.entries(tarjetasAssets.Programacion)
-    .concat(Object.entries(tarjetasAssets.Diseno))
-    .forEach(entrie => {
-      !imgs.includes(entrie[1].img) && imgs.push(entrie[1].img);
-      !imgs.includes(entrie[1].coverImg) && imgs.push(entrie[1].coverImg);
-      !imgs.includes(entrie[1].linkImg) && imgs.push(entrie[1].linkImg);
-    });
+
+  getJSONData('/assets/json/tarjetaAssets.json').then(data => {
+    Object.entries(data.Programacion)
+      .concat(Object.entries(data.Diseno))
+      .forEach(entrie => {
+        !imgs.includes(entrie[1].img) && imgs.push(entrie[1].img);
+        !imgs.includes(entrie[1].coverImg) && imgs.push(entrie[1].coverImg);
+        !imgs.includes(entrie[1].linkImg) && imgs.push(entrie[1].linkImg);
+      });
+  });
 
   const cachedImages = [];
   imgs.forEach(elem => {
