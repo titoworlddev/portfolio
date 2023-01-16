@@ -130,7 +130,7 @@
         margin: 24px 0;
         display: flex;
         flex-direction: column;
-        gap: 6vh;
+        gap: 2em;
         font-family: 'Righteous', sans-serif;
         line-height: 1.5;
 
@@ -138,10 +138,9 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          min-height: 250px;
 
           img {
-            width: 80%;
-
             border-radius: 10px;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
