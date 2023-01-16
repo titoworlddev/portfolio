@@ -34,7 +34,7 @@ export function projects() {
       const disenoRow = document.querySelector('.trabajos-diseno-row');
       const trabajo = `
       <div class="trabajo">
-      <img src="${data.Diseno[title].coverImg}" alt="${title} Image">
+      <img style="aspect-ratio: 16/9" src="${data.Diseno[title].coverImg}" alt="${title} Image">
       <p>${title}</p>
       </div>
       `;
