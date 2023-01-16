@@ -3,8 +3,6 @@ import { getTarjetaInfo } from '/js/projects/getTarjetaInfo.js';
 import { precacheImgs } from './precacheImages.js';
 
 export function projects() {
-  console.log(tarjetasAssets);
-
   /* ==================== Tarjeta ==================== */
   const tarjetaContainer = document.querySelector('.tarjeta-container');
   const tarjetaCloseBtn = document.querySelector('#tarjeta-close-btn');
