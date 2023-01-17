@@ -5,6 +5,7 @@ export function closeMenuCard() {
       'tarjeta-header',
       'tarjeta-contenido',
       'fotos-tarjeta',
+      'foto',
       'nombre-explicacion',
       'titulo-tarjeta',
       'texto-tarjeta',
