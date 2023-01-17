@@ -7,3 +7,5 @@ specifically **SASS**, was used.
 
 Soon it is planned to migrate the project to **React** to continue 
 practicing my skills.  
+
+![](screenshot.jpg)
