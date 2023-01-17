@@ -39,6 +39,14 @@
       "coverImg": "/assets/img/trabajos/programacion/bootstrap-ecommerce/screenshot.webp",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/Bootstrap5-E-commerce"
+    },
+    "FlexBox": {
+      "title": "FlexBox Layout",
+      "text": "Este proyecto es un diseño hecho con flexbox. Me sirvió mucho para practicar y aprender a posicionar los elementos en la interfaz.",
+      "img": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/flexbox-layout"
     }
   },
 
