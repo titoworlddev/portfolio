@@ -16,6 +16,14 @@
       "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
       "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.operit&gl=ES"
     },
+    "Portfolio": {
+      "title": "Titoworlddev portfolio",
+      "text": "Este es mi portafolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. No se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
+      "img": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/portfolio"
+    },
     "Tic Tac Toe": {
       "title": "React Tic Tac Toe",
       "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno. Espero que te guste.",
