@@ -24,6 +24,8 @@
         font-size: 1.125rem;
       }
       .foto-middle {
+        pointer-events: none;
+
         width: 80%;
         opacity: 0.95;
         box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
