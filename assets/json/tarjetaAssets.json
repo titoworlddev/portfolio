@@ -24,6 +24,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/portfolio"
     },
+    "Giffy": {
+      "title": "Giffy from midudev",
+      "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. </br> En él he aprendido muchas cosas sobre React como: </br>- Uso de bibliotecas de JavaScript </br>- Crea una aplicación con create-react-app </br>- Ganchos personalizados y contexto de reacción </br>- Lazy Load, suspenso y paginación </br>- CSS Grid, desplazamiento infinito y pruebas </br>- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel </br>- SEO con React y Deploy Integrado con GitHub </br>- prueba useReducer y React Hook </br>- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) </br>- Registro de usuarios con Formik y React.createPortal </br>- CSS en JS y Styled Components con Emotion",
+      "img": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/curso-react-midudev-giffy"
+    },
     "Tic Tac Toe": {
       "title": "React Tic Tac Toe",
       "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno. Espero que te guste.",
@@ -71,6 +79,14 @@
       "coverImg": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/form-css-grid"
+    },
+    "VideoJS": {
+      "title": "VideoJS",
+      "text": "En esta práctica estuve probando el uso de la utilidad VideoJS, con el fin de hacer uso de un reproductor de video que se puede personalizar a gusto del consumidor. Sin duda, muy útil y queda genial.",
+      "img": "https://github.com/titoworlddev/videojs/raw/main/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/videojs/raw/main/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/videojs"
     }
   },
 
