@@ -64,6 +64,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/startup-ui"
     },
+    "Portfolo UI": {
+      "title": "Portfolo UI",
+      "text": "Este es un proyecto sobre un diseño de cartera, que es agradable, simple y elegante. No es mi portafolio principal pero como práctica me ha ayudado a aprender mucho.",
+      "img": "https://github.com/titoworlddev/portfolio-ui/raw/main/img/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/portfolio-ui/raw/main/img/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/portfolio-ui"
+    },
     "FlexBox": {
       "title": "FlexBox Layout",
       "text": "Este proyecto es un diseño hecho con flexbox. Me sirvió mucho para practicar y aprender a posicionar los elementos en la interfaz.",
