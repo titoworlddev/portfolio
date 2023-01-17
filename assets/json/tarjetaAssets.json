@@ -2,7 +2,7 @@
   "Programacion": {
     "Random X": {
       "title": "Random X App",
-      "text": "Random X es tu asistente a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.",
+      "text": "Random X es tu asistente a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. </br>Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.",
       "img": "/assets/img/trabajos/programacion/random_x/randomx-presentation.webp",
       "coverImg": "/assets/img/trabajos/programacion/random_x/random-x.webp",
       "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
@@ -10,7 +10,7 @@
     },
     "Operit": {
       "title": "Operit App",
-      "text": "Calculadora con un diseño sencillo pero muy completa en sus funciones. Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. También hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. Definitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!",
+      "text": "Calculadora con un diseño sencillo pero muy completa en sus funciones. Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. También hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. </br>Definitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!",
       "img": "/assets/img/trabajos/programacion/operit/operit-presentation.webp",
       "coverImg": "/assets/img/trabajos/programacion/operit/operit.webp",
       "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
@@ -18,7 +18,7 @@
     },
     "Portfolio": {
       "title": "Titoworlddev portfolio",
-      "text": "Este es mi portafolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. No se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
+      "text": "Este es mi portafolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. </br>No se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
       "img": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
       "coverImg": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
@@ -26,7 +26,7 @@
     },
     "Giffy": {
       "title": "Giffy from midudev",
-      "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. </br> En él he aprendido muchas cosas sobre React como: </br>- Uso de bibliotecas de JavaScript </br>- Crea una aplicación con create-react-app </br>- Ganchos personalizados y contexto de reacción </br>- Lazy Load, suspenso y paginación </br>- CSS Grid, desplazamiento infinito y pruebas </br>- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel </br>- SEO con React y Deploy Integrado con GitHub </br>- prueba useReducer y React Hook </br>- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) </br>- Registro de usuarios con Formik y React.createPortal </br>- CSS en JS y Styled Components con Emotion",
+      "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. </br></br> En él he aprendido muchas cosas sobre React como: </br>- Uso de bibliotecas de JavaScript </br>- Crea una aplicación con create-react-app </br>- Ganchos personalizados y contexto de reacción </br>- Lazy Load, suspenso y paginación </br>- CSS Grid, desplazamiento infinito y pruebas </br>- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel </br>- SEO con React y Deploy Integrado con GitHub </br>- prueba useReducer y React Hook </br>- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) </br>- Registro de usuarios con Formik y React.createPortal </br>- CSS en JS y Styled Components con Emotion",
       "img": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
       "coverImg": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
@@ -34,7 +34,7 @@
     },
     "Tic Tac Toe": {
       "title": "React Tic Tac Toe",
-      "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno. Espero que te guste.",
+      "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. </br></br> El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. </br>Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
       "img": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
       "coverImg": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
@@ -42,7 +42,7 @@
     },
     "E-Commerce UI": {
       "title": "Bootstrap E-Commerce UI",
-      "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. Espero que te guste.",
+      "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. </br></br> Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. </br></br> Espero que te guste.",
       "img": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
       "coverImg": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
