@@ -43,8 +43,10 @@ export function projects() {
   document.querySelectorAll('.trabajo').forEach(item => {
     item.addEventListener('click', () => {
       getTarjetaInfo(item);
-      if (tarjetaContainer.style.display !== 'flex')
-        tarjetaContainer.style.display = 'flex';
+      setTimeout(() => {
+        if (tarjetaContainer.style.display !== 'flex')
+          tarjetaContainer.style.display = 'flex';
+      }, 200);
     });
   });
 }
