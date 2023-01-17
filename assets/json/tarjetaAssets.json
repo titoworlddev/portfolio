@@ -35,8 +35,8 @@
     "E-Commerce UI": {
       "title": "Bootstrap E-Commerce UI",
       "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. Espero que te guste.",
-      "img": "/assets/img/trabajos/programacion/bootstrap-ecommerce/screenshot.webp",
-      "coverImg": "/assets/img/trabajos/programacion/bootstrap-ecommerce/screenshot.webp",
+      "img": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/Bootstrap5-E-commerce"
     },
@@ -63,6 +63,14 @@
       "coverImg": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/flexbox-layout"
+    },
+    "Form CSS Grid": {
+      "title": "Form CSS Grid",
+      "text": "Un formulario para practicar el uso de css grid y también el manejo de errores en el formulario con javascript.",
+      "img": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/form-css-grid"
     }
   },
 
