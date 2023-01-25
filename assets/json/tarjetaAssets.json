@@ -56,6 +56,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/flutter-professional-designs"
     },
+    "Flutter components": {
+      "title": "Flutter components demo",
+      "text": "Sucede que cuando empiezas con Flutter la cantidad de componentes y widgets que hay además de la sintaxis de Dart es un poco abrumadora, por lo que esta app está hecha para repasar todo y demostrar cómo funciona.",
+      "img": "https://github.com/titoworlddev/flutter-components-demo/blob/main/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/flutter-components-demo/blob/main/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/flutter-components-demo"
+    },
     "Form validation": {
       "title": "Flutter Form validation",
       "text": "Este es un proyecto donde tenemos dos formularios, uno para validar un registro de usuario y otro para agregar un producto. <br>Un proyecto donde características como: <br>· RxDart <br>· HTTP <br>· Selector de imágenes <br>· Tipo de Mimica <br>· Preferencias compartidas",
