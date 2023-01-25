@@ -163,6 +163,10 @@
           min-height: 250px;
 
           img {
+            max-height: 300px;
+            object-fit: cover;
+            vertical-align: top;
+
             border-radius: 10px;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
