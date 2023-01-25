@@ -48,6 +48,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/twitter-animate-do"
     },
+    "Flutter professional designs": {
+      "title": "Flutter professional designs",
+      "text": "Aquí tenemos un proyecto de Flutter que muestra muchos componentes y paquetes que son avanzados y hacen que nuestro diseño sea mucho más profesional. <br>Tenemos cosas como: <br>· Drawer<br>· Custom themes <br>· Custom painter<br>· Animaciones de todo tipo<br>· Barras de progreso<br>· SlideShow<br>· Grid Display como la aplicación de pinterest (diferente tamaño para cada elemento)<br>· Diseño de emergencia, con iconos de degradados, etc<br>· Slivers",
+      "img": "https://github.com/titoworlddev/flutter-professional-designs/blob/main/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/flutter-professional-designs/blob/main/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/flutter-professional-designs"
+    },
     "Form validation": {
       "title": "Flutter Form validation",
       "text": "Este es un proyecto donde tenemos dos formularios, uno para validar un registro de usuario y otro para agregar un producto. <br>Un proyecto donde características como: <br>· RxDart <br>· HTTP <br>· Selector de imágenes <br>· Tipo de Mimica <br>· Preferencias compartidas",
