@@ -32,6 +32,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/curso-react-midudev-giffy"
     },
+    "FilmMe": {
+      "title": "FilMe",
+      "text": "Proyecto creado para practicar con el uso de API's en Flutter. Esta aplicación a pesar de parecer básica es muy completa. Entre sus características tiene cosas como: <br>· Image carousel <br>· Hero Animation <br>· Movie search engine <br>· Using The Movie DB API",
+      "img": "https://github.com/titoworlddev/filmme/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/filmme/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/filmme"
+    },
     "Flutter animations": {
       "title": "Animate do app",
       "text": "Este proyecto es una práctica para el uso de animaciones en flutter. Concretamente esta vez se hace con el paquete animate_do que se encuentra en pub.dev. <br> Son 3 pantallas y en 2 de ellas se simulan las animaciones de entrada a la aplicación de twitter, y en la última hay una animación del icono de notificación cayendo. <br> También detalle curioso que cada vez que se ingresa a la aplicación los colores cambian aleatoriamente y el color de los textos se adapta a esos colores para ser más legibles.",
