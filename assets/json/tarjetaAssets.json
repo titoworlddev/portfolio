@@ -48,6 +48,22 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/mediaquery_sizer"
     },
+    "Tic Tac Toe": {
+      "title": "React Tic Tac Toe",
+      "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. </br></br> El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. </br>Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
+      "img": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
+      "coverImg": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/react-tictactoe"
+    },
+    "Restaurant UI": {
+      "title": "Restaurant UI",
+      "text": "Un diseño especial de restaurante, bonito y además profesional, que se mezcla con un efecto de paralaje que te dejará alucinado.",
+      "img": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/restaurant-ui"
+    },
     "FilmMe": {
       "title": "FilMe",
       "text": "Proyecto creado para practicar con el uso de API's en Flutter. Esta aplicación a pesar de parecer básica es muy completa. Entre sus características tiene cosas como: <br>· Image carousel <br>· Hero Animation <br>· Movie search engine <br>· Using The Movie DB API",
@@ -63,6 +79,22 @@
       "coverImg": "https://github.com/titoworlddev/twitter-animate-do/blob/main/screenshot-full.jpg?raw=true",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/twitter-animate-do"
+    },
+    "E-Commerce UI": {
+      "title": "Bootstrap E-Commerce UI",
+      "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. </br></br> Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. </br></br> Espero que te guste.",
+      "img": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/Bootstrap5-E-commerce"
+    },
+    "StartUp UI": {
+      "title": "StartUp UI",
+      "text": "Interfaz de una startup que además de HTML, CSS, usa SASS y Bootstrap5, todo junto para practicar y crear este hermoso diseño.",
+      "img": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
+      "coverImg": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/startup-ui"
     },
     "Flutter professional designs": {
       "title": "Flutter professional designs",
@@ -80,46 +112,6 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/flutter-components-demo"
     },
-    "Form validation": {
-      "title": "Flutter Form validation",
-      "text": "Este es un proyecto donde tenemos dos formularios, uno para validar un registro de usuario y otro para agregar un producto. <br>Un proyecto donde características como: <br>· RxDart <br>· HTTP <br>· Selector de imágenes <br>· Tipo de Mimica <br>· Preferencias compartidas",
-      "img": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/formvalidation"
-    },
-    "Tic Tac Toe": {
-      "title": "React Tic Tac Toe",
-      "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. </br></br> El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. </br>Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
-      "img": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
-      "coverImg": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/react-tictactoe"
-    },
-    "E-Commerce UI": {
-      "title": "Bootstrap E-Commerce UI",
-      "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. </br></br> Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. </br></br> Espero que te guste.",
-      "img": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/Bootstrap5-E-commerce"
-    },
-    "Restaurant UI": {
-      "title": "Restaurant UI",
-      "text": "Un diseño especial de restaurante, bonito y además profesional, que se mezcla con un efecto de paralaje que te dejará alucinado.",
-      "img": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/restaurant-ui"
-    },
-    "StartUp UI": {
-      "title": "StartUp UI",
-      "text": "Interfaz de una startup que además de HTML, CSS, usa SASS y Bootstrap5, todo junto para practicar y crear este hermoso diseño.",
-      "img": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/startup-ui"
-    },
     "Portfolo UI": {
       "title": "Portfolo UI",
       "text": "Este es un proyecto sobre un diseño de cartera, que es agradable, simple y elegante. No es mi portafolio principal pero como práctica me ha ayudado a aprender mucho.",
@@ -135,6 +127,14 @@
       "coverImg": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/flexbox-layout"
+    },
+    "Form validation": {
+      "title": "Flutter Form validation",
+      "text": "Este es un proyecto donde tenemos dos formularios, uno para validar un registro de usuario y otro para agregar un producto. <br>Un proyecto donde características como: <br>· RxDart <br>· HTTP <br>· Selector de imágenes <br>· Tipo de Mimica <br>· Preferencias compartidas",
+      "img": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/formvalidation"
     },
     "Form CSS Grid": {
       "title": "Form CSS Grid",
