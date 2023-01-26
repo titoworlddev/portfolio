@@ -40,6 +40,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/flutter_state_bloc"
     },
+    "MediaQuery Sizer": {
+      "title": "MediaQuery Sizer",
+      "text": "Este es un paquete propio de Dart que esta disponible en <a target=\"_blank\" href=\"https://pub.dev/\">pub.dev</a>. <br>Te ayuda a usar los tamaños de pantalla a través de mediaquery, sin tener que hacer instancias para acortar su tamaño o usarla por completo. <br><br>- Administre tamaños por porcentajes de pantalla o incluso píxeles escalables <br> · Porcentaje de ancho <br> · Porcentaje de altura <br>  · Píxeles escalables <br><br>- Use tamaños por porcentaje del widget principal gracias a LayoutBuilder <br> · Ancho principal <br> · Altura de los padres <br><br>- Gestiona toda la información de la pantalla fácilmente <br> · Ancho <br> · Altura <br>  · Proporción de píxeles del dispositivo <br>  · Relación de aspecto <br>  · Orientación <br>  · Tamaño de pantalla",
+      "img": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/mediaquery_sizer"
+    },
     "FilmMe": {
       "title": "FilMe",
       "text": "Proyecto creado para practicar con el uso de API's en Flutter. Esta aplicación a pesar de parecer básica es muy completa. Entre sus características tiene cosas como: <br>· Image carousel <br>· Hero Animation <br>· Movie search engine <br>· Using The Movie DB API",
