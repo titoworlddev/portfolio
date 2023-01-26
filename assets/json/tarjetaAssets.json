@@ -32,6 +32,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/curso-react-midudev-giffy"
     },
+    "Flutter state BLoC": {
+      "title": "Flutter state BLoC",
+      "text": "Este es un proyecto orientado a la práctica y demostración del uso del bloque patrón con aleteo y dardo. Simula una aplicación que agrega un nuevo usuario y actualiza sus valores. <br>Se hace usando el paquete flutter_bloc de pub.dev que hace uso del paquete block en sus dependencias. <br>La aplicación hace cosas como: <br>· Generar un nuevo estado <br>· Actualizar ese estado (sin mutarlo) <br>· Agregar un nuevo usuario <br>· Cambie el nombre de usuario <br>· Cambiar la edad del usuario <br>· Agregar profesiones al usuario",
+      "img": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/flutter_state_bloc"
+    },
     "FilmMe": {
       "title": "FilMe",
       "text": "Proyecto creado para practicar con el uso de API's en Flutter. Esta aplicación a pesar de parecer básica es muy completa. Entre sus características tiene cosas como: <br>· Image carousel <br>· Hero Animation <br>· Movie search engine <br>· Using The Movie DB API",
