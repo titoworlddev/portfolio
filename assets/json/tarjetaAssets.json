@@ -40,6 +40,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/flutter_state_bloc"
     },
+    "News app provider": {
+      "title": "News app provider",
+      "text": "Este es un proyecto de práctica para ver el potencial de flutter y practicar el uso de la API's con él. <br><br>El proyecto, además de lo comentado, tiene características como: <br>· Provider <br>· Custom theme <br>· Json convert <br>· Tab navigation",
+      "img": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/newsapp_provider"
+    },
     "MediaQuery Sizer": {
       "title": "MediaQuery Sizer",
       "text": "Este es un paquete propio de Dart que esta disponible en <a target=\"_blank\" href=\"https://pub.dev/\">pub.dev</a>. <br>Te ayuda a usar los tamaños de pantalla a través de mediaquery, sin tener que hacer instancias para acortar su tamaño o usarla por completo. <br><br>- Administre tamaños por porcentajes de pantalla o incluso píxeles escalables <br> · Porcentaje de ancho <br> · Porcentaje de altura <br>  · Píxeles escalables <br><br>- Use tamaños por porcentaje del widget principal gracias a LayoutBuilder <br> · Ancho principal <br> · Altura de los padres <br><br>- Gestiona toda la información de la pantalla fácilmente <br> · Ancho <br> · Altura <br>  · Proporción de píxeles del dispositivo <br>  · Relación de aspecto <br>  · Orientación <br>  · Tamaño de pantalla",
