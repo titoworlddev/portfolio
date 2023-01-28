@@ -72,6 +72,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/filmme"
     },
+    "Music player app": {
+      "title": "Flutter Music player app",
+      "text": "Esta es una aplicación de reproductor de música que reproduce música desde el almacenamiento local. También es un diseño totalmente responsive. <br>Para lograrlo, hace uso de los siguientes paquetes: <br>· Animate do <br>· Provider <br>· Assets audio player",
+      "img": "https://github.com/titoworlddev/music_player_app/raw/master/screenshot2.jpg",
+      "coverImg": "https://github.com/titoworlddev/music_player_app/raw/master/screenshot2.jpg",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/music_player_app"
+    },
     "Flutter animations": {
       "title": "Animate do app",
       "text": "Este proyecto es una práctica para el uso de animaciones en flutter. Concretamente esta vez se hace con el paquete animate_do que se encuentra en pub.dev. <br> Son 3 pantallas y en 2 de ellas se simulan las animaciones de entrada a la aplicación de twitter, y en la última hay una animación del icono de notificación cayendo. <br> También detalle curioso que cada vez que se ingresa a la aplicación los colores cambian aleatoriamente y el color de los textos se adapta a esos colores para ser más legibles.",

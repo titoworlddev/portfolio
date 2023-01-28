@@ -164,14 +164,8 @@
 
           img {
             max-height: 350px;
-            object-fit: cover;
-            vertical-align: top;
-
-            border-radius: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            -ms-border-radius: 10px;
-            -o-border-radius: 10px;
+            object-fit: contain;
+            display: inline-block;
           }
         }
 
