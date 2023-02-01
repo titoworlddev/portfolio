@@ -88,6 +88,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/push_notifications"
     },
+    "Shared preferences Flutter": {
+      "title": "Shared preferences Flutter",
+      "text": "Esta app muestra el uso de Flutter para guardar las preferencias del usuario en el almacenamiento local o cache. Es un diseño simple porque es demostrativo, pero tiene cosas como, drawer menu, settings page, entre otras.",
+      "img": "https://github.com/titoworlddev/preferencias_usuario_app/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/preferencias_usuario_app/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/preferencias_usuario_app"
+    },
     "Music player app": {
       "title": "Flutter Music player app",
       "text": "Esta es una aplicación de reproductor de música que reproduce música desde el almacenamiento local. También es un diseño totalmente responsive. <br>Para lograrlo, hace uso de los siguientes paquetes: <br>· Animate do <br>· Provider <br>· Assets audio player",
