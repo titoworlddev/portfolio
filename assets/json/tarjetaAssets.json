@@ -80,6 +80,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/filmme"
     },
+    "Notifications Firebase": {
+      "title": "Notifications Firebase Cloud Messaging",
+      "text": "Esta es una aplicación que demuestra el uso de Firebase y Flutter. Utiliza Cloud Messaging para enviar notificaciones a los dispositivos de los usuarios. Requiere paquetes y configuraciones específicas en archivos específicos. Es una aplicación simple, pero con un backend complejo para enviar notificaciones. La interfaz no es lo más importante, ya que la aplicación es solo una demostración.",
+      "img": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/push_notifications"
+    },
     "Music player app": {
       "title": "Flutter Music player app",
       "text": "Esta es una aplicación de reproductor de música que reproduce música desde el almacenamiento local. También es un diseño totalmente responsive. <br>Para lograrlo, hace uso de los siguientes paquetes: <br>· Animate do <br>· Provider <br>· Assets audio player",
