@@ -104,6 +104,14 @@
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/qrreaderapp"
     },
+    "Shoes appr": {
+      "title": "Shoes app",
+      "text": "Una aplicación para probar el uso de los siguientes paquetes: <br>animate_do <br>provider <br>mediaquery_sizer <br>Diseño ligero y minimalista que hace que esta app, a pesar de ser pequeña, sea muy llamativa y agradable.",
+      "img": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/shoes_app"
+    },
     "Music player app": {
       "title": "Flutter Music player app",
       "text": "Esta es una aplicación de reproductor de música que reproduce música desde el almacenamiento local. También es un diseño totalmente responsive. <br>Para lograrlo, hace uso de los siguientes paquetes: <br>· Animate do <br>· Provider <br>· Assets audio player",
