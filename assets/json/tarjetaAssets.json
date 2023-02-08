@@ -115,8 +115,8 @@
     "Transitions app": {
       "title": "Transitions app",
       "text": "Esta aplicación es una herramienta que permite visualizar y experimentar con las diferentes transiciones de pantalla que se pueden realizar en flutter. <br>La aplicación cuenta con clases personalizadas creadas específicamente para facilitar el uso de estas transiciones, lo que la hace muy fácil de usar. Además, las transiciones se pueden ajustar a los gustos del usuario o se pueden configurar en el tema de la aplicación para una experiencia más personalizada. <br>La aplicación está bien preparada y documentada, lo que la hace apta para su uso en el futuro como un paquete en pub.dev.",
-      "img": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+      "img": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
+      "coverImg": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/shoes_app"
     },
