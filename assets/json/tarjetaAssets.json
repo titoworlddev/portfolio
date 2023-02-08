@@ -83,10 +83,10 @@
     "Notifications Firebase": {
       "title": "Notifications Firebase Cloud Messaging",
       "text": "Esta es una aplicación que demuestra el uso de Firebase y Flutter. Utiliza Cloud Messaging para enviar notificaciones a los dispositivos de los usuarios. Requiere paquetes y configuraciones específicas en archivos específicos. Es una aplicación simple, pero con un backend complejo para enviar notificaciones. La interfaz no es lo más importante, ya que la aplicación es solo una demostración.",
-      "img": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
+      "img": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
+      "coverImg": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
       "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/push_notifications"
+      "url": "https://github.com/titoworlddev/transicion_app"
     },
     "Shared preferences Flutter": {
       "title": "Shared preferences Flutter",
@@ -107,6 +107,14 @@
     "Shoes app": {
       "title": "Shoes app",
       "text": "Una aplicación para probar el uso de los siguientes paquetes: <br>animate_do <br>provider <br>mediaquery_sizer <br>Diseño ligero y minimalista que hace que esta app, a pesar de ser pequeña, sea muy llamativa y agradable.",
+      "img": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+      "linkImg": "assets/img/trabajos/badges/github.svg",
+      "url": "https://github.com/titoworlddev/shoes_app"
+    },
+    "Transitions app": {
+      "title": "Transitions app",
+      "text": "Esta aplicación es una herramienta que permite visualizar y experimentar con las diferentes transiciones de pantalla que se pueden realizar en flutter. <br>La aplicación cuenta con clases personalizadas creadas específicamente para facilitar el uso de estas transiciones, lo que la hace muy fácil de usar. Además, las transiciones se pueden ajustar a los gustos del usuario o se pueden configurar en el tema de la aplicación para una experiencia más personalizada. <br>La aplicación está bien preparada y documentada, lo que la hace apta para su uso en el futuro como un paquete en pub.dev.",
       "img": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
       "coverImg": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
       "linkImg": "assets/img/trabajos/badges/github.svg",
