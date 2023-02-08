@@ -83,8 +83,8 @@
     "Notifications Firebase": {
       "title": "Notifications Firebase Cloud Messaging",
       "text": "Esta es una aplicación que demuestra el uso de Firebase y Flutter. Utiliza Cloud Messaging para enviar notificaciones a los dispositivos de los usuarios. Requiere paquetes y configuraciones específicas en archivos específicos. Es una aplicación simple, pero con un backend complejo para enviar notificaciones. La interfaz no es lo más importante, ya que la aplicación es solo una demostración.",
-      "img": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
-      "coverImg": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
+      "img": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
+      "coverImg": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
       "linkImg": "assets/img/trabajos/badges/github.svg",
       "url": "https://github.com/titoworlddev/transicion_app"
     },
