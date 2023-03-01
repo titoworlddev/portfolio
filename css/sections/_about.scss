@@ -9,36 +9,16 @@
     width: 100%;
 
     .bio-photo-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(31rem, 1fr));
-      @media screen and (max-width: 540px) {
-        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-      }
-      gap: 32px;
-      align-items: center;
-      justify-items: center;
+      width: 70%;
 
       .bio {
-        padding-inline: 16px;
         font-family: 'Righteous', cursive;
         font-size: 1.125rem;
-      }
-      .foto-middle {
-        pointer-events: none;
-
-        width: 80%;
-        opacity: 0.95;
-        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
       }
     }
 
     .skills-container {
+      width: 70%;
       display: flex;
       flex-direction: column;
       gap: 48px;
