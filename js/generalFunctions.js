@@ -1,29 +1,20 @@
 export function closeMenuCard() {
-  document.addEventListener('mouseup', function (e) {
-    const tarjetaClases = [
-      'tarjeta',
-      'tarjeta-header',
-      'tarjeta-contenido',
-      'fotos-tarjeta',
-      'foto',
-      'nombre-explicacion',
-      'titulo-tarjeta',
-      'texto-tarjeta',
-      'logos-tiendas'
-    ];
-    const menuClases = ['mobile-menu-content', 'mobile-menu-items'];
+  window.addEventListener('mouseup', function (e) {
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const mobileMenuChildren = Array.from(mobileMenu.querySelectorAll('*'));
+    const mobileMenuContent = document.querySelector('.mobile-menu-content');
 
-    const mobileMenu = document.querySelector('.mobile-menu-content');
     const tarjetaContainer = document.querySelector('.tarjeta-container');
+    const tarjetaChildren = Array.from(tarjetaContainer.querySelectorAll('*'));
 
     if (
-      !menuClases.includes(e.target.className) &&
-      mobileMenu.style.display !== 'none'
+      !mobileMenuChildren.includes(e.target) &&
+      mobileMenuContent.style.display !== 'none'
     )
-      mobileMenu.style.display = 'none';
+      mobileMenuContent.style.display = 'none';
 
     if (
-      !tarjetaClases.includes(e.target.className) &&
+      !tarjetaChildren.includes(e.target) &&
       tarjetaContainer.style.display !== 'none'
     )
       tarjetaContainer.style.display = 'none';
