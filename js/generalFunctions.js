@@ -24,6 +24,7 @@ export function closeMenuCard() {
 export function btnUpPage() {
   document.querySelectorAll('.portfolio').forEach(item => {
     item.addEventListener('click', () => {
+      window.history.pushState(null, null, `/`);
       window.scroll({
         left: 0,
         top: 0,

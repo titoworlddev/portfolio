@@ -13,13 +13,14 @@ export function handleMenu() {
   });
 
   menuButtons.forEach(item => {
-    item.addEventListener('click', () => {
+    item.addEventListener('click', e => {
       const btnsMenu = {
         Proyectos: 'projects',
         'Sobre mí': 'about',
         Contacto: 'contact'
       };
       mobileMenu.style.display = 'none';
+      window.history.pushState(null, null, `#${btnsMenu[item.innerHTML]}`);
       window.scroll({
         left: 0,
         top:
