@@ -17,15 +17,17 @@ export function setPathName() {
 
   window.addEventListener('scroll', () => {
     setTimeout(() => {
+      const vh = window.innerHeight;
+
       const homeTop = home.getBoundingClientRect().top;
       const projectsTop = projects.getBoundingClientRect().top;
       const aboutTop = about.getBoundingClientRect().top;
       const contactTop = contact.getBoundingClientRect().top;
 
-      if (contactTop <= 115) setHistoryState('contact');
-      else if (aboutTop <= 115 && contactTop > 0) setHistoryState('about');
-      else if (projectsTop <= 115 && aboutTop > 0) setHistoryState('projects');
-      else if (homeTop <= 115 && projectsTop > 0) setHistoryState('/');
+      if (contactTop <= vh / 2) setHistoryState('contact');
+      else if (aboutTop <= vh / 2) setHistoryState('about');
+      else if (projectsTop <= vh / 2) setHistoryState('projects');
+      else if (homeTop <= vh / 2) setHistoryState('/');
     }, 100);
   });
 }
