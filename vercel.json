@@ -1,3 +1,31 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/projects",
+      "destination": "/#projects"
+    },
+    {
+      "source": "/about",
+      "destination": "/#about"
+    },
+    {
+      "source": "/contact",
+      "destination": "/#contact"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/projects",
+      "destination": "/#projects"
+    },
+    {
+      "source": "/about",
+      "destination": "/#about"
+    },
+    {
+      "source": "/contact",
+      "destination": "/#contact"
+    }
+  ]
 }
