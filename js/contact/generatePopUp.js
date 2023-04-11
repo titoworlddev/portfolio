@@ -13,10 +13,10 @@ export const generatePopup = ({ isError = true, text, time }) => {
 
   contactContainer.style.display = 'flex';
 
+  if (isError === false) contactForm.submit();
   setTimeout(function () {
     contactContainer.style.display = 'none';
     popup.classList.add('contact-popup');
     popup.classList.remove('contact-popup-error');
-    if (isError === false) contactForm.submit();
   }, time);
 };

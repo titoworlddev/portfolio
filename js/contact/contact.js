@@ -79,6 +79,8 @@ export function contact() {
       }
     } else {
       // Si todos los campos estan llenos
+
+      // Si alguno es incorrecto
       if (
         !emailInfo.valid ||
         emailInfo.block ||
@@ -122,10 +124,12 @@ export function contact() {
             'El nombre no es válido, debe contener un mínimo de 3 letras.'
           );
         }
+
+        // Si todos son correctos
       } else {
         generatePopup({
           isError: false,
-          text: 'Tu mensaje ha sido enviado',
+          text: 'Procesando solicitud...',
           time: 3000
         });
       }
