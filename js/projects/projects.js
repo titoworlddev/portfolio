@@ -14,32 +14,61 @@ export function projects() {
   /* ==================== Trabajos ==================== */
   precacheImgs();
 
-  /* Programacion */
-  Object.keys(tarjetasAssets.Programacion).forEach(title => {
-    const programacionRow = document.querySelector(
-      '.trabajos-programacion-row'
-    );
-    const trabajo = `
-      <div class="trabajo">
-        <img style="aspect-ratio: 16/9" src="${tarjetasAssets.Programacion[title].coverImg}" alt="${title} Image">
-        <p>${title}</p>
-      </div>
-      `;
-    programacionRow.innerHTML += trabajo;
+  let category = 'web';
+
+  // Renderiza los trabajos segun la categoria elegida
+  const trabajosContainers = document.querySelectorAll('.trabajos-container');
+  trabajosContainers.forEach(container => {
+    const containerCategory = container.id.split('-')[1];
+    if (containerCategory === category) {
+      container.style.display = 'grid';
+    } else {
+      container.style.display = 'none';
+    }
+
+    // Renderizamos los trabajos de la categoria
+    Object.entries(tarjetasAssets)
+      .filter(entrie => entrie[1].category === container.id.split('-')[1])
+      .forEach(entrie => {
+        const [key, value] = entrie;
+        const trabajo = `
+        <div class="trabajo">
+          <img style="aspect-ratio: 16/9" src="${value.coverImg}" alt="${key} Image">
+          <p>${key}</p>
+        </div>
+        `;
+        container.innerHTML += trabajo;
+      });
   });
 
-  /* Diseno */
-  Object.keys(tarjetasAssets.Diseno).forEach(title => {
-    const disenoRow = document.querySelector('.trabajos-diseno-row');
-    const trabajo = `
-      <div class="trabajo">
-        <img src="${tarjetasAssets.Diseno[title].coverImg}" alt="${title} Image">
-        <p>${title}</p>
-      </div>
-      `;
-    disenoRow.innerHTML += trabajo;
+  // Mostramos la categoria seleccionada, segun el boton pulsado
+  const categoryBtns = document.querySelectorAll('.btn-category');
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      category = btn.id;
+
+      // Coloreamos el boton de categoria seleccionado
+      categoryBtns.forEach(btn => {
+        if (btn.id === category) {
+          btn.classList.add('btn-category-active');
+        } else {
+          btn.classList.remove('btn-category-active');
+        }
+      });
+
+      // Mostramos solo los trabajos de la categoria seleccionada
+      trabajosContainers.forEach(container => {
+        const containerCategory = container.id.split('-')[1];
+        if (containerCategory === category) {
+          container.style.display = 'grid';
+        } else {
+          container.style.display = 'none';
+        }
+      });
+    });
   });
 
+  // Cuando se pulsa un trabajo, se muestra la tarjeta con la informacion del trabajo
   document.querySelectorAll('.trabajo').forEach(item => {
     item.addEventListener('click', () => {
       getTarjetaInfo(item);

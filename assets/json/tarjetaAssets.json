@@ -1,239 +1,272 @@
 {
-  "Programacion": {
-    "Random X": {
-      "title": "Random X App",
-      "text": "Random X es tu asistente a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. </br>Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.",
-      "img": "/assets/img/trabajos/programacion/random_x/randomx-presentation.webp",
-      "coverImg": "/assets/img/trabajos/programacion/random_x/random-x.webp",
-      "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
-      "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.random_x_app&hl=es"
-    },
-    "Operit": {
-      "title": "Operit App",
-      "text": "Calculadora con un diseño sencillo pero muy completa en sus funciones. Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. También hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. </br>Definitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!",
-      "img": "/assets/img/trabajos/programacion/operit/operit-presentation.webp",
-      "coverImg": "/assets/img/trabajos/programacion/operit/operit.webp",
-      "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
-      "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.operit&gl=ES"
-    },
-    "Portfolio": {
-      "title": "Titoworlddev portfolio",
-      "text": "Este es mi portafolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. </br>No se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
-      "img": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/portfolio"
-    },
-    "Giffy": {
-      "title": "Giffy from midudev",
-      "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. </br></br> En él he aprendido muchas cosas sobre React como: </br>- Uso de bibliotecas de JavaScript </br>- Crea una aplicación con create-react-app </br>- Ganchos personalizados y contexto de reacción </br>- Lazy Load, suspenso y paginación </br>- CSS Grid, desplazamiento infinito y pruebas </br>- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel </br>- SEO con React y Deploy Integrado con GitHub </br>- prueba useReducer y React Hook </br>- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) </br>- Registro de usuarios con Formik y React.createPortal </br>- CSS en JS y Styled Components con Emotion",
-      "img": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/curso-react-midudev-giffy"
-    },
-    "Flutter state BLoC": {
-      "title": "Flutter state BLoC",
-      "text": "Este es un proyecto orientado a la práctica y demostración del uso del bloque patrón con aleteo y dardo. Simula una aplicación que agrega un nuevo usuario y actualiza sus valores. <br>Se hace usando el paquete flutter_bloc de pub.dev que hace uso del paquete block en sus dependencias. <br>La aplicación hace cosas como: <br>· Generar un nuevo estado <br>· Actualizar ese estado (sin mutarlo) <br>· Agregar un nuevo usuario <br>· Cambie el nombre de usuario <br>· Cambiar la edad del usuario <br>· Agregar profesiones al usuario",
-      "img": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/flutter_state_bloc"
-    },
-    "News app provider": {
-      "title": "News app provider",
-      "text": "Este es un proyecto de práctica para ver el potencial de flutter y practicar el uso de la API's con él. <br><br>El proyecto, además de lo comentado, tiene características como: <br>· Provider <br>· Custom theme <br>· Json convert <br>· Tab navigation",
-      "img": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/newsapp_provider"
-    },
-    "MediaQuery Sizer": {
-      "title": "MediaQuery Sizer",
-      "text": "Este es un paquete propio de Dart que esta disponible en <a target=\"_blank\" href=\"https://pub.dev/\">pub.dev</a>. <br>Te ayuda a usar los tamaños de pantalla a través de mediaquery, sin tener que hacer instancias para acortar su tamaño o usarla por completo. <br><br>- Administre tamaños por porcentajes de pantalla o incluso píxeles escalables <br> · Porcentaje de ancho <br> · Porcentaje de altura <br>  · Píxeles escalables <br><br>- Use tamaños por porcentaje del widget principal gracias a LayoutBuilder <br> · Ancho principal <br> · Altura de los padres <br><br>- Gestiona toda la información de la pantalla fácilmente <br> · Ancho <br> · Altura <br>  · Proporción de píxeles del dispositivo <br>  · Relación de aspecto <br>  · Orientación <br>  · Tamaño de pantalla",
-      "img": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/mediaquery_sizer"
-    },
-    "Tic Tac Toe": {
-      "title": "React Tic Tac Toe",
-      "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. </br></br> El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. </br>Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
-      "img": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
-      "coverImg": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/react-tictactoe"
-    },
-    "Restaurant UI": {
-      "title": "Restaurant UI",
-      "text": "Un diseño especial de restaurante, bonito y además profesional, que se mezcla con un efecto de paralaje que te dejará alucinado.",
-      "img": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/restaurant-ui"
-    },
-    "FilmMe": {
-      "title": "FilMe",
-      "text": "Proyecto creado para practicar con el uso de API's en Flutter. Esta aplicación a pesar de parecer básica es muy completa. Entre sus características tiene cosas como: <br>· Image carousel <br>· Hero Animation <br>· Movie search engine <br>· Using The Movie DB API",
-      "img": "https://github.com/titoworlddev/filmme/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/filmme/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/filmme"
-    },
-    "Notifications Firebase": {
-      "title": "Notifications Firebase Cloud Messaging",
-      "text": "Esta es una aplicación que demuestra el uso de Firebase y Flutter. Utiliza Cloud Messaging para enviar notificaciones a los dispositivos de los usuarios. Requiere paquetes y configuraciones específicas en archivos específicos. Es una aplicación simple, pero con un backend complejo para enviar notificaciones. La interfaz no es lo más importante, ya que la aplicación es solo una demostración.",
-      "img": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/transicion_app"
-    },
-    "Shared preferences Flutter": {
-      "title": "Shared preferences Flutter",
-      "text": "Esta app muestra el uso de Flutter para guardar las preferencias del usuario en el almacenamiento local o cache. Es un diseño simple porque es demostrativo, pero tiene cosas como, drawer menu, settings page, entre otras.",
-      "img": "https://github.com/titoworlddev/preferencias_usuario_app/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/preferencias_usuario_app/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/preferencias_usuario_app"
-    },
-    "QRCode Scanner": {
-      "title": "QRCode Scanner",
-      "text": "Esta es una aplicación que utiliza el paquete flutter_barcode_scanner para poder leer QRCodes o Barcodes y leer su contenido. Específicamente, esta aplicación abre enlaces URL en el navegador, pero se puede usar para más. También utiliza el patrón BLoC para la gestión de estados y SQFLite para almacenar el valor de los códigos leídos.",
-      "img": "https://github.com/titoworlddev/qrreaderapp/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/qrreaderapp/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/qrreaderapp"
-    },
-    "Shoes app": {
-      "title": "Shoes app",
-      "text": "Una aplicación para probar el uso de los siguientes paquetes: <br>animate_do <br>provider <br>mediaquery_sizer <br>Diseño ligero y minimalista que hace que esta app, a pesar de ser pequeña, sea muy llamativa y agradable.",
-      "img": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/shoes_app"
-    },
-    "Transitions app": {
-      "title": "Transitions app",
-      "text": "Esta aplicación es una herramienta que permite visualizar y experimentar con las diferentes transiciones de pantalla que se pueden realizar en flutter. <br><br>La aplicación cuenta con clases personalizadas creadas específicamente para facilitar el uso de estas transiciones, lo que la hace muy fácil de usar. Además, las transiciones se pueden ajustar a los gustos del usuario o se pueden configurar en el tema de la aplicación para una experiencia más personalizada. <br><br>La aplicación está bien preparada y documentada, lo que la hace apta para su uso en el futuro como un paquete en pub.dev.",
-      "img": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
-      "coverImg": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/shoes_app"
-    },
-    "Music player app": {
-      "title": "Flutter Music player app",
-      "text": "Esta es una aplicación de reproductor de música que reproduce música desde el almacenamiento local. También es un diseño totalmente responsive. <br>Para lograrlo, hace uso de los siguientes paquetes: <br>· Animate do <br>· Provider <br>· Assets audio player",
-      "img": "https://github.com/titoworlddev/music_player_app/raw/master/screenshot2.jpg",
-      "coverImg": "https://github.com/titoworlddev/music_player_app/raw/master/screenshot2.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/music_player_app"
-    },
-    "Flutter animations": {
-      "title": "Animate do app",
-      "text": "Este proyecto es una práctica para el uso de animaciones en flutter. Concretamente esta vez se hace con el paquete animate_do que se encuentra en pub.dev. <br> Son 3 pantallas y en 2 de ellas se simulan las animaciones de entrada a la aplicación de twitter, y en la última hay una animación del icono de notificación cayendo. <br> También detalle curioso que cada vez que se ingresa a la aplicación los colores cambian aleatoriamente y el color de los textos se adapta a esos colores para ser más legibles.",
-      "img": "https://github.com/titoworlddev/twitter-animate-do/blob/main/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/twitter-animate-do/blob/main/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/twitter-animate-do"
-    },
-    "E-Commerce UI": {
-      "title": "Bootstrap E-Commerce UI",
-      "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. </br></br> Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. </br></br> Espero que te guste.",
-      "img": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/Bootstrap5-E-commerce"
-    },
-    "StartUp UI": {
-      "title": "StartUp UI",
-      "text": "Interfaz de una startup que además de HTML, CSS, usa SASS y Bootstrap5, todo junto para practicar y crear este hermoso diseño.",
-      "img": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/startup-ui"
-    },
-    "Flutter professional designs": {
-      "title": "Flutter professional designs",
-      "text": "Aquí tenemos un proyecto de Flutter que muestra muchos componentes y paquetes que son avanzados y hacen que nuestro diseño sea mucho más profesional. <br>Tenemos cosas como: <br>· Drawer<br>· Custom themes <br>· Custom painter<br>· Animaciones de todo tipo<br>· Barras de progreso<br>· SlideShow<br>· Grid Display como la aplicación de pinterest (diferente tamaño para cada elemento)<br>· Diseño de emergencia, con iconos de degradados, etc<br>· Slivers",
-      "img": "https://github.com/titoworlddev/flutter-professional-designs/blob/main/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/flutter-professional-designs/blob/main/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/flutter-professional-designs"
-    },
-    "Flutter components": {
-      "title": "Flutter components demo",
-      "text": "Sucede que cuando empiezas con Flutter la cantidad de componentes y widgets que hay además de la sintaxis de Dart es un poco abrumadora, por lo que esta app está hecha para repasar todo y demostrar cómo funciona.",
-      "img": "https://github.com/titoworlddev/flutter-components-demo/blob/main/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/flutter-components-demo/blob/main/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/flutter-components-demo"
-    },
-    "Portfolo UI": {
-      "title": "Portfolo UI",
-      "text": "Este es un proyecto sobre un diseño de cartera, que es agradable, simple y elegante. No es mi portafolio principal pero como práctica me ha ayudado a aprender mucho.",
-      "img": "https://github.com/titoworlddev/portfolio-ui/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/portfolio-ui/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/portfolio-ui"
-    },
-    "FlexBox": {
-      "title": "FlexBox Layout",
-      "text": "Este proyecto es un diseño hecho con flexbox. Me sirvió mucho para practicar y aprender a posicionar los elementos en la interfaz.",
-      "img": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/flexbox-layout"
-    },
-    "Form validation": {
-      "title": "Flutter Form validation",
-      "text": "Este es un proyecto donde tenemos dos formularios, uno para validar un registro de usuario y otro para agregar un producto. <br>Un proyecto donde características como: <br>· RxDart <br>· HTTP <br>· Selector de imágenes <br>· Tipo de Mimica <br>· Preferencias compartidas",
-      "img": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
-      "coverImg": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/formvalidation"
-    },
-    "Form CSS Grid": {
-      "title": "Form CSS Grid",
-      "text": "Un formulario para practicar el uso de css grid y también el manejo de errores en el formulario con javascript.",
-      "img": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/form-css-grid"
-    },
-    "VideoJS": {
-      "title": "VideoJS",
-      "text": "En esta práctica estuve probando el uso de la utilidad VideoJS, con el fin de hacer uso de un reproductor de video que se puede personalizar a gusto del consumidor. Sin duda, muy útil y queda genial.",
-      "img": "https://github.com/titoworlddev/videojs/raw/main/screenshot.jpg",
-      "coverImg": "https://github.com/titoworlddev/videojs/raw/main/screenshot.jpg",
-      "linkImg": "assets/img/trabajos/badges/github.svg",
-      "url": "https://github.com/titoworlddev/videojs"
-    }
+  "Random X": {
+    "title": "Random X App",
+    "text": "Random X es tu asistente a la hora de jugar y/o divertirte con amigos, sus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. </br>Sin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.",
+    "img": "/assets/img/trabajos/programacion/random_x/randomx-presentation.webp",
+    "coverImg": "/assets/img/trabajos/programacion/random_x/random-x.webp",
+    "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
+    "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.random_x_app&hl=es",
+    "category": "movil"
   },
-
-  "Diseno": {
-    "Game Zone": {
-      "title": "Tienda Electrónica - Game Zone",
-      "text": "Continuando con los diseños aquí les dejo uno nuevo, en este caso de una aplicación móvil sobre una tienda de videojuegos, que también podría servir como base para una tienda en general. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.",
-      "img": "/assets/img/trabajos/diseno/game_zone/game-zone-store.webp",
-      "coverImg": "/assets/img/trabajos/diseno/game_zone/game-zone-store.webp",
-      "linkImg": "/assets/img/trabajos/badges/instagram-logo.svg",
-      "url": "https://www.instagram.com/cristian_am91/"
-    },
-    "El Chingón": {
-      "title": "Restaurante - El Chingón",
-      "text": "Diseño sobre un restaurante de comida mexicana, que se puede tomar como ejemplo de diseños para restaurantes. Es un diseño muy simple, pero a la vez muy atractivo. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.",
-      "img": "/assets/img/trabajos/diseno/el_chingon/el-chingon.webp",
-      "coverImg": "/assets/img/trabajos/diseno/el_chingon/el-chingon.webp",
-      "linkImg": "/assets/img/trabajos/badges/instagram-logo.svg",
-      "url": "https://www.instagram.com/cristian_am91/"
-    },
-    "L'evasion": {
-      "title": "Hotel - L'evasion",
-      "text": "Diseño en la página web de un hotel o apartamentos. Un diseño suave y relajado, que permite encontrar una experiencia de hospedaje muy placentera. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.",
-      "img": "/assets/img/trabajos/diseno/levasion/levasion.webp",
-      "coverImg": "/assets/img/trabajos/diseno/levasion/levasion.webp",
-      "linkImg": "/assets/img/trabajos/badges/instagram-logo.svg",
-      "url": "https://www.instagram.com/cristian_am91/"
-    }
+  "Operit": {
+    "title": "Operit App",
+    "text": "Calculadora con un diseño sencillo pero muy completa en sus funciones. Si buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. También hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. </br>Definitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!",
+    "img": "/assets/img/trabajos/programacion/operit/operit-presentation.webp",
+    "coverImg": "/assets/img/trabajos/programacion/operit/operit.webp",
+    "linkImg": "/assets/img/trabajos/badges/google-play-badge.svg",
+    "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.operit&gl=ES",
+    "category": "movil"
+  },
+  "Portfolio": {
+    "title": "Titoworlddev portfolio",
+    "text": "Este es mi portafolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. </br>No se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
+    "img": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/portfolio/raw/master/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/portfolio",
+    "category": "web"
+  },
+  "Giffy": {
+    "title": "Giffy from midudev",
+    "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. </br></br> En él he aprendido muchas cosas sobre React como: </br>- Uso de bibliotecas de JavaScript </br>- Crea una aplicación con create-react-app </br>- Ganchos personalizados y contexto de reacción </br>- Lazy Load, suspenso y paginación </br>- CSS Grid, desplazamiento infinito y pruebas </br>- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel </br>- SEO con React y Deploy Integrado con GitHub </br>- prueba useReducer y React Hook </br>- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) </br>- Registro de usuarios con Formik y React.createPortal </br>- CSS en JS y Styled Components con Emotion",
+    "img": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/curso-react-midudev-giffy",
+    "category": "web"
+  },
+  "Password Generator": {
+    "title": "Vue Password Generator",
+    "text": "Este es un proyecto de práctica con Vue.JS, se trata de un generador de contraseñas que además de generarlas, te permite copiarlas al portapapeles. </br>También te permite elegir la longitud de la contraseña, si quieres que tenga números, mayúsculas, minúsculas y/o símbolos. </br>Incluso tiene un apartado para poder generar una contraseña segura, a partir de una frase que tú elijas, mezclando los caracteres en la frase. De esta forma, tendras una contraseña personalizada pero, que es segura porque no es tu frase literal. </br>Es una aplicación muy sencilla pero que te puede ser de gran utilidad.",
+    "img": "https://github.com/titoworlddev/password-generator/blob/master/screenshot.png?raw=true",
+    "coverImg": "https://github.com/titoworlddev/password-generator/blob/master/screenshot.png?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/password-generator",
+    "category": "web"
+  },
+  "Flutter state BLoC": {
+    "title": "Flutter state BLoC",
+    "text": "Este es un proyecto orientado a la práctica y demostración del uso del bloque patrón con aleteo y dardo. Simula una aplicación que agrega un nuevo usuario y actualiza sus valores. <br>Se hace usando el paquete flutter_bloc de pub.dev que hace uso del paquete block en sus dependencias. <br>La aplicación hace cosas como: <br>· Generar un nuevo estado <br>· Actualizar ese estado (sin mutarlo) <br>· Agregar un nuevo usuario <br>· Cambie el nombre de usuario <br>· Cambiar la edad del usuario <br>· Agregar profesiones al usuario",
+    "img": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/flutter_state_bloc",
+    "category": "movil"
+  },
+  "News app provider": {
+    "title": "News app provider",
+    "text": "Este es un proyecto de práctica para ver el potencial de flutter y practicar el uso de la API's con él. <br><br>El proyecto, además de lo comentado, tiene características como: <br>· Provider <br>· Custom theme <br>· Json convert <br>· Tab navigation",
+    "img": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/newsapp_provider",
+    "category": "movil"
+  },
+  "MediaQuery Sizer": {
+    "title": "MediaQuery Sizer",
+    "text": "Este es un paquete propio de Dart que esta disponible en <a target=\"_blank\" href=\"https://pub.dev/\">pub.dev</a>. <br>Te ayuda a usar los tamaños de pantalla a través de mediaquery, sin tener que hacer instancias para acortar su tamaño o usarla por completo. <br><br>- Administre tamaños por porcentajes de pantalla o incluso píxeles escalables <br> · Porcentaje de ancho <br> · Porcentaje de altura <br>  · Píxeles escalables <br><br>- Use tamaños por porcentaje del widget principal gracias a LayoutBuilder <br> · Ancho principal <br> · Altura de los padres <br><br>- Gestiona toda la información de la pantalla fácilmente <br> · Ancho <br> · Altura <br>  · Proporción de píxeles del dispositivo <br>  · Relación de aspecto <br>  · Orientación <br>  · Tamaño de pantalla",
+    "img": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/mediaquery_sizer",
+    "category": "movil"
+  },
+  "Tic Tac Toe": {
+    "title": "React Tic Tac Toe",
+    "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. </br></br> El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. </br>Es un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
+    "img": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
+    "coverImg": "https://github.com/titoworlddev/react-tictactoe/raw/master/screenshot1.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/react-tictactoe",
+    "category": "web"
+  },
+  "Restaurant UI": {
+    "title": "Restaurant UI",
+    "text": "Un diseño especial de restaurante, bonito y además profesional, que se mezcla con un efecto de paralaje que te dejará alucinado.",
+    "img": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/restaurant-ui/raw/main/img/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/restaurant-ui",
+    "category": "web"
+  },
+  "FilmMe": {
+    "title": "FilMe",
+    "text": "Proyecto creado para practicar con el uso de API's en Flutter. Esta aplicación a pesar de parecer básica es muy completa. Entre sus características tiene cosas como: <br>· Image carousel <br>· Hero Animation <br>· Movie search engine <br>· Using The Movie DB API",
+    "img": "https://github.com/titoworlddev/filmme/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/filmme/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/filmme",
+    "category": "movil"
+  },
+  "Notifications Firebase": {
+    "title": "Notifications Firebase Cloud Messaging",
+    "text": "Esta es una aplicación que demuestra el uso de Firebase y Flutter. Utiliza Cloud Messaging para enviar notificaciones a los dispositivos de los usuarios. Requiere paquetes y configuraciones específicas en archivos específicos. Es una aplicación simple, pero con un backend complejo para enviar notificaciones. La interfaz no es lo más importante, ya que la aplicación es solo una demostración.",
+    "img": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/push_notifications/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/transicion_app",
+    "category": "movil"
+  },
+  "Shared preferences Flutter": {
+    "title": "Shared preferences Flutter",
+    "text": "Esta app muestra el uso de Flutter para guardar las preferencias del usuario en el almacenamiento local o cache. Es un diseño simple porque es demostrativo, pero tiene cosas como, drawer menu, settings page, entre otras.",
+    "img": "https://github.com/titoworlddev/preferencias_usuario_app/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/preferencias_usuario_app/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/preferencias_usuario_app",
+    "category": "movil"
+  },
+  "QRCode Scanner": {
+    "title": "QRCode Scanner",
+    "text": "Esta es una aplicación que utiliza el paquete flutter_barcode_scanner para poder leer QRCodes o Barcodes y leer su contenido. Específicamente, esta aplicación abre enlaces URL en el navegador, pero se puede usar para más. También utiliza el patrón BLoC para la gestión de estados y SQFLite para almacenar el valor de los códigos leídos.",
+    "img": "https://github.com/titoworlddev/qrreaderapp/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/qrreaderapp/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/qrreaderapp",
+    "category": "movil"
+  },
+  "Shoes app": {
+    "title": "Shoes app",
+    "text": "Una aplicación para probar el uso de los siguientes paquetes: <br>animate_do <br>provider <br>mediaquery_sizer <br>Diseño ligero y minimalista que hace que esta app, a pesar de ser pequeña, sea muy llamativa y agradable.",
+    "img": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/shoes_app/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/shoes_app",
+    "category": "movil"
+  },
+  "Transitions app": {
+    "title": "Transitions app",
+    "text": "Esta aplicación es una herramienta que permite visualizar y experimentar con las diferentes transiciones de pantalla que se pueden realizar en flutter. <br><br>La aplicación cuenta con clases personalizadas creadas específicamente para facilitar el uso de estas transiciones, lo que la hace muy fácil de usar. Además, las transiciones se pueden ajustar a los gustos del usuario o se pueden configurar en el tema de la aplicación para una experiencia más personalizada. <br><br>La aplicación está bien preparada y documentada, lo que la hace apta para su uso en el futuro como un paquete en pub.dev.",
+    "img": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
+    "coverImg": "https://github.com/titoworlddev/transicion_app/blob/master/screenshot-full.png?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/shoes_app",
+    "category": "movil"
+  },
+  "Music player app": {
+    "title": "Flutter Music player app",
+    "text": "Esta es una aplicación de reproductor de música que reproduce música desde el almacenamiento local. También es un diseño totalmente responsive. <br>Para lograrlo, hace uso de los siguientes paquetes: <br>· Animate do <br>· Provider <br>· Assets audio player",
+    "img": "https://github.com/titoworlddev/music_player_app/raw/master/screenshot2.jpg",
+    "coverImg": "https://github.com/titoworlddev/music_player_app/raw/master/screenshot2.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/music_player_app",
+    "category": "movil"
+  },
+  "Flutter animations": {
+    "title": "Animate do app",
+    "text": "Este proyecto es una práctica para el uso de animaciones en flutter. Concretamente esta vez se hace con el paquete animate_do que se encuentra en pub.dev. <br> Son 3 pantallas y en 2 de ellas se simulan las animaciones de entrada a la aplicación de twitter, y en la última hay una animación del icono de notificación cayendo. <br> También detalle curioso que cada vez que se ingresa a la aplicación los colores cambian aleatoriamente y el color de los textos se adapta a esos colores para ser más legibles.",
+    "img": "https://github.com/titoworlddev/twitter-animate-do/blob/main/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/twitter-animate-do/blob/main/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/twitter-animate-do",
+    "category": "movil"
+  },
+  "E-Commerce UI": {
+    "title": "Bootstrap E-Commerce UI",
+    "text": "Este es un proyecto que realicé para practicar con Bootstrap 5, en este caso se trata de una tienda online de ropa, con un diseño limpio. </br></br> Aunque no tiene funcionalidad porque está orientado a practicar solo haciendo una maquetación con Bootstrap, tiene todo, buscador, menu, carousel, y galería. </br></br> Espero que te guste.",
+    "img": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/bootstrap5-e-commerce/raw/main/img/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/Bootstrap5-E-commerce",
+    "category": "web"
+  },
+  "StartUp UI": {
+    "title": "StartUp UI",
+    "text": "Interfaz de una startup que además de HTML, CSS, usa SASS y Bootstrap5, todo junto para practicar y crear este hermoso diseño.",
+    "img": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/startup-ui/raw/main/img/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/startup-ui",
+    "category": "web"
+  },
+  "Flutter professional designs": {
+    "title": "Flutter professional designs",
+    "text": "Aquí tenemos un proyecto de Flutter que muestra muchos componentes y paquetes que son avanzados y hacen que nuestro diseño sea mucho más profesional. <br>Tenemos cosas como: <br>· Drawer<br>· Custom themes <br>· Custom painter<br>· Animaciones de todo tipo<br>· Barras de progreso<br>· SlideShow<br>· Grid Display como la aplicación de pinterest (diferente tamaño para cada elemento)<br>· Diseño de emergencia, con iconos de degradados, etc<br>· Slivers",
+    "img": "https://github.com/titoworlddev/flutter-professional-designs/blob/main/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/flutter-professional-designs/blob/main/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/flutter-professional-designs",
+    "category": "movil"
+  },
+  "Flutter components": {
+    "title": "Flutter components demo",
+    "text": "Sucede que cuando empiezas con Flutter la cantidad de componentes y widgets que hay además de la sintaxis de Dart es un poco abrumadora, por lo que esta app está hecha para repasar todo y demostrar cómo funciona.",
+    "img": "https://github.com/titoworlddev/flutter-components-demo/blob/main/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/flutter-components-demo/blob/main/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/flutter-components-demo",
+    "category": "movil"
+  },
+  "Portfolo UI": {
+    "title": "Portfolo UI",
+    "text": "Este es un proyecto sobre un diseño de cartera, que es agradable, simple y elegante. No es mi portafolio principal pero como práctica me ha ayudado a aprender mucho.",
+    "img": "https://github.com/titoworlddev/portfolio-ui/raw/main/img/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/portfolio-ui/raw/main/img/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/portfolio-ui",
+    "category": "web"
+  },
+  "FlexBox": {
+    "title": "FlexBox Layout",
+    "text": "Este proyecto es un diseño hecho con flexbox. Me sirvió mucho para practicar y aprender a posicionar los elementos en la interfaz.",
+    "img": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/flexbox-layout/raw/main/imagenes/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/flexbox-layout",
+    "category": "web"
+  },
+  "Form validation": {
+    "title": "Flutter Form validation",
+    "text": "Este es un proyecto donde tenemos dos formularios, uno para validar un registro de usuario y otro para agregar un producto. <br>Un proyecto donde características como: <br>· RxDart <br>· HTTP <br>· Selector de imágenes <br>· Tipo de Mimica <br>· Preferencias compartidas",
+    "img": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/formvalidation/blob/master/screenshot-full.jpg?raw=true",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/formvalidation",
+    "category": "movil"
+  },
+  "Form CSS Grid": {
+    "title": "Form CSS Grid",
+    "text": "Un formulario para practicar el uso de css grid y también el manejo de errores en el formulario con javascript.",
+    "img": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/form-css-grid/raw/main/img/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/form-css-grid",
+    "category": "web"
+  },
+  "VideoJS": {
+    "title": "VideoJS",
+    "text": "En esta práctica estuve probando el uso de la utilidad VideoJS, con el fin de hacer uso de un reproductor de video que se puede personalizar a gusto del consumidor. Sin duda, muy útil y queda genial.",
+    "img": "https://github.com/titoworlddev/videojs/raw/main/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/videojs/raw/main/screenshot.jpg",
+    "linkImg": "assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/videojs",
+    "category": "web"
+  },
+  "Game Zone": {
+    "title": "Tienda Electrónica - Game Zone",
+    "text": "Continuando con los diseños aquí les dejo uno nuevo, en este caso de una aplicación móvil sobre una tienda de videojuegos, que también podría servir como base para una tienda en general. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.",
+    "img": "/assets/img/trabajos/diseno/game_zone/game-zone-store.webp",
+    "coverImg": "/assets/img/trabajos/diseno/game_zone/game-zone-store.webp",
+    "linkImg": "/assets/img/trabajos/badges/instagram-logo.svg",
+    "url": "https://www.instagram.com/cristian_am91/",
+    "category": "diseno"
+  },
+  "El Chingón": {
+    "title": "Restaurante - El Chingón",
+    "text": "Diseño sobre un restaurante de comida mexicana, que se puede tomar como ejemplo de diseños para restaurantes. Es un diseño muy simple, pero a la vez muy atractivo. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.",
+    "img": "/assets/img/trabajos/diseno/el_chingon/el-chingon.webp",
+    "coverImg": "/assets/img/trabajos/diseno/el_chingon/el-chingon.webp",
+    "linkImg": "/assets/img/trabajos/badges/instagram-logo.svg",
+    "url": "https://www.instagram.com/cristian_am91/",
+    "category": "diseno"
+  },
+  "L'evasion": {
+    "title": "Hotel - L'evasion",
+    "text": "Diseño en la página web de un hotel o apartamentos. Un diseño suave y relajado, que permite encontrar una experiencia de hospedaje muy placentera. Espero que te guste. <br/><br/>Disfruta de todos mis diseños en mi instagram.",
+    "img": "/assets/img/trabajos/diseno/levasion/levasion.webp",
+    "coverImg": "/assets/img/trabajos/diseno/levasion/levasion.webp",
+    "linkImg": "/assets/img/trabajos/badges/instagram-logo.svg",
+    "url": "https://www.instagram.com/cristian_am91/",
+    "category": "diseno"
   }
 }

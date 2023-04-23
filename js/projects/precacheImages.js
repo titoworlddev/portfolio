@@ -2,13 +2,13 @@ import { tarjetasAssets } from './tarjetasAssets.js';
 
 export function precacheImgs() {
   let imgs = [];
-  Object.entries(tarjetasAssets.Programacion)
-    .concat(Object.entries(tarjetasAssets.Diseno))
-    .forEach(entrie => {
-      !imgs.includes(entrie[1].img) && imgs.push(entrie[1].img);
-      !imgs.includes(entrie[1].coverImg) && imgs.push(entrie[1].coverImg);
-      !imgs.includes(entrie[1].linkImg) && imgs.push(entrie[1].linkImg);
-    });
+  Object.entries(tarjetasAssets).forEach(entrie => {
+    const [_, value] = entrie;
+    const { img, coverImg, linkImg } = value;
+    !imgs.includes(img) && imgs.push(img);
+    !imgs.includes(coverImg) && imgs.push(coverImg);
+    !imgs.includes(linkImg) && imgs.push(linkImg);
+  });
 
   const cachedImages = [];
   imgs.forEach(elem => {

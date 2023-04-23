@@ -49,23 +49,6 @@ header {
         flex-wrap: wrap;
         list-style: none;
         gap: 40px;
-
-        .btn-menu {
-          color: $textColor;
-          cursor: pointer;
-          font-size: 1.25rem;
-          text-decoration: none;
-
-          &:hover {
-            text-decoration: underline;
-            color: #fff;
-          }
-
-          &:active {
-            color: #fff;
-            text-decoration: underline;
-          }
-        }
       }
 
       /* ==================== Mobile ==================== */
@@ -130,18 +113,12 @@ header {
 
             .btn-menu {
               color: #2d40417e;
-              cursor: pointer;
               font-size: 1.375rem;
-              text-decoration: none;
-
               &:hover {
-                text-decoration: underline;
                 color: #314546;
               }
-
               &:active {
                 color: #314546;
-                text-decoration: underline;
               }
             }
           }

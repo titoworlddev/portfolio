@@ -5,28 +5,19 @@ export const getTarjetaInfo = item => {
 
   const info = key => {
     tarjeta.querySelector('.titulo-tarjeta').innerHTML =
-      tarjetasAssets[`${key}`][item.querySelector('p').innerText].title;
+      tarjetasAssets[`${key}`].title;
     tarjeta.querySelector('.texto-tarjeta').innerHTML =
-      tarjetasAssets[`${key}`][item.querySelector('p').innerText].text;
+      tarjetasAssets[`${key}`].text;
     tarjeta.querySelector('.fotos-tarjeta img').src =
-      tarjetasAssets[`${key}`][item.querySelector('p').innerText].img;
+      tarjetasAssets[`${key}`].img;
     tarjeta.querySelector('.logos-tiendas img').src =
-      tarjetasAssets[`${key}`][item.querySelector('p').innerText].linkImg;
+      tarjetasAssets[`${key}`].linkImg;
     tarjeta
       .querySelector('.logos-tiendas a')
-      .setAttribute(
-        'href',
-        tarjetasAssets[`${key}`][item.querySelector('p').innerText].url
-      );
+      .setAttribute('href', tarjetasAssets[`${key}`].url);
   };
 
-  if (
-    Object.keys(tarjetasAssets.Programacion).includes(
-      item.querySelector('p').innerText
-    )
-  ) {
-    info('Programacion');
-  } else {
-    info('Diseno');
+  if (Object.keys(tarjetasAssets).includes(item.querySelector('p').innerText)) {
+    info(item.querySelector('p').innerText);
   }
 };

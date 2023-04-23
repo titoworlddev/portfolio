@@ -1,64 +1,61 @@
 .projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   /* ==================== Projects ==================== */
+  .projects--categories {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
   .trabajos-container {
     max-width: 1200px;
     margin-inline: auto;
     margin-bottom: 40px;
     font-family: 'Righteous', cursive;
     color: #fff;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    @media screen and (max-width: 360px) {
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+    margin-bottom: 24px;
 
-    .trabajos-programacion-container,
-    .trabajos-diseno-container {
-      margin-bottom: 80px;
+    .trabajo {
+      cursor: pointer;
 
-      h2 {
-        font-size: 2.25rem;
-        font-weight: 100;
-        margin-bottom: 20px;
+      img {
+        width: 100%;
+        object-fit: cover;
+
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
+      p {
+        color: #e1e1e1;
+        margin: 8px 0;
       }
 
-      .trabajos-programacion-row,
-      .trabajos-diseno-row {
-        display: grid;
-        gap: 40px;
-        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-        @media screen and (max-width: 360px) {
-          grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-        }
-        margin-bottom: 24px;
-
-        .trabajo {
-          cursor: pointer;
-
-          img {
-            width: 100%;
-            object-fit: cover;
-
-            border-radius: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            -ms-border-radius: 10px;
-            -o-border-radius: 10px;
-          }
-          p {
-            color: #e1e1e1;
-            margin: 8px 0;
-          }
-
-          &:hover {
-            img {
-              transition: 0.3s ease-out;
-              -webkit-transition: 0.3s ease-out;
-              -moz-transition: 0.3s ease-out;
-              -ms-transition: 0.3s ease-out;
-              -o-transition: 0.3s ease-out;
-              transform: scale(1.05);
-              -webkit-transform: scale(1.05);
-              -moz-transform: scale(1.05);
-              -ms-transform: scale(1.05);
-              -o-transform: scale(1.05);
-            }
-          }
+      &:hover {
+        img {
+          transition: 0.3s ease-out;
+          -webkit-transition: 0.3s ease-out;
+          -moz-transition: 0.3s ease-out;
+          -ms-transition: 0.3s ease-out;
+          -o-transition: 0.3s ease-out;
+          transform: scale(1.05);
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
         }
       }
     }
