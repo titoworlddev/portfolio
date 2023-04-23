@@ -1,6 +1,8 @@
+@import 'variables';
+
 .btn-menu,
 .btn-category {
-  color: $textColor;
+  color: $textInactiveColor;
   cursor: pointer;
   font-size: 1.25rem;
   text-decoration: none;
@@ -19,4 +21,26 @@
 .btn-menu.btn-menu-active {
   color: #fff;
   text-decoration: underline;
+}
+
+.social {
+  img,
+  svg {
+    fill: $textInactiveColor;
+    height: 1.875rem;
+
+    g {
+      fill: $textInactiveColor;
+    }
+  }
+}
+.social:hover {
+  img,
+  svg {
+    fill: $textColor;
+
+    g {
+      fill: $textColor;
+    }
+  }
 }
