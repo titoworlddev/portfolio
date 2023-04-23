@@ -15,8 +15,25 @@ export function setPathName() {
     }
   }
 
+  function setBtnActive() {
+    const btnsMenu = document.querySelectorAll('.btn-menu');
+    const location = window.location.pathname.substring(1);
+    btnsMenu.forEach(btn => {
+      const btnId = btn.id.split('-')[0];
+      if (btnId === location) {
+        btn.classList.add('btn-menu-active');
+      } else {
+        btn.classList.remove('btn-menu-active');
+      }
+    });
+  }
+  setBtnActive();
+
   window.addEventListener('scroll', () => {
+    // Set timeout para evitar muchas llamadas al mismo tiempo
     setTimeout(() => {
+      setBtnActive();
+
       const vh = window.innerHeight;
 
       const homeTop = home.getBoundingClientRect().top;
