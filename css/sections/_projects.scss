@@ -5,16 +5,18 @@
   /* ==================== Projects ==================== */
   .projects--categories {
     margin: auto;
-    width: 40%;
+    width: 100%;
+    max-width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
     list-style: none;
   }
 
   .trabajos-container {
-    max-width: 1200px;
-    margin-inline: auto;
+    // max-width: 1200px;
+    // margin-inline: auto;
     margin-bottom: 40px;
     font-family: 'Righteous', cursive;
     color: #fff;
