@@ -75,7 +75,7 @@ export function projects() {
       setTimeout(() => {
         if (tarjetaContainer.style.display !== 'flex')
           tarjetaContainer.style.display = 'flex';
-      }, 300);
+      }, 200);
     });
   });
 }
