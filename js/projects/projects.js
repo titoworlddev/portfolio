@@ -49,10 +49,11 @@ export function projects() {
 
       // Coloreamos el boton de categoria seleccionado
       categoryBtns.forEach(btn => {
+        const activeClass = 'btn-category-active';
         if (btn.id === category) {
-          btn.classList.add('btn-category-active');
+          btn.classList.add(activeClass);
         } else {
-          btn.classList.remove('btn-category-active');
+          btn.classList.remove(activeClass);
         }
       });
 
