@@ -28,9 +28,8 @@ export function projects() {
 
     // Renderizamos los trabajos de la categoria
     Object.entries(tarjetasAssets)
-      .filter(entrie => entrie[1].category === container.id.split('-')[1])
-      .forEach(entrie => {
-        const [key, value] = entrie;
+      .filter(([_, v]) => v.category === container.id.split('-')[1])
+      .forEach(([key, value]) => {
         const trabajo = `
         <div class="trabajo">
           <img style="aspect-ratio: 16/9" src="${value.coverImg}" alt="${key} Image">
