@@ -20,6 +20,7 @@ export function projects() {
   const trabajosContainers = document.querySelectorAll('.trabajos-container');
   trabajosContainers.forEach(container => {
     const containerCategory = container.id.split('-')[1];
+    // Para que no se muestren todos a la vez
     if (containerCategory === category) {
       container.style.display = 'grid';
     } else {
@@ -28,7 +29,7 @@ export function projects() {
 
     // Renderizamos los trabajos de la categoria
     Object.entries(tarjetasAssets)
-      .filter(([_, v]) => v.category === container.id.split('-')[1])
+      .filter(([_, v]) => v.category === containerCategory)
       .forEach(([key, value]) => {
         const trabajo = `
         <div class="trabajo">
