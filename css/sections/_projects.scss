@@ -66,8 +66,8 @@
   /* ==================== Tarjeta ==================== */
   .tarjeta-container {
     align-items: center;
-    display: none;
     background-color: #00000036;
+    display: none;
     height: 100%;
     justify-content: center;
     left: 0;
@@ -81,19 +81,11 @@
       box-shadow: 0 4px 40px rgba(255, 255, 255, 0.05);
       color: #cfcfcf;
       font-size: 1rem;
-      max-height: 85%;
       overflow: auto;
       padding: 24px;
-      width: 35%;
-      @media screen and (max-width: 1200px) {
-        width: 60%;
-      }
-      @media screen and (max-width: 768px) {
-        width: 70%;
-      }
-      @media screen and (max-width: 375px) {
-        width: 70%;
-      }
+      height: 85%;
+      width: 85%;
+      max-width: 700px;
 
       border-radius: 20px;
       -webkit-border-radius: 20px;
