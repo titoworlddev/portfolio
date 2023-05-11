@@ -73,13 +73,13 @@ body {
   }
 
   .my-cv {
-    background-color: #dfdfdf;
-    color: #3f5e60;
+    background-color: $inputBackgroundColor;
+    color: $secondaryColor;
     padding: 8px 16px;
 
     &:hover {
       text-decoration: none;
-      background-color: #cfcfcf;
+      opacity: 0.8;
     }
 
     border-radius: 8px;
@@ -93,13 +93,12 @@ body {
     margin: 64px 0;
     border: 0;
     height: 1px;
-    background: #fff;
-    opacity: 0.2;
+    background: $textInactiveColor;
   }
 
   a {
     text-decoration: none;
-    color: rgb(222, 222, 222);
+    color: $textColor;
     &:hover {
       text-decoration: underline;
     }

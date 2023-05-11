@@ -136,11 +136,11 @@
 
       label {
         font-size: 1.25rem;
-        color: #fff;
+        color: $textColor;
       }
       input,
       textarea {
-        background: #d9d9d9;
+        background: $inputBackgroundColor;
         border: none;
         font-family: 'Righteous', cursive;
         font-size: 1.25rem;
@@ -148,7 +148,7 @@
         outline: none;
 
         &::placeholder {
-          color: #8d8d8d;
+          color: $placeholderColor;
         }
 
         border-radius: 10px;
@@ -166,8 +166,8 @@
         margin: 16px auto;
         padding: 12px 10%;
         grid-column: span 2;
-        background: #c8b160;
-        color: #424242;
+        background: $accentColor;
+        color: $primaryColor;
         font-size: 1.25rem;
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -191,7 +191,7 @@
     align-items: center;
     display: none;
     justify-content: center;
-    background-color: #00000036;
+    background-color: $popUpBackgroundColor;
     left: 0;
     height: 100%;
     position: fixed;
@@ -203,7 +203,7 @@
     .contact-popup-error {
       background: #d9d9d9;
       box-shadow: 0 4px 20px rgba($color: #000, $alpha: 0.2);
-      color: #298a29;
+      color: $succesColor;
       display: flex;
       flex-direction: column;
       font-size: 3rem;
@@ -225,7 +225,7 @@
       }
     }
     .contact-popup-error {
-      color: #d02215;
+      color: $errorColor;
     }
   }
 }

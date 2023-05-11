@@ -8,18 +8,18 @@
   text-decoration: none;
   font-family: 'Righteous', Arial, Helvetica, sans-serif;
   &:hover {
-    color: #fff;
+    color: $textColor;
     text-decoration: underline;
   }
   &:active {
-    color: #fff;
+    color: $textColor;
     text-decoration: underline;
   }
 }
 
 .btn-category.btn-category-active,
 .btn-menu.btn-menu-active {
-  color: #fff;
+  color: $textColor;
   text-decoration: underline;
 }
 

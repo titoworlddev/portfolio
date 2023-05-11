@@ -19,10 +19,11 @@
   .trabajos-container {
     margin-bottom: 40px;
     font-family: 'Righteous', cursive;
-    color: #fff;
+    color: $textColor;
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
     @media screen and (max-width: 360px) {
       grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     }
@@ -42,7 +43,6 @@
         -o-border-radius: 10px;
       }
       p {
-        color: #e1e1e1;
         margin: 8px 0;
       }
 
@@ -65,7 +65,7 @@
 
   /* ==================== Tarjeta ==================== */
   .tarjeta-container {
-    background-color: #00000079;
+    background-color: $popUpBackgroundColor;
     display: none;
     justify-content: center;
     align-items: center;
