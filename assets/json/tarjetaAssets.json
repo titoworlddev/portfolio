@@ -35,6 +35,15 @@
     "url": "https://github.com/titoworlddev/password-generator",
     "category": "web"
   },
+  "tubuenacompra.net": {
+    "title": "tubuenacompra.net",
+    "text": "Es una página estilo e-commerce, pero que solo se especializa en hacer guías sobre productos para que lo usuarios puedan elegir el que más se adapte a sus necesidades. </br></br>La página está creada con HTML, CSS y JavaScript, y Bootstrap 5. </br>El diseño es responsive y se ha tratado de hacer un diseño muy sereno para que la experiencia en la web sea lo más comfortable posible. </br></br>El proyecto está en constante desarrollo, ya que se van a ir añadiendo nuevas guías de productos y se van mejorando las ya existentes.",
+    "img": "assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
+    "coverImg": "assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
+    "linkImg": "assets/img/trabajos/badges/open-in-new-tab.svg",
+    "url": "https://tubuenacompra.net/",
+    "category": "web"
+  },
   "Portfolio": {
     "title": "Titoworlddev portfolio",
     "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. </br></br>No se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
