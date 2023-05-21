@@ -1,11 +1,7 @@
 # 💼 titoworlddev portfolio
 
-This is my personal portfolio, it was created with **HTML, CSS**
-and Vanilla **JavaScript**.  
-No framework or library was used, only a CSS pre-processor,
-specifically **SASS**, was used.
+This is my personal portfolio, it was created with **React** and **SASS**
 
-Soon it is planned to migrate the project to **React** to continue
-practicing my skills.
+A simple project but with a lot of love and dedication.
 
 ![](/public/assets/img/screenshot.jpg)

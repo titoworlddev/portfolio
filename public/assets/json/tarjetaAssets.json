@@ -46,7 +46,7 @@
   },
   "Portfolio": {
     "title": "Titoworlddev portfolio",
-    "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, fue creado con HTML, CSS y Vanilla JavaScript. \n\nNo se utilizó ningún framework ni librería, solo se utilizó un preprocesador CSS (SASS). Próximamente, está previsto migrar el proyecto a React para seguir practicando mis habilidades.",
+    "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, originalmente fue creado con HTML, CSS(SASS) y Vanilla JavaScript, pero ahora esta pasado a React. \n\n Algo simple, pero bonito y hecho con mucho amor y pasión.",
     "img": "/assets/img/screenshot.jpg",
     "coverImg": "/assets/img/screenshot.jpg",
     "linkImg": "/assets/img/trabajos/badges/github.svg",
