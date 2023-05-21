@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "from": "/*",
-      "to": "/index.html",
+      "source": "/*",
+      "destination": "/index.html",
       "status": 200
     }
   ]
