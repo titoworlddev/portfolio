@@ -1,0 +1,32 @@
+@import '/src/styles/variables';
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .projects--categories {
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  .trabajos-container {
+    margin-bottom: 40px;
+    font-family: 'Righteous', cursive;
+    color: $textColor;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+    @media screen and (max-width: 360px) {
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+    margin-bottom: 24px;
+  }
+}

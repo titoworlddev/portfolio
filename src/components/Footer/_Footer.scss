@@ -1,0 +1,28 @@
+@import '/src/styles/variables';
+
+/* ==================== Footer ==================== */
+footer {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: $textColor;
+
+  .socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    .portfolio {
+      cursor: pointer;
+    }
+    .social {
+      img,
+      svg {
+        height: 1.875rem;
+      }
+    }
+  }
+}

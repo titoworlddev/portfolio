@@ -1,0 +1,180 @@
+@import '/src/styles/variables';
+
+/* ==================== Header ==================== */
+
+header {
+  width: 100%;
+  z-index: 1;
+  background: $headerGradient;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px;
+
+  nav {
+    max-width: 1200px;
+    margin: auto;
+    padding-inline: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .portfolio {
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      background-color: transparent;
+      border: none;
+
+      img {
+        transition: $mainTransition;
+        -webkit-transition: $mainTransition;
+        -moz-transition: $mainTransition;
+        -ms-transition: $mainTransition;
+        -o-transition: $mainTransition;
+      }
+    }
+
+    .menus {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 32px;
+
+      /*====================Desktop====================*/
+      .desktop-menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 40px;
+      }
+
+      /* ==================== Mobile ==================== */
+      .mobile-menu {
+        display: none;
+        z-index: 3;
+
+        button {
+          background: none;
+          border: none;
+          color: $textColor;
+          font-size: 1.25rem;
+          cursor: pointer;
+        }
+
+        .mobile-menu-content {
+          align-items: end;
+          background: $textColor;
+          display: none;
+          flex-direction: column;
+          position: fixed;
+          right: 0;
+          top: 0;
+
+          border-radius: 0 0 0 10px;
+          -webkit-border-radius: 0 0 0 10px;
+          -moz-border-radius: 0 0 0 10px;
+          -ms-border-radius: 0 0 0 10px;
+          -o-border-radius: 0 0 0 10px;
+
+          transition: $mainTransition;
+          -webkit-transition: $mainTransition;
+          -moz-transition: $mainTransition;
+          -ms-transition: $mainTransition;
+          -o-transition: $mainTransition;
+
+          .close-button {
+            margin: 20px 32px;
+            color: $primaryColor;
+            font-size: 1.5rem;
+          }
+
+          .mobile-menu-items {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            justify-content: space-between;
+            list-style: none;
+            padding-bottom: 32px;
+            padding-inline: 40px;
+
+            .current_page {
+              cursor: default;
+              color: $primaryColor;
+            }
+            .current_page:active {
+              color: $primaryColor;
+            }
+            .current_page:hover {
+              text-decoration: none;
+            }
+
+            .btn-menu {
+              color: $primaryColor;
+              font-size: 1.375rem;
+              &:hover {
+                opacity: 0.8;
+              }
+              &:active {
+                opacity: 1;
+                color: $primaryColor;
+              }
+            }
+          }
+        }
+      }
+
+      .socials-desktop,
+      .socials-mobile {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+
+        .social {
+          img,
+          svg {
+            height: 1.25rem;
+          }
+        }
+      }
+      .socials-mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 721px) {
+  header {
+    nav {
+      .menus {
+        .desktop-menu {
+          display: none;
+        }
+
+        .mobile-menu {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .mobile-menu-button {
+            display: block;
+          }
+        }
+
+        .socials-desktop {
+          display: none;
+        }
+        .socials-mobile {
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+        }
+      }
+    }
+  }
+}

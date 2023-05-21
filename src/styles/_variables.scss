@@ -1,0 +1,30 @@
+$whiteColor: #fff;
+$textColor: #ececec;
+$textInactiveColor: #b4b4b4;
+$inputBackgroundColor: #d9d9d9;
+$placeholderColor: #8d8d8d;
+$primaryColor: #314546;
+$secondaryColor: #3f5e60;
+$accentColor: #b8a358;
+$errorColor: #d02215;
+$succesColor: #298a29;
+$popUpBackgroundColor: #00000079;
+
+$bgGradient: linear-gradient(
+  to bottom right,
+  #314546 0%,
+  #3f5e60 50%,
+  #547d81 75%,
+  #75a0a3 100%
+);
+$headerGradient: linear-gradient(
+  to right,
+  #314647 0%,
+  #3a5356 50%,
+  #3d585b 75%,
+  #405c5e 85%,
+  #426264 100%
+);
+$scrollGradient: linear-gradient(to bottom, #314546 0%, #3f5e6081 100%);
+
+$mainTransition: all 0.4s ease-out;
