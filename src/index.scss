@@ -28,37 +28,10 @@ html {
 body {
   max-width: 1200px;
   margin: auto;
-  background: $bgGradient no-repeat fixed;
-
-  .stars-bg {
-    z-index: -100;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .my-logo {
-    height: 2.5rem;
-  }
-
-  .my-cv {
-    background-color: $inputBackgroundColor;
-    color: $secondaryColor;
-    padding: 8px 16px;
-
-    &:hover {
-      text-decoration: none;
-      opacity: 0.8;
-    }
-
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-  }
+  background: $secondaryColor;
+  background-image: $bgGradient;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   hr {
     margin: 64px 0;
