@@ -22,7 +22,8 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <HomePage />
       }
-    ]
+    ],
+    errorElement: <ErrorPage />
   },
   {
     path: '/link-tree',
