@@ -11,11 +11,6 @@ export default function HomePage() {
 
   return (
     <>
-      {/* <img
-        className='stars-bg'
-        src='/assets/img/estrellas.svg'
-        alt='Stars BG'
-      /> */}
       <Header />
       <Main />
       <Footer />
