@@ -17,6 +17,33 @@
     "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.operit&gl=ES",
     "category": "movil"
   },
+  "Workout Creator": {
+    "title": "React Workout Creator",
+    "text": "Workout Creator es una aplicación web hecha con React.JS. \nEsta web te da la posibilidad de crear tus propios entrenamientos de gimnasio eligiendo entre un total de 1342 ejercicios en su base de datos organizados por categorías, las cuales puedes usar como filtros para que te sea más fácil crearlo. \n\nAdemás una vez lo tienes creado lo puedes imprimir en pdf para poder llevarlo a cualquier parte en tu móvil o compartirlo con quien quieras. \n\nEstá en fase alfa, pero está pensado mejorarla muchísimo más en un futuro.",
+    "img": "https://github.com/titoworlddev/workout-creator/blob/master/screenshot.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/workout-creator/blob/master/screenshot.jpg?raw=true",
+    "linkImg": "/assets/img/trabajos/badges/open-in-new-tab.svg",
+    "url": "https://workoutcreator.app/",
+    "category": "web"
+  },
+  "Portfolio": {
+    "title": "Titoworlddev portfolio",
+    "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, originalmente fue creado con HTML, CSS(SASS) y Vanilla JavaScript, pero ahora esta pasado a React. \n\n Algo simple, pero bonito y hecho con mucho amor y pasión.",
+    "img": "/assets/img/screenshot.jpg",
+    "coverImg": "/assets/img/screenshot.jpg",
+    "linkImg": "/assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/portfolio",
+    "category": "web"
+  },
+  "tubuenacompra.net": {
+    "title": "tubuenacompra.net",
+    "text": "Es una página estilo e-commerce, pero que solo se especializa en hacer guías sobre productos para que lo usuarios puedan elegir el que más se adapte a sus necesidades. \n\nLa página está creada con Vue.JS, Bootstrap 5 y un poco de SASS. \nEl diseño es responsive y se ha tratado de hacer un diseño muy sereno para que la experiencia en la web sea lo más comfortable posible. \n\nEl proyecto está en constante desarrollo, ya que se van a ir añadiendo nuevas guías de productos y se van mejorando las ya existentes.",
+    "img": "/assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
+    "coverImg": "/assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
+    "linkImg": "/assets/img/trabajos/badges/open-in-new-tab.svg",
+    "url": "https://tubuenacompra.net/",
+    "category": "web"
+  },
   "Giffy": {
     "title": "Giffy from midudev",
     "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. \n\n En él he aprendido muchas cosas sobre React como: \n- Uso de bibliotecas de JavaScript \n- Crea una aplicación con create-react-app \n- Ganchos personalizados y contexto de reacción \n- Lazy Load, suspenso y paginación \n- CSS Grid, desplazamiento infinito y pruebas \n- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel \n- SEO con React y Deploy Integrado con GitHub \n- prueba useReducer y React Hook \n- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) \n- Registro de usuarios con Formik y React.createPortal \n- CSS en JS y Styled Components con Emotion",
@@ -33,24 +60,6 @@
     "coverImg": "https://github.com/titoworlddev/password-generator/blob/master/screenshot.png?raw=true",
     "linkImg": "/assets/img/trabajos/badges/github.svg",
     "url": "https://github.com/titoworlddev/password-generator",
-    "category": "web"
-  },
-  "tubuenacompra.net": {
-    "title": "tubuenacompra.net",
-    "text": "Es una página estilo e-commerce, pero que solo se especializa en hacer guías sobre productos para que lo usuarios puedan elegir el que más se adapte a sus necesidades. \n\nLa página está creada con HTML, CSS y JavaScript, y Bootstrap 5. \nEl diseño es responsive y se ha tratado de hacer un diseño muy sereno para que la experiencia en la web sea lo más comfortable posible. \n\nEl proyecto está en constante desarrollo, ya que se van a ir añadiendo nuevas guías de productos y se van mejorando las ya existentes.",
-    "img": "/assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
-    "coverImg": "/assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
-    "linkImg": "/assets/img/trabajos/badges/open-in-new-tab.svg",
-    "url": "https://tubuenacompra.net/",
-    "category": "web"
-  },
-  "Portfolio": {
-    "title": "Titoworlddev portfolio",
-    "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, originalmente fue creado con HTML, CSS(SASS) y Vanilla JavaScript, pero ahora esta pasado a React. \n\n Algo simple, pero bonito y hecho con mucho amor y pasión.",
-    "img": "/assets/img/screenshot.jpg",
-    "coverImg": "/assets/img/screenshot.jpg",
-    "linkImg": "/assets/img/trabajos/badges/github.svg",
-    "url": "https://github.com/titoworlddev/portfolio",
     "category": "web"
   },
   "Flutter state BLoC": {
