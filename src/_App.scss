@@ -1,3 +1,5 @@
+@import '/src/styles/variables';
+
 .stars-bg {
   z-index: -100;
   width: 100%;
@@ -12,8 +14,8 @@
 }
 
 .my-cv {
-  background-color: var(--inputBackgroundColor);
-  color: var(--secondaryColor);
+  background-color: $inputBackgroundColor;
+  color: $secondaryColor;
   padding: 8px 16px;
 
   border-radius: 8px;
