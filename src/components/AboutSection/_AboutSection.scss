@@ -56,7 +56,12 @@
           .skills-group {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 32px;
+            gap: 2rem;
+            @media screen and (max-width: 320px) {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 3rem;
+            }
           }
         }
 

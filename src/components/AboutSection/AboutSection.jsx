@@ -42,7 +42,7 @@ export default function AboutSection() {
 
           <div className='skills'>
             {Object.entries(skillsImgs).map(([key, value]) => (
-              <div key={key} className='skill-section web'>
+              <div key={key} className='skill-section'>
                 <h3>{value.name}</h3>
 
                 <div className='skills-group'>
