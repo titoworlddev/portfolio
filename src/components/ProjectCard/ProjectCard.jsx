@@ -43,7 +43,12 @@ export default function ProjectCard({
         {/* <!-- Footer --> */}
         <div className='tarjeta-footer'>
           <div className='logos-tiendas'>
-            <a target='_blank' href={project.url} aria-label='Link al proyecto'>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href={project.url}
+              aria-label='Link al proyecto'
+            >
               <img src={project.linkImg} alt='Imagen del link al proyecto' />
             </a>
           </div>
