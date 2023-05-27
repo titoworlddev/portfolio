@@ -1,19 +1,10 @@
-export const showEmailError = text => {
-  const inputEmail = document.querySelector('#email');
-  const errorEmail = document.querySelector('.error-email');
+export const showError = (text, type = 'name') => {
+  const input = document.querySelector(`#${type}`);
+  const error = document.querySelector(`.error-${type}`);
 
-  errorEmail.innerHTML = text;
-  errorEmail.style.display = 'block';
-  inputEmail.style.border = '0.6mm solid #e23838';
-};
-
-export const showNameError = text => {
-  const inputName = document.querySelector('#name');
-  const errorName = document.querySelector('.error-name');
-
-  errorName.innerHTML = text;
-  errorName.style.display = 'block';
-  inputName.style.border = '0.6mm solid #e23838';
+  error.innerHTML = text;
+  error.style.display = 'block';
+  input.style.border = '0.6mm solid #e23838';
 };
 
 export const validateEmail = async email => {

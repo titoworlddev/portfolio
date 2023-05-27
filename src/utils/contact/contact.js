@@ -1,8 +1,4 @@
-import {
-  showNameError,
-  showEmailError,
-  validateEmail
-} from './contactFunctions.js';
+import { showError, validateEmail } from './contactFunctions.js';
 import { generatePopup } from './generatePopUp.js';
 
 export function contact() {
@@ -46,30 +42,32 @@ export function contact() {
       // Si alguno de los campos esta vacio
       // Name
       if (inputName.value === '') {
-        showNameError(
+        showError(
           'Debes poner el nombre para que pueda dirigirme a ti en mi respuesta.'
         );
         // Pongo que si el nombre es menor a 3 porque en el caso de que por ejemplo
         // el email este vacio, el nombre no se valida y se muestra el error de que
         // el nombre debe tener mas de 3 caracteres
       } else if (inputName.value.length < 3) {
-        showNameError(
+        showError(
           'El nombre no es válido, debe contener un mínimo de 3 letras.'
         );
       }
       // Email
       if (inputEmail.value === '') {
-        showEmailError('Debes poner el email para que pueda responderte.');
+        showError('Debes poner el email para que pueda responderte.', 'email');
         // Aqui pasa lo mismo que con el comentario de arriba, aunque el email no este vacio
         // como se ha entrado a este bloque porque hay otro campo vacio, el email no se valida
         // y se muestra el error de que el email no es valido
       } else if (!emailInfo.valid) {
-        showEmailError(
-          'El email no es válido, debes ingresar un email correcto para continuar.'
+        showError(
+          'El email no es válido, debes ingresar un email correcto para continuar.',
+          'email'
         );
       } else if (emailInfo.block) {
-        showEmailError(
-          'Por favor, no uses el formulario de contacto para enviar publicidad, su uso es exclusivo para contrataciones.'
+        showError(
+          'Por favor, no uses el formulario de contacto para enviar publicidad, su uso es exclusivo para contrataciones.',
+          'email'
         );
       }
       // Message
@@ -90,8 +88,9 @@ export function contact() {
         inputName.value.length < 3
       ) {
         if (!emailInfo.valid) {
-          showEmailError(
-            'El email no es válido, debes ingresar un email correcto para continuar.'
+          showError(
+            'El email no es válido, debes ingresar un email correcto para continuar.',
+            'email'
           );
         }
         if (
@@ -100,12 +99,14 @@ export function contact() {
           inputEmail.value.includes('business')
         ) {
           if (!emailInfo.valid) {
-            showEmailError(
-              'El email no es válido, debes ingresar un email correcto para continuar.'
+            showError(
+              'El email no es válido, debes ingresar un email correcto para continuar.',
+              'email'
             );
           } else {
-            showEmailError(
-              'Por favor, no uses el formulario de contacto para enviar publicidad, su uso es exclusivo para contrataciones.'
+            showError(
+              'Por favor, no uses el formulario de contacto para enviar publicidad, su uso es exclusivo para contrataciones.',
+              'email'
             );
             generatePopup({
               text: 'Los anuncios no están permitidos, el formulario es solo para contrataciones',
@@ -120,7 +121,7 @@ export function contact() {
           });
         }
         if (inputName.value.length < 3) {
-          showNameError(
+          showError(
             'El nombre no es válido, debe contener un mínimo de 3 letras.'
           );
         }
