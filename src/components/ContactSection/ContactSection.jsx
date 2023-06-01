@@ -18,7 +18,9 @@ export default function ContactSection() {
         <form
           className='contact-form'
           id='contact-form'
-          action='https://formsubmit.co/f1d15b6a10aab7ed304d64bd63842648'
+          action={`${import.meta.env.VITE_FORM_URL}/${
+            import.meta.env.VITE_FORM_EMAIL
+          }`}
           method='POST'
         >
           <div className='name-email-container'>
