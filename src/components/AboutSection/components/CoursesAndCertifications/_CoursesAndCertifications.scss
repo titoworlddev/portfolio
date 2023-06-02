@@ -1,0 +1,25 @@
+@import '/src/styles/variables';
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 70%;
+
+  h2 {
+    text-align: start;
+  }
+
+  h5,
+  h6,
+  p,
+  a {
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  .certifications--cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

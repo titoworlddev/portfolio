@@ -1,0 +1,54 @@
+@import '/src/styles/variables';
+
+.certifications--card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+
+  .card--header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+
+    .card--icon {
+      cursor: pointer;
+    }
+  }
+
+  .card--expandible {
+    background: $inputBackgroundColor;
+    font-size: 1rem;
+    color: $primaryColor;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+    p {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      span {
+        text-decoration: underline;
+      }
+    }
+
+    a {
+      padding: 0.5rem 5%;
+      background: $accentColor;
+      color: $primaryColor;
+      border-radius: 10px;
+      user-select: none;
+      text-decoration: none;
+
+      &:hover {
+        background: $accentColorHover;
+      }
+    }
+  }
+}
