@@ -1,0 +1,26 @@
+@import '/src/styles/variables';
+
+.bio-photo-container {
+  width: 70%;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+
+  .bio {
+    font-family: 'Righteous', cursive;
+    font-size: 1.125rem;
+    color: $textColor;
+  }
+
+  .my-cv {
+    background-color: $accentColor;
+    color: $primaryColor;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+
+    &:hover {
+      background: $accentColorHover;
+    }
+  }
+}
