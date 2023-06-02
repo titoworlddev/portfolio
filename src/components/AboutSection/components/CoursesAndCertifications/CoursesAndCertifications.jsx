@@ -1,4 +1,4 @@
-import CertificationCard from './Certificationcard';
+import CertificationCard from './CertificationCard';
 import './_CoursesAndCertifications.scss';
 
 export default function CoursesAndCertifications() {
