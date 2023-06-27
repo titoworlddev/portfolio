@@ -98,6 +98,15 @@
     "url": "https://github.com/titoworlddev/dreadful-cherry-tomatoes",
     "category": "web"
   },
+  "Blog": {
+    "title": "Blog - Astro",
+    "text": "He querido aprender Astro para tener más opciones en el mundo laboral y más opciones de cara a ser más versátil en mis trabajos freelance. \n\nPara ello hice el tutorial de la documentación oficial de Astro, ya que si sabes html, css y javascript es muy fácil aprenderlo. \n\nEs un tutorial muy bueno que me ha permitido aprender las bases de Astro perfectamente.",
+    "img": "https://github.com/titoworlddev/blog-astro-tutorial/blob/main/screenshot2.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/blog-astro-tutorial/blob/main/screenshot1.jpg?raw=true",
+    "linkImg": "/assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/blog-astro-tutorial",
+    "category": "web"
+  },
   "Tic Tac Toe": {
     "title": "React Tic Tac Toe",
     "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. \n\n El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. \nEs un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
