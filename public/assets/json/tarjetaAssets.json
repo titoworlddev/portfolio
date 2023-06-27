@@ -89,6 +89,15 @@
     "url": "https://github.com/titoworlddev/mediaquery_sizer",
     "category": "movil"
   },
+  "Dreadful Cherry Tomatoes": {
+    "title": "Dreadful Cherry Tomatoes - React + SCSS",
+    "text": "Este es un proyecto que he tenido que hacer para un reto de programación de la web de Rviewer. \nEste mes están haciendo el jobathon y este es el reto que se pedía hacer. \n\nAdemás este reto también entra dentro de una oferta de trabajo, así que lo he hecho con todo mi cariño y motivación para demostrar mis capacidades. \n\nEs una web que muestra películas sacadas de una API, ordenadas por el año más actual y que además puedes buscar por nombre.",
+    "img": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/resources/dreadful-cherry-tomatoes-movies.png",
+    "coverImg": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/resources/dreadful-cherry-tomatoes-movies.png",
+    "linkImg": "/assets/img/trabajos/badges/github.svg",
+    "url": "https://github.com/titoworlddev/dreadful-cherry-tomatoes",
+    "category": "web"
+  },
   "Tic Tac Toe": {
     "title": "React Tic Tac Toe",
     "text": "Aquí tenemos un proyecto de práctica, el cual es el juego de Tic Tac Toe que podemos hacer con el tutorial de la documentación oficial de React. \n\n El juego es algo sencillo, pero hace uso de muchos conceptos básicos para el uso de React. Conceptos como, state, props, onClick, ReacDOM, create-react-app, state, handleFunctions, class Component, function Component. \nEs un juego para dos personas, que a pesar de tener un diseño simple, tiene un control del juego total, permitiéndote reiniciar el juego, ver el historial de movimientos y ver el movimiento que se hizo en cada turno.",
