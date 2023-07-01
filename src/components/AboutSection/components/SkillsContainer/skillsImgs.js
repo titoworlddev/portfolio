@@ -23,6 +23,10 @@ export const skillsImgs = {
         img: 'vuejs/vuejs-original.svg'
       },
       {
+        title: 'Astro',
+        img: '/assets/img/svg/astro.svg'
+      },
+      {
         title: 'Sass',
         img: 'sass/sass-original.svg'
       },

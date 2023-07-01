@@ -1,5 +1,7 @@
 export default function Skill({ title = '', img = '' }) {
-  const url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/';
+  const url = img.includes('-')
+    ? 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/' + img
+    : img;
 
   return (
     <label title={title}>
@@ -7,7 +9,7 @@ export default function Skill({ title = '', img = '' }) {
         height='48'
         alt={title}
         className={title.includes('Wordpress') ? 'wordpress-logo' : ''}
-        src={`${url}${img}`}
+        src={url}
       />
     </label>
   );
