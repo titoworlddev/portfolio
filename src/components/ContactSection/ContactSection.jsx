@@ -12,6 +12,7 @@ export default function ContactSection() {
       <h2 className='section-title'>Contáctame</h2>
       <p className='send-message'>
         Envíame un mensaje si deseas trabajar conmigo.
+        <br />- titocristian.am@gmail.com -
       </p>
 
       <div className='contact-container'>
