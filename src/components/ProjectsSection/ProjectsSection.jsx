@@ -33,8 +33,9 @@ export default function ProjectsSection() {
     setCategory(category);
   };
 
-  const handleSetProject = project => {
+  const handleSetAndOpenProject = project => {
     setProject(project);
+    // La card siempre esta ahi, simplemente la muestro u oculto despues de actualizar el estado
     openCloseCard();
   };
 
@@ -62,7 +63,7 @@ export default function ProjectsSection() {
             key={key}
             name={key}
             project={value}
-            onClick={() => handleSetProject(value)}
+            onClick={() => handleSetAndOpenProject(value)}
           />
         ))}
       </div>

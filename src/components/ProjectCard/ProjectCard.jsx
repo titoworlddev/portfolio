@@ -6,16 +6,15 @@ export default function ProjectCard({
     title: '',
     text: '',
     img: '',
+    links: [{ img: '', url: '' }],
     coverImg: '',
-    linkImg: '',
-    url: '',
     category: ''
   }
 }) {
   return (
     <div className='tarjeta-container'>
       <div className='tarjeta' id='tarjeta'>
-        {/* <!-- Header --> */}
+        {/* Header */}
         <div className='tarjeta-header'>
           <button
             onClick={openCloseCard}
@@ -26,7 +25,7 @@ export default function ProjectCard({
           </button>
         </div>
 
-        {/* <!-- Contenido --> */}
+        {/* Contenido */}
         <div className='tarjeta-body'>
           <div className='fotos-tarjeta'>
             <img className='foto' src={project.img} alt='Work Presentation' />
@@ -40,17 +39,21 @@ export default function ProjectCard({
           </div>
         </div>
 
-        {/* <!-- Footer --> */}
+        {/* Footer */}
         <div className='tarjeta-footer'>
           <div className='logos-tiendas'>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href={project.url}
-              aria-label='Link al proyecto'
-            >
-              <img src={project.linkImg} alt='Imagen del link al proyecto' />
-            </a>
+            {project.links &&
+              project.links.map((link, index) => (
+                <a
+                  key={index}
+                  target='_blank'
+                  rel='noreferrer'
+                  href={link.url}
+                  aria-label='Link al proyecto'
+                >
+                  <img src={link.img} alt='Imagen del link al proyecto' />
+                </a>
+              ))}
           </div>
         </div>
       </div>
