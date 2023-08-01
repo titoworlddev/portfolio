@@ -8,7 +8,7 @@ export default function CoursesAndCertifications() {
 
       <div className='certifications--cards'>
         <CertificationCard
-          title='Introducción a Frameworks de Frontend con Vue 3'
+          title='Introducción a Frameworks de Frontend con Vue 3 - 8 horas'
           school='Mastermind'
           year='2023'
           description='En este curso aprenderás a crear una interfaz de usuario con Vue, un framework progresivo de JavaScript. Utilizarás las herramientas más prácticas y adaptables que pueden implementarse para desarrollar aplicaciones web de forma sencilla economizando tiempo y recursos. Además, al tratarse de un framework de Frontend, comprenderás las diferencias con backend'
@@ -16,7 +16,7 @@ export default function CoursesAndCertifications() {
           certificateUrl='https://www.mastermind.ac/certificates/rdjzg2fasx'
         />
         <CertificationCard
-          title='Curso gratis de ReactJS 2020'
+          title='Curso gratis de ReactJS 2020 - 17,5 horas'
           school='midu.dev'
           year='2023'
           description='Aprende qué es React, crea una aplicación desde cero, crea tus propios hooks y añade infinite scroll y testing con estas clases. Lo enseñamos desde cero y te explicamos por qué lo necesitas y deberías aprenderlo.'
@@ -24,7 +24,7 @@ export default function CoursesAndCertifications() {
           certificateUrl='https://midu.dev/curso-gratis-react-2020/'
         />
         <CertificationCard
-          title='DISEÑO WEB PROFESIONAL EL CURSO COMPLETO, PRÁCTICO Y DESDE 0'
+          title='Diseño web profesional el curso completo práctico y desde 0 - 42 horas'
           school='Udemy'
           year='2022 a 2023'
           description='Aprendizaje paso a paso y desde lo más básico, a diseñar cualquier
@@ -34,7 +34,7 @@ export default function CoursesAndCertifications() {
           certificateUrl='https://www.udemy.com/certificate/UC-97b91edc-738a-4dba-9d33-de5bf7f28a47/'
         />
         <CertificationCard
-          title='FLUTTER INTERMEDIO: DISEÑOS PROFESIONALES Y ANIMACIONES'
+          title='Flutter intermedio: Diseños profesionales y animaciones - 15,5 horas'
           school='Udemy'
           year='2021'
           description='Este curso tiene por objetivo enseñarte a crear animaciones personalizadas y diseños atractivos para tus aplicaciones móviles y aplicaciones para tabletas.'
@@ -42,7 +42,7 @@ export default function CoursesAndCertifications() {
           certificateUrl='https://www.udemy.com/certificate/UC-219303a8-b7ef-42cf-bd98-e6a37a1e73eb/'
         />
         <CertificationCard
-          title='FLUTTER: TU GUÍA COMPLETA PARA IOS Y ANDROID'
+          title='Flutter: Tu guía completa para ios y android - 37,5 horas'
           school='Udemy'
           year='2020'
           description='Un curso para enseñarte todo lo que necesitas de sobre el lenguaje de Dart y Flutter para poder crear aplicaciones hermosas y principalmente funcionales que son aplicables a la vida real.'
@@ -50,7 +50,7 @@ export default function CoursesAndCertifications() {
           certificateUrl='https://www.udemy.com/certificate/UC-d89f1c48-dd97-498c-813a-4c6c7e465bc5/'
         />
         <CertificationCard
-          title='DART: DE CERO HASTA LOS DETALLES'
+          title='Dart: De cero hasta los detalles - 10 horas'
           school='Udemy'
           year='2020'
           description='Guía completa para aprender Dart sin Frameworks y darte la base que necesitas para programar utilizando este lenguaje.'
