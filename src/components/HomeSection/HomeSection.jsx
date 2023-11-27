@@ -9,9 +9,8 @@ export default function HomeSection() {
         <small className="description">
           Apasionado desarrollador frontend con +3 años de experiencia en el
           estudio de desarrollo web y móvil. <br /> Busco oportunidades para
-          aplicar y ampliar mis conocimientos en el desarrollo frontend,
-          aportando entusiasmo y un enfoque centrado en la usabilidad y el
-          diseño.
+          aplicar y ampliar mis conocimientos, aportando entusiasmo y un enfoque
+          centrado en la usabilidad y el diseño.
         </small>
       </div>
 
