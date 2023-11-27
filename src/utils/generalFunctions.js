@@ -36,11 +36,11 @@ export function openCloseCard() {
 }
 
 // For scroll to top the page when the user click on the logo
-export function btnUpPage() {
+export function btnUpPage(ref) {
   document.querySelectorAll('.portfolio').forEach(item => {
     item.addEventListener('click', () => {
       window.history.pushState(null, null, `/`);
-      window.scroll({
+      ref.getScrollElement().scroll({
         left: 0,
         top: 0,
         behavior: 'smooth'

@@ -1,7 +1,7 @@
-export function scrollToSection() {
+export function scrollToSection(ref) {
   const path = window.location.pathname;
   const scroll = path => {
-    window.scroll({
+    ref.getScrollElement().scroll({
       left: 0,
       top: document.querySelector(`.${path}`).offsetTop - 96,
       behavior: 'instant'

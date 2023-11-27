@@ -1,4 +1,4 @@
-export function setPathName() {
+export function setPathName(ref) {
   if (window.location.hash) {
     window.history.replaceState(null, null, window.location.hash.slice(1));
   }
@@ -29,7 +29,7 @@ export function setPathName() {
   }
   setBtnActive();
 
-  window.addEventListener('scroll', () => {
+  ref.getScrollElement().addEventListener('scroll', () => {
     // Set timeout para evitar muchas llamadas al mismo tiempo
     setTimeout(() => {
       setBtnActive();

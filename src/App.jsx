@@ -7,6 +7,8 @@ import './_App.scss';
 import HomePage from './pages/HomePage/HomePage';
 import LinkTree from './pages/LinkTreePage/LinkTreePage';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
+import { useEffect, useRef } from 'react';
+import { initFunctions } from '/src/utils/initFunctions';
 
 const router = createBrowserRouter([
   {
@@ -38,9 +40,20 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
+  const scrollableNodeRef = useRef();
+
+  useEffect(() => {
+    initFunctions(scrollableNodeRef.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <>
-      <SimpleBar style={{ maxHeight: '100vh' }}>
+      <SimpleBar
+        className="my-simplebar"
+        style={{ maxHeight: '100vh' }}
+        ref={scrollableNodeRef}
+      >
         <RouterProvider router={router} />
       </SimpleBar>
     </>

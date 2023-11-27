@@ -1,4 +1,4 @@
-export function handleMenu() {
+export function handleMenu(ref) {
   const menuButtons = document.querySelectorAll('.btn-menu');
   const mobileMenu = document.querySelector('.mobile-menu-content');
   const mobileMenuBtn = document.querySelector('#mobile-menu-button');
@@ -20,7 +20,7 @@ export function handleMenu() {
         Contacto: 'contact'
       };
       mobileMenu.style.display = 'none';
-      window.scroll({
+      ref.getScrollElement().scroll({
         left: 0,
         top:
           document.querySelector(`.${btnsMenu[item.innerHTML]}`).offsetTop - 96,
