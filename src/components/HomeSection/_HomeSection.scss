@@ -30,6 +30,15 @@
       width: 100%;
       text-align: end;
     }
+
+    .description {
+      font-family: 'Righteous', Arial, Helvetica, sans-serif;
+      margin-top: 1rem;
+      margin-left: auto;
+      width: 90%;
+      opacity: 0.8;
+      text-wrap: pretty;
+    }
   }
 
   .home-img {
