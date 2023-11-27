@@ -12,3 +12,8 @@
 .my-logo {
   height: 2.5rem;
 }
+
+.simplebar-scrollbar::before {
+  transition-delay: 1.5s;
+  background-color: $textInactiveColor;
+}

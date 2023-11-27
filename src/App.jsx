@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './_App.scss';
-
 import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
+
+import './_App.scss';
 
 import HomePage from './pages/HomePage/HomePage';
 import LinkTree from './pages/LinkTreePage/LinkTreePage';
