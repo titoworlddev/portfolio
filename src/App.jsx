@@ -1,6 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './_App.scss';
 
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
+
 import HomePage from './pages/HomePage/HomePage';
 import LinkTree from './pages/LinkTreePage/LinkTreePage';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
@@ -37,7 +40,9 @@ const router = createBrowserRouter([
 export default function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <SimpleBar style={{ maxHeight: '100vh' }}>
+        <RouterProvider router={router} />
+      </SimpleBar>
     </>
   );
 }
