@@ -27,16 +27,20 @@ export const skillsImgs = {
         img: '/assets/img/svg/astro.svg'
       },
       {
+        title: 'Tailwind CSS',
+        img: 'tailwindcss/tailwindcss-plain.svg'
+      },
+      {
+        title: 'Bootstrap',
+        img: 'bootstrap/bootstrap-original.svg'
+      },
+      {
         title: 'Sass',
         img: 'sass/sass-original.svg'
       },
       {
         title: 'jQuery',
         img: 'jquery/jquery-original.svg'
-      },
-      {
-        title: 'Bootstrap',
-        img: 'bootstrap/bootstrap-original.svg'
       },
       {
         title: 'Wordpress',
@@ -67,10 +71,6 @@ export const skillsImgs = {
       {
         title: 'GitHub',
         img: 'github/github-original.svg'
-      },
-      {
-        title: 'Visual Studio Code',
-        img: 'vscode/vscode-original.svg'
       }
     ]
   },
@@ -84,14 +84,6 @@ export const skillsImgs = {
       {
         title: 'Adobe XD',
         img: 'xd/xd-line.svg'
-      },
-      {
-        title: 'Adobe Photoshop',
-        img: 'photoshop/photoshop-line.svg'
-      },
-      {
-        title: 'Adobe Illustrator',
-        img: 'illustrator/illustrator-line.svg'
       }
     ]
   }

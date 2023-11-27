@@ -24,8 +24,7 @@ export default function ProjectsSection() {
   );
   const ids = {
     web: 'Web',
-    movil: 'Móvil',
-    diseno: 'Diseño'
+    movil: 'Móvil'
   };
 
   const handleSetCategory = e => {
@@ -40,9 +39,9 @@ export default function ProjectsSection() {
   };
 
   return (
-    <section id='projects' className='projects'>
-      <h2 className='section-title'>Mis proyectos</h2>
-      <ul className='projects--categories'>
+    <section id="projects" className="projects">
+      <h2 className="section-title">Mis proyectos</h2>
+      <ul className="projects--categories">
         {Object.entries(ids).map(([key, value]) => (
           <li
             key={key}
@@ -57,7 +56,7 @@ export default function ProjectsSection() {
         ))}
       </ul>
 
-      <div id={`trabajos-${category}`} className='trabajos-container'>
+      <div id={`trabajos-${category}`} className="trabajos-container">
         {categoryEntries.map(([key, value]) => (
           <Project
             key={key}
