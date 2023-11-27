@@ -11,10 +11,6 @@
     aspect-ratio: 16/9;
 
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
   }
   p {
     margin: 8px 0;
@@ -23,15 +19,7 @@
   &:hover {
     img {
       transition: 0.3s ease-out;
-      -webkit-transition: 0.3s ease-out;
-      -moz-transition: 0.3s ease-out;
-      -ms-transition: 0.3s ease-out;
-      -o-transition: 0.3s ease-out;
       transform: scale(1.05);
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
     }
   }
 }
