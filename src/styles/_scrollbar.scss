@@ -1,19 +1,15 @@
 @import './variables';
 
 ::-webkit-scrollbar {
-  width: 10px;
-  background: #3f5e60;
+  width: 9px;
+  background: $secondaryColor;
 }
 ::-webkit-scrollbar-track {
+  border-radius: 20px;
   background: $scrollGradient;
 }
 ::-webkit-scrollbar-thumb {
-  border: #3f5e60 1px solid;
-  background: #cfcfcf;
-
+  border: $secondaryColor 1px solid;
+  background: color-mix(in srgb, #cfcfcf 60%, transparent);
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
