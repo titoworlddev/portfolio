@@ -64,19 +64,19 @@
     ],
     "category": "web"
   },
-  "Giffy": {
-    "title": "Giffy from midudev",
-    "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. \n\n En él he aprendido muchas cosas sobre React como: \n- Uso de bibliotecas de JavaScript \n- Crea una aplicación con create-react-app \n- Ganchos personalizados y contexto de reacción \n- Lazy Load, suspenso y paginación \n- CSS Grid, desplazamiento infinito y pruebas \n- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel \n- SEO con React y Deploy Integrado con GitHub \n- prueba useReducer y React Hook \n- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) \n- Registro de usuarios con Formik y React.createPortal \n- CSS en JS y Styled Components con Emotion",
-    "img": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
-    "coverImg": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+  "QR Code Creator": {
+    "title": "QR Code Creator - React",
+    "text": "En este proyecto, he usado React para crear este creador de códigos QR que es simple y agradable. Pero bajo esta simplicidad, hay muchas características de React. \n\nCaracterísticas como componentes, estilos, useState, useRef, useContext, llamadas HTTP a API con fetch, promesas... \n\nNo es el proyecto más grande pero funciona bien para demostrar mi conocimiento de React. \n\nY por si fuera poco, es algo útil para muchos usos.",
+    "img": "https://github.com/titoworlddev/qr-code-creator/raw/main/image-9.png",
+    "coverImg": "https://github.com/titoworlddev/qr-code-creator/raw/main/image-9.png",
     "links": [
       {
         "img": "/assets/img/trabajos/badges/github.svg",
-        "url": "https://github.com/titoworlddev/curso-react-midudev-giffy"
+        "url": "https://github.com/titoworlddev/qr-code-creator"
       },
       {
         "img": "/assets/img/trabajos/badges/open-in-new-tab.svg",
-        "url": "https://giffytitoworlddev.netlify.app/"
+        "url": "https://qrcodecreator-titoworlddev.netlify.app/"
       }
     ],
     "category": "web"
@@ -94,6 +94,23 @@
       {
         "img": "/assets/img/trabajos/badges/open-in-new-tab.svg",
         "url": "https://autopassgen.netlify.app/"
+      }
+    ],
+    "category": "web"
+  },
+  "Giffy": {
+    "title": "Giffy from midudev",
+    "text": "Este es el proyecto utilizado para hacer el curso React gratuito creado por midudev. \n\n En él he aprendido muchas cosas sobre React como: \n- Uso de bibliotecas de JavaScript \n- Crea una aplicación con create-react-app \n- Ganchos personalizados y contexto de reacción \n- Lazy Load, suspenso y paginación \n- CSS Grid, desplazamiento infinito y pruebas \n- React.memo, mejora el rendimiento de la aplicación e implementa con Vercel \n- SEO con React y Deploy Integrado con GitHub \n- prueba useReducer y React Hook \n- Inicio de sesión y gestión de favoritos de los usuarios (API en Deno) \n- Registro de usuarios con Formik y React.createPortal \n- CSS en JS y Styled Components con Emotion",
+    "img": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+    "coverImg": "https://github.com/titoworlddev/curso-react-midudev-giffy/raw/master/screenshot.jpg",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/github.svg",
+        "url": "https://github.com/titoworlddev/curso-react-midudev-giffy"
+      },
+      {
+        "img": "/assets/img/trabajos/badges/open-in-new-tab.svg",
+        "url": "https://giffytitoworlddev.netlify.app/"
       }
     ],
     "category": "web"
