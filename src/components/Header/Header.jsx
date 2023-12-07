@@ -6,6 +6,17 @@ import './_Header.scss';
 export default function Header() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
+  const handleScrollToTop = () => {
+    const simpleBarContent = document.querySelector(
+      '.my-simplebar .simplebar-content-wrapper'
+    );
+    simpleBarContent.scroll({
+      left: 0,
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   const handleMenuButtons = e => {
     const simpleBarContent = document.querySelector(
       '.my-simplebar .simplebar-content-wrapper'
@@ -25,16 +36,7 @@ export default function Header() {
       <nav>
         <button className="portfolio" aria-label="Portfolio Link">
           <img
-            onClick={() => {
-              const simpleBarContent = document.querySelector(
-                '.my-simplebar .simplebar-content-wrapper'
-              );
-              simpleBarContent.scroll({
-                left: 0,
-                top: 0,
-                behavior: 'smooth'
-              });
-            }}
+            onClick={handleScrollToTop}
             className="my-logo"
             src="/assets/img/logo/logo.webp"
             alt="TitoWorld Logo"
