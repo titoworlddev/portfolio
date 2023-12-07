@@ -1,35 +1,15 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import GitHubLogo from '../Icons/GitHubLogo';
 import LinkedInLogo from '../Icons/LinkedInLogo';
 import './_Header.scss';
+import { handleSetPathName } from './handleSetPathName';
+import { handleMenuButtons } from './handleMenuButtons';
+import { handleScrollToTop } from '../../utils/handleScrollToTop';
 
 export default function Header() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
-  const handleScrollToTop = () => {
-    const simpleBarContent = document.querySelector(
-      '.my-simplebar .simplebar-content-wrapper'
-    );
-    simpleBarContent.scroll({
-      left: 0,
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
-
-  const handleMenuButtons = e => {
-    const simpleBarContent = document.querySelector(
-      '.my-simplebar .simplebar-content-wrapper'
-    );
-
-    if (showMobileMenu) setShowMobileMenu(false);
-    simpleBarContent.scroll({
-      left: 0,
-      top:
-        document.querySelector(`.${e.target.id.split('-')[0]}`).offsetTop - 96,
-      behavior: 'smooth'
-    });
-  };
+  useEffect(handleSetPathName, []);
 
   return (
     <header>

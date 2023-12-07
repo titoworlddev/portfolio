@@ -1,4 +1,9 @@
-export function setPathName(ref) {
+export const handleSetPathName = () => {
+  const simpleBarContent = document.querySelector(
+    '.my-simplebar .simplebar-content-wrapper'
+  );
+
+  // Si tiene # se lo quita
   if (window.location.hash) {
     window.history.replaceState(null, null, window.location.hash.slice(1));
   }
@@ -8,14 +13,14 @@ export function setPathName(ref) {
   const contact = document.querySelector('.contact');
   let currentURL = window.location.pathname;
 
-  function setHistoryState(url) {
+  const setHistoryState = url => {
     if (currentURL !== url) {
       window.history.replaceState(null, null, url);
       currentURL = url;
     }
-  }
+  };
 
-  function setBtnActive() {
+  const setBtnActive = () => {
     const btnsMenu = document.querySelectorAll('.btn-menu');
     const location = window.location.pathname.substring(1);
     btnsMenu.forEach(btn => {
@@ -26,10 +31,10 @@ export function setPathName(ref) {
         btn.classList.remove('btn-menu-active');
       }
     });
-  }
+  };
   setBtnActive();
 
-  ref.getScrollElement().addEventListener('scroll', () => {
+  const onScrollEvent = () => {
     // Set timeout para evitar muchas llamadas al mismo tiempo
     setTimeout(() => {
       setBtnActive();
@@ -46,5 +51,11 @@ export function setPathName(ref) {
       else if (projectsTop <= vh / 2) setHistoryState('projects');
       else if (homeTop <= vh / 2) setHistoryState('/');
     }, 100);
-  });
-}
+  };
+
+  simpleBarContent.addEventListener('scroll', onScrollEvent);
+
+  return () => {
+    simpleBarContent.removeEventListener('scroll', onScrollEvent);
+  };
+};
