@@ -3,13 +3,26 @@ import GitHubLogo from '../Icons/GitHubLogo';
 import LinkedInLogo from '../Icons/LinkedInLogo';
 import './_Header.scss';
 import { handleSetPathName } from './handleSetPathName';
-import { handleMenuButtons } from './handleMenuButtons';
 import { handleScrollToTop } from '../../utils/handleScrollToTop';
 
 export default function Header() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   useEffect(handleSetPathName, []);
+
+  const handleMenuButtons = e => {
+    const simpleBarContent = document.querySelector(
+      '.my-simplebar .simplebar-content-wrapper'
+    );
+
+    setShowMobileMenu(false);
+    simpleBarContent.scroll({
+      left: 0,
+      top:
+        document.querySelector(`.${e.target.id.split('-')[0]}`).offsetTop - 96,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <header>

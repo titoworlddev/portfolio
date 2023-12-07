@@ -1,4 +1,4 @@
-export function scrollToSection() {
+export function scrollToSectionOnAppStart() {
   const path = window.location.pathname;
   const simpleBarContent = document.querySelector(
     '.my-simplebar .simplebar-content-wrapper'

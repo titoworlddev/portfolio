@@ -9,12 +9,14 @@ export function closeMenuCard() {
     const tarjetaChildren = Array.from(tarjetaContainer.querySelectorAll('*'));
 
     if (
+      mobileMenuContent &&
       !mobileMenuChildren.includes(e.target) &&
       mobileMenuContent.style.display !== 'none'
     )
       mobileMenuContent.style.display = 'none';
 
     if (
+      tarjetaContainer &&
       !tarjetaChildren.includes(e.target) &&
       tarjetaContainer.style.display !== 'none'
     )
@@ -33,18 +35,4 @@ export function openCloseCard() {
       card.style.display = 'none';
     }
   }, 150);
-}
-
-// For scroll to top the page when the user click on the logo
-export function btnUpPage(ref) {
-  document.querySelectorAll('.portfolio').forEach(item => {
-    item.addEventListener('click', () => {
-      window.history.pushState(null, null, `/`);
-      ref.getScrollElement().scroll({
-        left: 0,
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  });
 }

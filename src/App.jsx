@@ -7,6 +7,7 @@ import './_App.scss';
 import { useEffect, useRef } from 'react';
 import { initFunctions } from '/src/utils/initFunctions';
 import { router } from './routes/router';
+import { closeMenuCard } from './utils/generalFunctions';
 
 export default function App() {
   const scrollableNodeRef = useRef();
@@ -14,6 +15,8 @@ export default function App() {
   useEffect(() => {
     initFunctions(scrollableNodeRef.current);
   }, []);
+
+  useEffect(closeMenuCard, []);
 
   return (
     <>

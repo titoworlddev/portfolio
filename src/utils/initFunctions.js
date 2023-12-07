@@ -1,8 +1,7 @@
-import { closeMenuCard, btnUpPage } from '/src/utils/generalFunctions';
-import { scrollToSection } from '/src/utils/scrollToSection';
+import { closeMenuCard } from '/src/utils/generalFunctions';
+import { scrollToSectionOnAppStart } from '/src/utils/scrollToSectionOnAppStart';
 
-export function initFunctions(ref) {
-  scrollToSection();
+export function initFunctions() {
+  scrollToSectionOnAppStart();
   closeMenuCard();
-  btnUpPage(ref);
 }
