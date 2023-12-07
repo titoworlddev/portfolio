@@ -1,13 +1,40 @@
+import { useState } from 'react';
 import GitHubLogo from '../Icons/GitHubLogo';
 import LinkedInLogo from '../Icons/LinkedInLogo';
 import './_Header.scss';
 
 export default function Header() {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const handleMenuButtons = e => {
+    const simpleBarContent = document.querySelector(
+      '.my-simplebar .simplebar-content-wrapper'
+    );
+
+    if (showMobileMenu) setShowMobileMenu(false);
+    simpleBarContent.scroll({
+      left: 0,
+      top:
+        document.querySelector(`.${e.target.id.split('-')[0]}`).offsetTop - 96,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <header>
       <nav>
         <button className="portfolio" aria-label="Portfolio Link">
           <img
+            onClick={() => {
+              const simpleBarContent = document.querySelector(
+                '.my-simplebar .simplebar-content-wrapper'
+              );
+              simpleBarContent.scroll({
+                left: 0,
+                top: 0,
+                behavior: 'smooth'
+              });
+            }}
             className="my-logo"
             src="/assets/img/logo/logo.webp"
             alt="TitoWorld Logo"
@@ -18,13 +45,21 @@ export default function Header() {
         <div className="menus">
           {/* <!-- Desktop menu --> */}
           <ul className="desktop-menu" id="desktop-menu">
-            <li id="projects-btn" className="btn-menu">
+            <li
+              id="projects-btn"
+              className="btn-menu"
+              onClick={handleMenuButtons}
+            >
               Proyectos
             </li>
-            <li id="about-btn" className="btn-menu">
+            <li id="about-btn" className="btn-menu" onClick={handleMenuButtons}>
               Sobre mí
             </li>
-            <li id="contact-btn" className="btn-menu">
+            <li
+              id="contact-btn"
+              className="btn-menu"
+              onClick={handleMenuButtons}
+            >
               Contacto
             </li>
           </ul>
@@ -83,26 +118,47 @@ export default function Header() {
               className="mobile-menu-button"
               id="mobile-menu-button"
               aria-label="Boton del menu"
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
               <i className="fa-solid fa-bars"></i>
             </button>
 
-            <div className="mobile-menu-content">
-              <button className="close-button">
-                <i className="fa-solid fa-xmark"></i>
-              </button>
-              <ul className="mobile-menu-items">
-                <li id="projects-btn" className="btn-menu">
-                  Proyectos
-                </li>
-                <li id="about-btn" className="btn-menu">
-                  Sobre mí
-                </li>
-                <li id="contact-btn" className="btn-menu">
-                  Contacto
-                </li>
-              </ul>
-            </div>
+            {showMobileMenu && (
+              <div className="mobile-menu-content">
+                <button
+                  className="close-button"
+                  onClick={() => setShowMobileMenu(!showMobileMenu)}
+                >
+                  <i className="fa-solid fa-xmark"></i>
+                </button>
+
+                <ul className="mobile-menu-items">
+                  <li
+                    id="projects-btn"
+                    className="btn-menu"
+                    onClick={handleMenuButtons}
+                  >
+                    Proyectos
+                  </li>
+
+                  <li
+                    id="about-btn"
+                    className="btn-menu"
+                    onClick={handleMenuButtons}
+                  >
+                    Sobre mí
+                  </li>
+
+                  <li
+                    id="contact-btn"
+                    className="btn-menu"
+                    onClick={handleMenuButtons}
+                  >
+                    Contacto
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </nav>

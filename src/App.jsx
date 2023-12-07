@@ -13,7 +13,6 @@ export default function App() {
 
   useEffect(() => {
     initFunctions(scrollableNodeRef.current);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

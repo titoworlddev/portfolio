@@ -67,7 +67,7 @@ header {
         .mobile-menu-content {
           align-items: end;
           background: $textColor;
-          display: none;
+          display: flex;
           flex-direction: column;
           position: fixed;
           right: 0;
