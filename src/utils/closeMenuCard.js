@@ -23,16 +23,3 @@ export function closeMenuCard() {
       tarjetaContainer.style.display = 'none';
   });
 }
-
-// This function is used only to open and close the card when the user clicks on the project or on the card close button
-export function openCloseCard() {
-  const card = document.querySelector('.tarjeta-container');
-  const display = card.style.display;
-  setTimeout(() => {
-    if (display === 'none') {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
-    }
-  }, 150);
-}

@@ -8,7 +8,7 @@ export default function Project({
   onClick = () => {}
 }) {
   return (
-    <div className='trabajo' onClick={onClick}>
+    <div className="trabajo" onClick={onClick}>
       <img src={project.coverImg} alt={`${name} Image`} />
       <p>{name}</p>
     </div>
