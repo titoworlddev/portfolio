@@ -1,5 +1,5 @@
-import { closeMenuCard } from '/src/utils/closeMenuCard';
-import { scrollToSectionOnAppStart } from '/src/utils/scrollToSectionOnAppStart';
+import { closeMenuCard } from './closeMenuCard';
+import { scrollToSectionOnAppStart } from './scrollToSectionOnAppStart';
 
 export function initFunctions() {
   scrollToSectionOnAppStart();
