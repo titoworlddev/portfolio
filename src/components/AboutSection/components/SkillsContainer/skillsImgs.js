@@ -28,7 +28,7 @@ export const skillsImgs = {
       },
       {
         title: 'Tailwind CSS',
-        img: 'tailwindcss/tailwindcss-plain.svg'
+        img: 'tailwindcss/tailwindcss-original.svg'
       },
       {
         title: 'Bootstrap',
@@ -83,7 +83,7 @@ export const skillsImgs = {
       },
       {
         title: 'Adobe XD',
-        img: 'xd/xd-line.svg'
+        img: 'xd/xd-original.svg'
       }
     ]
   }
