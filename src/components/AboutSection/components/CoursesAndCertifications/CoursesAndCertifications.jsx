@@ -8,20 +8,20 @@ export default function CoursesAndCertifications() {
 
       <div className="certifications--cards">
         <CertificationCard
+          title="React: De cero a experto ( Hooks y MERN ) - 54 horas"
+          school="Udemy"
+          year="2024"
+          description="Este curso cuenta con mas de 400 lecciones y más de 40 horas de video haciendo aplicaciones y pruebas distintas que ayuda a alcanzar el objetivo de dominar React y otras tecnologías que lo rodean, hay muchas tareas y ejercicios que ayudan a asimilar los conocimientos necesarios para ser un FullStack Developer utilizando React y Node en el Backend junto con Mongo y Firestore como bases de datos."
+          skills="React a profundidad, Hooks y Hooks personalizados, Functional Components, HOC - higher-order components, Context API, Redux, MERN - Mongo + Express + React + Node, Router, Diseños diferentes en diferentes rutas, Bootstrap, Mongoose, JWT y su re-validación, Encriptación de contraseñas, Google Sign-in, Autenticación personalizada, Unit Test, Pruebas especializadas en cada aplicación terminada, Despliegues a producción, Enzyme, Jest, React Testing Library, Mocks, Animaciones en componentes, History, QueryStrings, Heroku y Heroku Logs, Git y Github, Redux DevTools, React DevTools"
+          certificateUrl="https://www.udemy.com/certificate/UC-596aea33-eed9-4813-a772-348a95ba8652/"
+        />
+        <CertificationCard
           title="Introducción a Frameworks de Frontend con Vue 3 - 8 horas"
           school="Mastermind"
           year="2023"
           description="En este curso aprendí a crear una interfaz de usuario con Vue, un framework progresivo de JavaScript. Utilizé las herramientas más prácticas y adaptables que pueden implementarse para desarrollar aplicaciones web de forma sencilla economizando tiempo y recursos. Además, al tratarse de un framework de Frontend, comprendí las diferencias con backend"
           skills="Vue, HTML5, CSS3, JavaScript, Componentes, Eventos, Ciclo de vida y comunicación con el backend, Composition API, FrontEnd Routing"
           certificateUrl="https://www.mastermind.ac/certificates/rdjzg2fasx"
-        />
-        <CertificationCard
-          title="Curso gratis de ReactJS 2020 - 17,5 horas"
-          school="midu.dev"
-          year="2023"
-          description="Aprendí qué es React, cree una aplicación desde cero, cree mis propios hooks y añadí infinite scroll y testing con estas clases. Todo desde cero."
-          skills="create-react-app, Custom Hooks, React Context, Lazy Load, Suspense, Paginación, CSS Grid, Infinite Scroll, Testing, React.memo, Deploy con Vercel, SEO con React, Deploy Integrado con GitHub, useReducer, testing de React Hooks, Inicio de sesión y gestión de favoritos del usuario, Registro de usuario con Formik y React.createPortal, CSS en JS y Styled Components con Emotion"
-          certificateUrl="https://midu.dev/curso-gratis-react-2020/"
         />
         <CertificationCard
           title="Diseño web profesional el curso completo práctico y desde 0 - 42 horas"
