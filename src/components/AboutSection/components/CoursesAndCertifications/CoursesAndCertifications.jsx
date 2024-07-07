@@ -8,9 +8,11 @@ export default function CoursesAndCertifications() {
       <h2>Cursos y certificaciones</h2>
 
       <div className="certifications--cards">
-        {coursesAndCertificationsData.map(course => (
-          <CertificationCard key={course.title} {...course} />
-        ))}
+        {coursesAndCertificationsData
+          .sort((a, b) => b.year - a.year)
+          .map(course => (
+            <CertificationCard key={course.title} {...course} />
+          ))}
       </div>
     </section>
   );
