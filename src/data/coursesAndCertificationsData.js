@@ -1,4 +1,4 @@
-export const coursesAndCertifications = [
+export const coursesAndCertificationsData = [
   {
     title: 'React: De cero a experto ( Hooks y MERN ) - 54 horas',
     school: 'Udemy',

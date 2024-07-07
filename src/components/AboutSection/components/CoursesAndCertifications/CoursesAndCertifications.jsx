@@ -1,4 +1,4 @@
-import { coursesAndCertifications } from '../../../../data/coursesAndCertifications';
+import { coursesAndCertificationsData } from '../../../../data/coursesAndCertificationsData';
 import CertificationCard from './CertificationCard';
 import './_CoursesAndCertifications.scss';
 
@@ -8,7 +8,7 @@ export default function CoursesAndCertifications() {
       <h2>Cursos y certificaciones</h2>
 
       <div className="certifications--cards">
-        {coursesAndCertifications.map(course => (
+        {coursesAndCertificationsData.map(course => (
           <CertificationCard key={course.title} {...course} />
         ))}
       </div>
