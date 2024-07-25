@@ -29,7 +29,7 @@
   },
   "tubuenacompra.net": {
     "title": "tubuenacompra.net",
-    "text": "Es una página estilo e-commerce, pero que solo se especializa en hacer guías sobre productos para que lo usuarios puedan elegir el que más se adapte a sus necesidades. \n\nLa página está creada con Vue.JS, Bootstrap 5 y un poco de SASS. \nEl diseño es responsive y se ha tratado de hacer un diseño muy sereno para que la experiencia en la web sea lo más comfortable posible. \n\nEl proyecto está en constante desarrollo, ya que se van a ir añadiendo nuevas guías de productos y se van mejorando las ya existentes.",
+    "text": "Es una página estilo e-commerce, pero que solo se especializa en hacer guías sobre productos para que lo usuarios puedan elegir el que más se adapte a sus necesidades. \n\nEl diseño es responsive y se ha tratado de hacer un diseño muy sereno para que la experiencia en la web sea lo más comfortable posible. \n\nEl proyecto está en constante desarrollo, ya que se van a ir añadiendo nuevas guías de productos y se van mejorando las ya existentes.",
     "img": "/assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
     "coverImg": "/assets/img/trabajos/programacion/tubuenacompra/tubuenacompra.webp",
     "links": [
@@ -137,7 +137,7 @@
     "stack": ["react", "sass", "html", "css", "javascript"]
   },
   "Blog": {
-    "title": "Blog - Astro",
+    "title": "Blog",
     "text": "He querido aprender Astro para tener más opciones en el mundo laboral y más opciones de cara a ser más versátil en mis trabajos freelance. \n\nPara ello hice el tutorial de la documentación oficial de Astro, ya que si sabes html, css y javascript es muy fácil aprenderlo. \n\nEs un tutorial muy bueno que me ha permitido aprender las bases de Astro perfectamente.",
     "img": "https://github.com/titoworlddev/blog-astro-tutorial/blob/main/screenshot2.jpg?raw=true",
     "coverImg": "https://github.com/titoworlddev/blog-astro-tutorial/blob/main/screenshot1.jpg?raw=true",
