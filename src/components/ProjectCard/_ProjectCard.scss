@@ -1,6 +1,7 @@
 @import '/src/styles/variables';
 
 .tarjeta-container {
+  font-family: 'Righteous', Arial, Helvetica, sans-serif;
   background-color: $popUpBackgroundColor;
   display: none;
   justify-content: center;
@@ -27,7 +28,19 @@
     .tarjeta-header {
       width: 100%;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
+      font-size: 1rem;
+      gap: 16px;
+
+      .titulo-header {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        line-clamp: 3;
+        -webkit-line-clamp: 3;
+      }
 
       .tarjeta-close-btn {
         color: $textColor;
@@ -63,14 +76,26 @@
 
       .nombre-explicacion {
         height: 50%;
-        font-family: 'Righteous', Arial, Helvetica, sans-serif;
+
         display: flex;
         flex-direction: column;
         gap: 1rem;
 
+        .stack {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+
+          img {
+            height: 22px;
+            border-radius: 4px;
+          }
+        }
+
         .texto-container {
           overflow: auto;
           // Esto es magia, no tocar
+          // Es para que tenga en cuenta los saltos de linea (\n) que tengo en el texto del json
           white-space: pre-line;
         }
       }

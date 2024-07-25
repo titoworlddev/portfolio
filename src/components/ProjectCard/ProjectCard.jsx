@@ -1,3 +1,5 @@
+import { badges } from '../../data/badges';
+import { capitalize } from '../../utils/capitalize';
 import './_ProjectCard.scss';
 
 export default function ProjectCard({
@@ -7,7 +9,8 @@ export default function ProjectCard({
     img: '',
     links: [{ img: '', url: '' }],
     coverImg: '',
-    category: ''
+    category: '',
+    stack: ['']
   }
 }) {
   const handleCloseCard = () => {
@@ -20,6 +23,8 @@ export default function ProjectCard({
       <div className="tarjeta" id="tarjeta">
         {/* Header */}
         <div className="tarjeta-header">
+          <h3 className="titulo-header">{project.title}</h3>
+
           <button
             onClick={handleCloseCard}
             className="tarjeta-close-btn"
@@ -36,7 +41,15 @@ export default function ProjectCard({
           </div>
 
           <div className="nombre-explicacion">
-            <h3 className="titulo-tarjeta">{project.title}</h3>
+            <div className="stack">
+              {project.stack?.map(skill => (
+                <img
+                  title={capitalize(badges[skill].name)}
+                  src={badges[skill].src}
+                  alt={capitalize(badges[skill].name)}
+                />
+              ))}
+            </div>
             <div className="texto-container">
               <p className="texto-tarjeta">{project.text}</p>
             </div>
