@@ -10,29 +10,28 @@ export default function CertificationCard({
   year = '',
   description = '',
   skills = '',
-  certificateUrl = ''
+  certificateUrl = '',
+  index = 0,
+  expand = false,
+  onClick = () => {}
 }) {
-  const [expand, setExpand] = useState('none');
-
   return (
-    <div className='certifications--card'>
-      <div className='card--header'>
-        <div
-          className='card--icon'
-          onClick={() => {
-            setExpand(expand === 'none' ? 'flex' : 'none');
-          }}
-        >
-          {expand === 'none' ? <ChevronRightIcon /> : <ChevronDownIcon />}
+    <div className="certifications--card">
+      <div className="card--header">
+        <div className="card--icon" onClick={() => onClick(index)}>
+          {!expand ? <ChevronRightIcon /> : <ChevronDownIcon />}
         </div>
-        <div className='card--title'>
+        <div className="card--title">
           <h5>{title}</h5>
           <h6>
             {school} - {year}
           </h6>
         </div>
       </div>
-      <div className='card--expandible' style={{ display: expand }}>
+      <div
+        className="card--expandible"
+        style={{ display: expand ? 'flex' : 'none' }}
+      >
         <p>
           <span>Temas principales del curso:</span>
           {description}
@@ -41,7 +40,7 @@ export default function CertificationCard({
           <span>Tecnologías y herramientas:</span>
           {skills}
         </p>
-        <a target='_blank' rel='noreferrer' href={certificateUrl}>
+        <a target="_blank" rel="noreferrer" href={certificateUrl}>
           Ver certificado
         </a>
       </div>

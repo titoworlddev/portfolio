@@ -55,7 +55,7 @@ export const skillsImgs = {
         img: 'mongodb/mongodb-plain.svg'
       },
       {
-        title: 'MongoDB',
+        title: 'Firebase',
         img: 'firebase/firebase-original.svg'
       },
       {
