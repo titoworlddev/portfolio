@@ -15,6 +15,10 @@ export const skillsImgs = {
         img: 'javascript/javascript-original.svg'
       },
       {
+        title: 'TypeScript',
+        img: 'typescript/typescript-original.svg'
+      },
+      {
         title: 'React',
         img: 'react/react-original.svg'
       },
@@ -39,13 +43,45 @@ export const skillsImgs = {
         img: 'sass/sass-original.svg'
       },
       {
-        title: 'jQuery',
-        img: 'jquery/jquery-original.svg'
+        title: 'NodeJS',
+        img: 'nodejs/nodejs-original.svg'
       },
       {
-        title: 'Wordpress',
-        img: 'wordpress/wordpress-plain.svg'
+        title: 'ExpressJS',
+        img: 'express/express-original.svg'
+      },
+      {
+        title: 'MongoDB',
+        img: 'mongodb/mongodb-plain.svg'
+      },
+      {
+        title: 'MongoDB',
+        img: 'firebase/firebase-original.svg'
+      },
+      {
+        title: 'React Router',
+        img: 'reactrouter/reactrouter-original.svg'
+      },
+      {
+        title: 'Jest',
+        img: 'jest/jest-plain.svg'
+      },
+      {
+        title: 'Redux',
+        img: 'redux/redux-original.svg'
+      },
+      {
+        title: 'ViteJS',
+        img: 'vitejs/vitejs-original.svg'
       }
+      // {
+      //   title: 'jQuery',
+      //   img: 'jquery/jquery-original.svg'
+      // },
+      // {
+      //   title: 'Wordpress',
+      //   img: 'wordpress/wordpress-plain.svg'
+      // }
     ]
   },
   mobile: {

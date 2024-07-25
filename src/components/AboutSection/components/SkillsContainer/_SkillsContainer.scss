@@ -8,13 +8,9 @@
   gap: 2rem;
 
   .skills {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    @media screen and (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
-
-    gap: 40px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 
     .skill-section {
       display: flex;
@@ -24,14 +20,9 @@
       font-size: 1.25rem;
 
       .skills-group {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
-        @media screen and (max-width: 320px) {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 3rem;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.9rem;
       }
     }
 

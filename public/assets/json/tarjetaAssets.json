@@ -1,33 +1,7 @@
 {
-  "Random X": {
-    "title": "Random X App",
-    "text": "Random X es tu asistente a la hora de jugar y/o divertirte con amigos. \n\nSus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. \n\nSin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.",
-    "img": "/assets/img/trabajos/programacion/random_x/randomx-presentation.webp",
-    "coverImg": "/assets/img/trabajos/programacion/random_x/random-x.webp",
-    "links": [
-      {
-        "img": "/assets/img/trabajos/badges/google-play-badge.svg",
-        "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.random_x_app&hl=es"
-      }
-    ],
-    "category": "movil"
-  },
-  "Operit": {
-    "title": "Operit App",
-    "text": "Calculadora con un diseño sencillo pero muy completa en sus funciones. \n\nSi buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. \n\nTambién hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. \n\nDefinitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!",
-    "img": "/assets/img/trabajos/programacion/operit/operit-presentation.webp",
-    "coverImg": "/assets/img/trabajos/programacion/operit/operit.webp",
-    "links": [
-      {
-        "img": "/assets/img/trabajos/badges/google-play-badge.svg",
-        "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.operit&gl=ES"
-      }
-    ],
-    "category": "movil"
-  },
   "Workout Creator": {
-    "title": "React Workout Creator",
-    "text": "Workout Creator es una aplicación web hecha con React.JS. \nEsta web te da la posibilidad de crear tus propios entrenamientos de gimnasio eligiendo entre un total de 1342 ejercicios en su base de datos organizados por categorías, las cuales puedes usar como filtros para que te sea más fácil crearlo. \n\nAdemás una vez lo tienes creado lo puedes imprimir en pdf para poder llevarlo a cualquier parte en tu móvil o compartirlo con quien quieras. \n\nEstá en fase alfa, pero está pensado mejorarla muchísimo más en un futuro.",
+    "title": "Workout Creator",
+    "text": "Esta web te da la posibilidad de crear tus propios entrenamientos de gimnasio eligiendo entre un total de 1342 ejercicios en su base de datos organizados por categorías, las cuales puedes usar como filtros para que te sea más fácil crearlo. \n\nAdemás una vez lo tienes creado lo puedes imprimir en pdf para poder llevarlo a cualquier parte en tu móvil o compartirlo con quien quieras. \n\nEstá en fase alfa, pero está pensado mejorarla muchísimo más en un futuro.",
     "img": "/assets/img/trabajos/programacion/workout-creator/screenshot.jpg",
     "coverImg": "/assets/img/trabajos/programacion/workout-creator/screenshot.jpg",
     "links": [
@@ -36,11 +10,12 @@
         "url": "https://workoutcreator.app/"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["react", "reactrouter", "redux", "html", "css", "javascript"]
   },
   "Portfolio": {
-    "title": "Titoworlddev portfolio",
-    "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, originalmente fue creado con HTML, CSS(SASS) y Vanilla JavaScript, pero ahora esta pasado a React. \n\n Algo simple, pero bonito y hecho con mucho amor y pasión.",
+    "title": "titoworlddev - Portfolio",
+    "text": "Este es mi portfolio personal, la misma web en la que estamos 😜, originalmente fue creado con HTML, CSS(SASS) y JavaScript, todo vanilla, pero ahora esta pasado a React. \n\n Algo simple, pero bonito y hecho con mucho amor y pasión.",
     "img": "/assets/img/screenshot.jpg",
     "coverImg": "/assets/img/screenshot.jpg",
     "links": [
@@ -49,7 +24,8 @@
         "url": "https://github.com/titoworlddev/portfolio"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["react", "sass", "html", "css", "javascript"]
   },
   "tubuenacompra.net": {
     "title": "tubuenacompra.net",
@@ -62,10 +38,25 @@
         "url": "https://tubuenacompra.net/"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["vue", "bootstrap", "html", "css", "javascript"]
+  },
+  "Disney+ AutoSkip": {
+    "title": "Disney+ AutoSkip",
+    "text": "Esta es una extensión que omite el resumen y la introducción de los videos de Disney+ y salta al siguiente episodio.\n\nDisney+ AutoSkip: ¡Mejora tu experiencia de maratón de series!\n\n¿Estás cansado de esperar interminablemente a través de intros, resúmenes y retrasos entre episodios en Disney+? Di adiós a las interrupciones y hola a la transmisión sin interrupciones con Disney+ AutoSkip. Esta innovadora extensión de Chrome revoluciona tu experiencia de visualización automatizando las partes tediosas de las maratones de series.",
+    "img": "https://lh3.googleusercontent.com/moDkHkvbh_-yGyHncpGH8oMW2rLKhV1X9zbw_7VEE1irYQ0YThTuZrMuVmlMK3Omie589saVPOIPihgYXSUfrzAsOB8=s1280-w1280-h800",
+    "coverImg": "https://lh3.googleusercontent.com/moDkHkvbh_-yGyHncpGH8oMW2rLKhV1X9zbw_7VEE1irYQ0YThTuZrMuVmlMK3Omie589saVPOIPihgYXSUfrzAsOB8=s1280-w1280-h800",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/open-in-new-tab.svg",
+        "url": "https://chromewebstore.google.com/detail/disney+-autoskip/nkhkilgfcbnblconmaldaobhhalldokb"
+      }
+    ],
+    "category": "web",
+    "stack": ["react", "styledcomponents", "html", "css", "typescript"]
   },
   "QR Code Creator": {
-    "title": "QR Code Creator - React",
+    "title": "QR Code Creator",
     "text": "En este proyecto, he usado React para crear este creador de códigos QR que es simple y agradable. Pero bajo esta simplicidad, hay muchas características de React. \n\nCaracterísticas como componentes, estilos, useState, useRef, useContext, llamadas HTTP a API con fetch, promesas... \n\nNo es el proyecto más grande pero funciona bien para demostrar mi conocimiento de React. \n\nY por si fuera poco, es algo útil para muchos usos.",
     "img": "https://github.com/titoworlddev/qr-code-creator/raw/main/image-9.png",
     "coverImg": "https://github.com/titoworlddev/qr-code-creator/raw/main/image-9.png",
@@ -79,10 +70,11 @@
         "url": "https://qrcodecreator-titoworlddev.netlify.app/"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["react", "html", "css", "javascript"]
   },
   "Password Generator": {
-    "title": "Vue Password Generator",
+    "title": "Password Generator",
     "text": "Este es un proyecto de práctica con Vue.JS, se trata de un generador de contraseñas que además de generarlas, te permite copiarlas al portapapeles. \n\nTambién te permite elegir la longitud de la contraseña, si quieres que tenga números, mayúsculas, minúsculas y/o símbolos. \n\nIncluso tiene un apartado para poder generar una contraseña segura, a partir de una frase que tú elijas, mezclando los caracteres en la frase. De esta forma, tendras una contraseña personalizada pero, que es segura porque no es tu frase literal. \n\nEs una aplicación muy sencilla pero que te puede ser de gran utilidad.",
     "img": "https://github.com/titoworlddev/password-generator/blob/master/screenshot.png?raw=true",
     "coverImg": "https://github.com/titoworlddev/password-generator/blob/master/screenshot.png?raw=true",
@@ -96,7 +88,8 @@
         "url": "https://autopassgen.netlify.app/"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["vue", "html", "css", "javascript"]
   },
   "Giffy": {
     "title": "Giffy from midudev",
@@ -113,49 +106,20 @@
         "url": "https://giffytitoworlddev.netlify.app/"
       }
     ],
-    "category": "web"
-  },
-  "Flutter state BLoC": {
-    "title": "Flutter state BLoC",
-    "text": "Este es un proyecto orientado a la práctica y demostración del uso del patrón BLoC con Flutter y Dart. \nSimula una aplicación que agrega un nuevo usuario y actualiza sus valores. \nSe hace usando el paquete flutter_bloc de pub.dev que hace uso del paquete bloc en sus dependencias. \n\nLa aplicación hace cosas como: \n· Generar un nuevo estado \n· Actualizar ese estado (sin mutarlo) \n· Agregar un nuevo usuario \n· Cambie el nombre de usuario \n· Cambiar la edad del usuario \n· Agregar profesiones al usuario",
-    "img": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
-    "coverImg": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
-    "links": [
-      {
-        "img": "/assets/img/trabajos/badges/github.svg",
-        "url": "https://github.com/titoworlddev/flutter_state_bloc"
-      }
-    ],
-    "category": "movil"
-  },
-  "News app provider": {
-    "title": "News app provider",
-    "text": "Este es un proyecto de práctica para ver el potencial de flutter y practicar el uso de la API's con él. \n\nEl proyecto, además de lo comentado, tiene características como: \n· Provider \n· Custom theme \n· Json convert \n· Tab navigation",
-    "img": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
-    "coverImg": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
-    "links": [
-      {
-        "img": "/assets/img/trabajos/badges/github.svg",
-        "url": "https://github.com/titoworlddev/newsapp_provider"
-      }
-    ],
-    "category": "movil"
-  },
-  "MediaQuery Sizer": {
-    "title": "MediaQuery Sizer",
-    "text": "Este es un paquete propio de Dart que esta disponible en pub.dev. \nTe ayuda a usar los tamaños de pantalla a través de mediaquery, sin tener que hacer instancias para acortar su tamaño o usarla por completo. \n\n- Administre tamaños por porcentajes de pantalla o incluso píxeles escalables \n · Porcentaje de ancho \n · Porcentaje de altura \n  · Píxeles escalables \n\n- Use tamaños por porcentaje del widget principal gracias a LayoutBuilder \n · Ancho principal \n · Altura de los padres \n\n- Gestiona toda la información de la pantalla fácilmente \n · Ancho \n · Altura \n  · Proporción de píxeles del dispositivo \n  · Relación de aspecto \n  · Orientación \n  · Tamaño de pantalla",
-    "img": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
-    "coverImg": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
-    "links": [
-      {
-        "img": "/assets/img/trabajos/badges/github.svg",
-        "url": "https://github.com/titoworlddev/mediaquery_sizer"
-      }
-    ],
-    "category": "movil"
+    "category": "web",
+    "stack": [
+      "react",
+      "reactcontext",
+      "reactrouter",
+      "testinglibrary",
+      "jest",
+      "html",
+      "css",
+      "javascript"
+    ]
   },
   "Dreadful Cherry Tomatoes": {
-    "title": "Dreadful Cherry Tomatoes - React + SCSS",
+    "title": "Dreadful Cherry Tomatoes",
     "text": "Este es un proyecto que he tenido que hacer para un reto de programación de la web de Rviewer. \nEste mes están haciendo el jobathon y este es el reto que se pedía hacer. \n\nAdemás este reto también entra dentro de una oferta de trabajo, así que lo he hecho con todo mi cariño y motivación para demostrar mis capacidades. \n\nEs una web que muestra películas sacadas de una API, ordenadas por el año más actual y que además puedes buscar por nombre.",
     "img": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/resources/dreadful-cherry-tomatoes-movies.png",
     "coverImg": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/resources/dreadful-cherry-tomatoes-movies.png",
@@ -169,7 +133,8 @@
         "url": "https://dreadfulcherrytomatoes.netlify.app/"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["react", "sass", "html", "css", "javascript"]
   },
   "Blog": {
     "title": "Blog - Astro",
@@ -186,7 +151,79 @@
         "url": "https://blog-titoworlddev.netlify.app/"
       }
     ],
-    "category": "web"
+    "category": "web",
+    "stack": ["astro", "html", "css", "javascript"]
+  },
+
+  "Random X": {
+    "title": "Random X App",
+    "text": "Random X es tu asistente a la hora de jugar y/o divertirte con amigos. \n\nSus generadores aleatorios te dan opciones para elegir aleatoriamente quién paga la cena, hacer el amigo invisible con amigos o familiares, hacer un bingo, jugar a tu propio Scattergories o lo que se te ocurra. \n\nSin duda el compañero perfecto en estos casos, no esperes más y que empiece la diversión.",
+    "img": "/assets/img/trabajos/programacion/random_x/randomx-presentation.webp",
+    "coverImg": "/assets/img/trabajos/programacion/random_x/random-x.webp",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/google-play-badge.svg",
+        "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.random_x_app&hl=es"
+      }
+    ],
+    "category": "movil",
+    "stack": ["dart", "flutter"]
+  },
+  "Operit": {
+    "title": "Operit App",
+    "text": "Calculadora con un diseño sencillo pero muy completa en sus funciones. \n\nSi buscas hacer operaciones rápidas tienes su parte básica, si por el contrario eres un usuario más avanzado puedes utilizar la calculadora científica. \n\nTambién hay varias configuraciones para personalizar la aplicación a tu gusto y una página de ayuda si no entiendes alguna de las funciones. \n\nDefinitivamente una calculadora que será fácil y divertida de usar, ¡disfrútala!",
+    "img": "/assets/img/trabajos/programacion/operit/operit-presentation.webp",
+    "coverImg": "/assets/img/trabajos/programacion/operit/operit.webp",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/google-play-badge.svg",
+        "url": "https://play.google.com/store/apps/details?id=com.hayaxelectronics.operit&gl=ES"
+      }
+    ],
+    "category": "movil",
+    "stack": ["dart", "flutter"]
+  },
+  "Flutter state BLoC": {
+    "title": "Flutter state BLoC",
+    "text": "Este es un proyecto orientado a la práctica y demostración del uso del patrón BLoC con Flutter y Dart. \nSimula una aplicación que agrega un nuevo usuario y actualiza sus valores. \nSe hace usando el paquete flutter_bloc de pub.dev que hace uso del paquete bloc en sus dependencias. \n\nLa aplicación hace cosas como: \n· Generar un nuevo estado \n· Actualizar ese estado (sin mutarlo) \n· Agregar un nuevo usuario \n· Cambie el nombre de usuario \n· Cambiar la edad del usuario \n· Agregar profesiones al usuario",
+    "img": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/flutter_state_bloc/blob/master/screenshot-full.jpg?raw=true",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/github.svg",
+        "url": "https://github.com/titoworlddev/flutter_state_bloc"
+      }
+    ],
+    "category": "movil",
+    "stack": ["dart", "flutter"]
+  },
+  "News app provider": {
+    "title": "News app provider",
+    "text": "Este es un proyecto de práctica para ver el potencial de flutter y practicar el uso de la API's con él. \n\nEl proyecto, además de lo comentado, tiene características como: \n· Provider \n· Custom theme \n· Json convert \n· Tab navigation",
+    "img": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/newsapp_provider/blob/master/screenshot-full.jpg?raw=true",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/github.svg",
+        "url": "https://github.com/titoworlddev/newsapp_provider"
+      }
+    ],
+    "category": "movil",
+    "stack": ["dart", "flutter"]
+  },
+  "MediaQuery Sizer": {
+    "title": "MediaQuery Sizer",
+    "text": "Este es un paquete propio de Dart que esta disponible en pub.dev. \nTe ayuda a usar los tamaños de pantalla a través de mediaquery, sin tener que hacer instancias para acortar su tamaño o usarla por completo. \n\n- Administre tamaños por porcentajes de pantalla o incluso píxeles escalables \n · Porcentaje de ancho \n · Porcentaje de altura \n  · Píxeles escalables \n\n- Use tamaños por porcentaje del widget principal gracias a LayoutBuilder \n · Ancho principal \n · Altura de los padres \n\n- Gestiona toda la información de la pantalla fácilmente \n · Ancho \n · Altura \n  · Proporción de píxeles del dispositivo \n  · Relación de aspecto \n  · Orientación \n  · Tamaño de pantalla",
+    "img": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
+    "coverImg": "https://github.com/titoworlddev/mediaquery_sizer/blob/master/screenshot-full.jpg?raw=true",
+    "links": [
+      {
+        "img": "/assets/img/trabajos/badges/github.svg",
+        "url": "https://github.com/titoworlddev/mediaquery_sizer"
+      }
+    ],
+    "category": "movil",
+    "stack": ["dart"]
   },
   "FilmMe": {
     "title": "FilMe",
@@ -199,6 +236,7 @@
         "url": "https://github.com/titoworlddev/filmme"
       }
     ],
-    "category": "movil"
+    "category": "movil",
+    "stack": ["dart", "flutter"]
   }
 }
