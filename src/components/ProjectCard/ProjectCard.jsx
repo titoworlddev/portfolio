@@ -33,10 +33,6 @@ export default function ProjectCard({
 
   useEffect(() => {
     cardRef.current.addEventListener('mouseup', e => handleOutClose(e));
-
-    return () => {
-      cardRef.current.removeEventListener('mouseup', e => handleOutClose(e));
-    };
   }, []);
 
   return (
