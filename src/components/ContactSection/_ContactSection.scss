@@ -146,17 +146,12 @@
         font-size: 1.25rem;
         font-weight: 100;
         outline: none;
+        border-radius: 10px;
+        padding: 8px 16px;
 
         &::placeholder {
           color: $placeholderColor;
         }
-
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-        padding: 8px 16px;
       }
 
       .btn-submit {
