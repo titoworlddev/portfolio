@@ -25,15 +25,6 @@ export default function ProjectsSection() {
     setCategory(category);
   };
 
-  const handleSetAndOpenProject = project => {
-    setProject(project);
-    // La card siempre esta ahi, simplemente la muestro despues de actualizar el estado
-    const card = document.querySelector('.tarjeta-container');
-    setTimeout(() => {
-      card.style.display = 'flex';
-    }, 150);
-  };
-
   return (
     <section id="projects" className="projects">
       <h2 className="section-title">Mis proyectos</h2>
@@ -61,16 +52,9 @@ export default function ProjectsSection() {
 
       <div id={`trabajos-${category}`} className="trabajos-container">
         {categoryEntries.map(([key, value]) => (
-          <Project
-            key={key}
-            name={key}
-            project={value}
-            onClick={() => handleSetAndOpenProject(value)}
-          />
+          <Project key={key} name={key} project={value} />
         ))}
       </div>
-
-      <ProjectCard project={project} />
     </section>
   );
 }

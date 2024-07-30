@@ -11,7 +11,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "reactrouter", "redux", "html", "css", "javascript"]
+    "stack": ["react", "reactrouter", "redux", "html", "css", "javascript"],
+    "selector": "workout-creator"
   },
   "Portfolio": {
     "title": "titoworlddev - Portfolio",
@@ -25,7 +26,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "sass", "html", "css", "javascript"]
+    "stack": ["react", "sass", "html", "css", "javascript"],
+    "selector": "titoworlddev"
   },
   "tubuenacompra.net": {
     "title": "tubuenacompra.net",
@@ -39,7 +41,8 @@
       }
     ],
     "category": "web",
-    "stack": ["vue", "bootstrap", "html", "css", "javascript"]
+    "stack": ["vue", "bootstrap", "html", "css", "javascript"],
+    "selector": "tubuenacompra"
   },
   "Disney+ AutoSkip": {
     "title": "Disney+ AutoSkip",
@@ -53,7 +56,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "styledcomponents", "html", "css", "typescript"]
+    "stack": ["react", "styledcomponents", "html", "css", "typescript"],
+    "selector": "disneyautoskip"
   },
   "QR Code Creator": {
     "title": "QR Code Creator",
@@ -71,7 +75,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "html", "css", "javascript"]
+    "stack": ["react", "html", "css", "javascript"],
+    "selector": "qrcodecreator"
   },
   "Password Generator": {
     "title": "Password Generator",
@@ -89,7 +94,8 @@
       }
     ],
     "category": "web",
-    "stack": ["vue", "html", "css", "javascript"]
+    "stack": ["vue", "html", "css", "javascript"],
+    "selector": "passwordgenerator"
   },
   "Giffy": {
     "title": "Giffy from midudev",
@@ -116,7 +122,8 @@
       "html",
       "css",
       "javascript"
-    ]
+    ],
+    "selector": "giffy"
   },
   "Dreadful Cherry Tomatoes": {
     "title": "Dreadful Cherry Tomatoes",
@@ -134,7 +141,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "sass", "html", "css", "javascript"]
+    "stack": ["react", "sass", "html", "css", "javascript"],
+    "selector": "dreadfulcherrytomatoes"
   },
   "Blog": {
     "title": "Blog",
@@ -152,7 +160,8 @@
       }
     ],
     "category": "web",
-    "stack": ["astro", "html", "css", "javascript"]
+    "stack": ["astro", "html", "css", "javascript"],
+    "selector": "blog"
   },
 
   "Random X": {
@@ -167,7 +176,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "randomx"
   },
   "Operit": {
     "title": "Operit App",
@@ -181,7 +191,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "operit"
   },
   "Flutter state BLoC": {
     "title": "Flutter state BLoC",
@@ -195,7 +206,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "flutterbloc"
   },
   "News app provider": {
     "title": "News app provider",
@@ -209,7 +221,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "newsapp"
   },
   "MediaQuery Sizer": {
     "title": "MediaQuery Sizer",
@@ -223,7 +236,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart"]
+    "stack": ["dart"],
+    "selector": "mediaquerysizer"
   },
   "FilmMe": {
     "title": "FilMe",
@@ -237,6 +251,7 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "filmme"
   }
 }
