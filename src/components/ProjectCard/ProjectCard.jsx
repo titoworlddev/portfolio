@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { badges } from '../../data/badges';
 import { capitalize } from '../../utils/capitalize';
 import './_ProjectCard.scss';
@@ -13,13 +14,29 @@ export default function ProjectCard({
     stack: ['']
   }
 }) {
+  const cardRef = useRef(null);
+
   const handleCloseCard = () => {
-    const card = document.querySelector('.tarjeta-container');
-    card.style.display = 'none';
+    cardRef.current.style.display = 'none';
   };
 
+  const handleOutClose = e => {
+    const tarjetaChildren = Array.from(cardRef.current.querySelectorAll('*'));
+
+    if (
+      cardRef.current &&
+      !tarjetaChildren.includes(e.target) &&
+      cardRef.current.style.display !== 'none'
+    )
+      cardRef.current.style.display = 'none';
+  };
+
+  useEffect(() => {
+    cardRef.current.addEventListener('mouseup', e => handleOutClose(e));
+  }, []);
+
   return (
-    <div className="tarjeta-container">
+    <div ref={cardRef} className={`tarjeta-container ${project.selector}`}>
       <div className="tarjeta" id="tarjeta">
         {/* Header */}
         <div className="tarjeta-header">
@@ -44,6 +61,7 @@ export default function ProjectCard({
             <div className="stack">
               {project.stack?.map(skill => (
                 <img
+                  key={skill}
                   title={capitalize(badges[skill].name)}
                   src={badges[skill].src}
                   alt={capitalize(badges[skill].name)}

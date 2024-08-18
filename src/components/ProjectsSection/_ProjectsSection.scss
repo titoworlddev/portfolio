@@ -23,10 +23,10 @@
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    margin-bottom: 24px;
 
     @media screen and (max-width: 360px) {
       grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     }
-    margin-bottom: 24px;
   }
 }

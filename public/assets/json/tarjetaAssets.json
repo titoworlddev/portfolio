@@ -11,7 +11,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "reactrouter", "redux", "html", "css", "javascript"]
+    "stack": ["react", "reactrouter", "redux", "html", "css", "javascript"],
+    "selector": "workout-creator"
   },
   "Portfolio": {
     "title": "titoworlddev - Portfolio",
@@ -25,7 +26,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "sass", "html", "css", "javascript"]
+    "stack": ["react", "sass", "html", "css", "javascript"],
+    "selector": "titoworlddev"
   },
   "tubuenacompra.net": {
     "title": "tubuenacompra.net",
@@ -39,13 +41,14 @@
       }
     ],
     "category": "web",
-    "stack": ["vue", "bootstrap", "html", "css", "javascript"]
+    "stack": ["vue", "bootstrap", "html", "css", "javascript"],
+    "selector": "tubuenacompra"
   },
   "Disney+ AutoSkip": {
     "title": "Disney+ AutoSkip",
     "text": "Esta es una extensión que omite el resumen y la introducción de los videos de Disney+ y salta al siguiente episodio.\n\nDisney+ AutoSkip: ¡Mejora tu experiencia de maratón de series!\n\n¿Estás cansado de esperar interminablemente a través de intros, resúmenes y retrasos entre episodios en Disney+? Di adiós a las interrupciones y hola a la transmisión sin interrupciones con Disney+ AutoSkip. Esta innovadora extensión de Chrome revoluciona tu experiencia de visualización automatizando las partes tediosas de las maratones de series.",
-    "img": "https://lh3.googleusercontent.com/moDkHkvbh_-yGyHncpGH8oMW2rLKhV1X9zbw_7VEE1irYQ0YThTuZrMuVmlMK3Omie589saVPOIPihgYXSUfrzAsOB8=s1280-w1280-h800",
-    "coverImg": "https://lh3.googleusercontent.com/moDkHkvbh_-yGyHncpGH8oMW2rLKhV1X9zbw_7VEE1irYQ0YThTuZrMuVmlMK3Omie589saVPOIPihgYXSUfrzAsOB8=s1280-w1280-h800",
+    "img": "https://lh3.googleusercontent.com/moDkHkvbh_-yGyHncpGH8oMW2rLKhV1X9zbw_7VEE1irYQ0YThTuZrMuVmlMK3Omie589saVPOIPihgYXSUfrzAsOB8=s800-w800-h500",
+    "coverImg": "https://lh3.googleusercontent.com/moDkHkvbh_-yGyHncpGH8oMW2rLKhV1X9zbw_7VEE1irYQ0YThTuZrMuVmlMK3Omie589saVPOIPihgYXSUfrzAsOB8=s800-w800-h500",
     "links": [
       {
         "img": "/assets/img/trabajos/badges/open-in-new-tab.svg",
@@ -53,13 +56,14 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "styledcomponents", "html", "css", "typescript"]
+    "stack": ["react", "styledcomponents", "html", "css", "typescript"],
+    "selector": "disneyautoskip"
   },
   "QR Code Creator": {
     "title": "QR Code Creator",
     "text": "En este proyecto, he usado React para crear este creador de códigos QR que es simple y agradable. Pero bajo esta simplicidad, hay muchas características de React. \n\nCaracterísticas como componentes, estilos, useState, useRef, useContext, llamadas HTTP a API con fetch, promesas... \n\nNo es el proyecto más grande pero funciona bien para demostrar mi conocimiento de React. \n\nY por si fuera poco, es algo útil para muchos usos.",
-    "img": "https://github.com/titoworlddev/qr-code-creator/raw/main/image-9.png",
-    "coverImg": "https://github.com/titoworlddev/qr-code-creator/raw/main/image-9.png",
+    "img": "https://raw.githubusercontent.com/titoworlddev/qr-code-creator/main/image-9.png",
+    "coverImg": "https://raw.githubusercontent.com/titoworlddev/qr-code-creator/main/image-9.png",
     "links": [
       {
         "img": "/assets/img/trabajos/badges/github.svg",
@@ -71,7 +75,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "html", "css", "javascript"]
+    "stack": ["react", "html", "css", "javascript"],
+    "selector": "qrcodecreator"
   },
   "Password Generator": {
     "title": "Password Generator",
@@ -89,7 +94,8 @@
       }
     ],
     "category": "web",
-    "stack": ["vue", "html", "css", "javascript"]
+    "stack": ["vue", "html", "css", "javascript"],
+    "selector": "passwordgenerator"
   },
   "Giffy": {
     "title": "Giffy from midudev",
@@ -116,13 +122,14 @@
       "html",
       "css",
       "javascript"
-    ]
+    ],
+    "selector": "giffy"
   },
   "Dreadful Cherry Tomatoes": {
     "title": "Dreadful Cherry Tomatoes",
     "text": "Este es un proyecto que he tenido que hacer para un reto de programación de la web de Rviewer. \nEste mes están haciendo el jobathon y este es el reto que se pedía hacer. \n\nAdemás este reto también entra dentro de una oferta de trabajo, así que lo he hecho con todo mi cariño y motivación para demostrar mis capacidades. \n\nEs una web que muestra películas sacadas de una API, ordenadas por el año más actual y que además puedes buscar por nombre.",
-    "img": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/resources/dreadful-cherry-tomatoes-movies.png",
-    "coverImg": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/resources/dreadful-cherry-tomatoes-movies.png",
+    "img": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/dreadful-cherry-tomatoes-movies.webp",
+    "coverImg": "https://raw.githubusercontent.com/titoworlddev/dreadful-cherry-tomatoes/main/dreadful-cherry-tomatoes-movies.webp",
     "links": [
       {
         "img": "/assets/img/trabajos/badges/github.svg",
@@ -134,7 +141,8 @@
       }
     ],
     "category": "web",
-    "stack": ["react", "sass", "html", "css", "javascript"]
+    "stack": ["react", "sass", "html", "css", "javascript"],
+    "selector": "dreadfulcherrytomatoes"
   },
   "Blog": {
     "title": "Blog",
@@ -152,7 +160,8 @@
       }
     ],
     "category": "web",
-    "stack": ["astro", "html", "css", "javascript"]
+    "stack": ["astro", "html", "css", "javascript"],
+    "selector": "blog"
   },
 
   "Random X": {
@@ -167,7 +176,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "randomx"
   },
   "Operit": {
     "title": "Operit App",
@@ -181,7 +191,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "operit"
   },
   "Flutter state BLoC": {
     "title": "Flutter state BLoC",
@@ -195,7 +206,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "flutterbloc"
   },
   "News app provider": {
     "title": "News app provider",
@@ -209,7 +221,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "newsapp"
   },
   "MediaQuery Sizer": {
     "title": "MediaQuery Sizer",
@@ -223,7 +236,8 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart"]
+    "stack": ["dart"],
+    "selector": "mediaquerysizer"
   },
   "FilmMe": {
     "title": "FilMe",
@@ -237,6 +251,7 @@
       }
     ],
     "category": "movil",
-    "stack": ["dart", "flutter"]
+    "stack": ["dart", "flutter"],
+    "selector": "filmme"
   }
 }

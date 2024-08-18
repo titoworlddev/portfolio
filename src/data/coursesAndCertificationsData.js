@@ -18,7 +18,9 @@ export const coursesAndCertificationsData = [
       'En este curso aprendí a crear una interfaz de usuario con Vue, un framework progresivo de JavaScript. Utilizé las herramientas más prácticas y adaptables que pueden implementarse para desarrollar aplicaciones web de forma sencilla economizando tiempo y recursos. Además, al tratarse de un framework de Frontend, comprendí las diferencias con backend',
     skills:
       'Vue, HTML5, CSS3, JavaScript, Componentes, Eventos, Ciclo de vida y comunicación con el backend, Composition API, FrontEnd Routing',
-    certificateUrl: 'https://www.mastermind.ac/certificates/rdjzg2fasx'
+    certificateUrl:
+      'https://www.mastermind.ac/courses/introduccion-a-frameworks-de-frontend-con-vue-3'
+    // certificateUrl: 'https://www.mastermind.ac/certificates/rdjzg2fasx'
   },
   {
     title:
