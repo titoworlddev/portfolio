@@ -13,7 +13,7 @@ export default function ContactSection() {
       <p className="send-message">
         Envíame un mensaje si deseas trabajar conmigo.
         <br />
-        <small>- Usa el formulario o titocristian.am@gmail.com -</small>
+        <small>- Usa el formulario o cariasmejuto@gmail.com -</small>
       </p>
 
       <div className="contact-container">
