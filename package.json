@@ -12,20 +12,20 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.1",
-    "simplebar-react": "^3.2.5",
+    "react-router-dom": "^6.27.0",
+    "simplebar-react": "^3.2.6",
     "word-wrap": "^1.2.5"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react-swc": "^3.7.0",
-    "eslint": "^9.3.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "sass": "^1.77.2",
-    "vite": "^5.2.11"
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.13",
+    "sass": "^1.80.4",
+    "vite": "^5.4.10"
   }
 }
