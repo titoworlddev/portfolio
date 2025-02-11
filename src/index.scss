@@ -1,9 +1,9 @@
-@import './styles/variables';
-@import './styles/fonts';
-@import './styles/scrollbar';
+@use './styles/variables' as *;
+@use './styles/fonts' as *;
+@use './styles/scrollbar' as *;
 
-@import './styles/main';
-@import './styles/buttons';
+@use './styles/main' as *;
+@use './styles/buttons' as *;
 
 * {
   margin: 0;

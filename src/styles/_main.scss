@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'link-tree';
+@use 'variables' as *;
+@use 'link-tree' as *;
 
 .main {
   max-width: 1200px;
